@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{hhline}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{bigints}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=30mm,
+	top=30mm,
+	bottom=20mm,
+	right=20mm
+}
+\title{Fórmulas do Triedro de Frenet}
+\date{2022-10-01}
+\author{Paulo Roberto Rodrigues da Silva Filho}
+
+%
+% Local commands (All start in Uppercase):
+%
+
+% Vector Norm:
+\newcommand\N[1]{\left\Vert#1\right\Vert}
+
+% Modulus:
+\newcommand\M[1]{\left\vert#1\right\vert}
+
+%
+% Document contents:
+%
+\begin{document}
+	\maketitle
+	\paragraph{Tabela de Fórmulas}
+	Considere o comprimento de arco $ s(t) = \int\limits_{t_0}^{t} \N{\frac{d\vec{r}}{du}}du$
+	\begin{center}
+		\begin{tabular}{ l | r | r  }
+			\hhline{===}
+			\textbf{Conceito} & 
+			\multicolumn{2}{c}{\textbf{Parametrização}} \\
+			{ } & \textbf{Variável Qualquer} & \textbf{Comprimento de Curva} \\
+			\hhline{===}
+			Curva & 
+			$r = \vec{r}(t)$ & 
+			$r = \vec{r}(s)$ \\  
+			\hline
+			Derivada & 
+			$ \frac{dr}{dt}(t) = \dot r(t) $
+			& $ \frac{dr}{ds}(s) = r'(s) $ \\  
+			\hline
+			Tangente &
+			$ \vec{T}(t) = \frac{\vec{\dot r}(t)}{\N{\vec{\dot r}(t)}} $ & 
+			$ \vec{T}(s) = \vec{r'}(s) $ \\  
+			\hline
+			Normal & $ \vec{N}(t) = \frac{\vec{\dot T}(t)}{\N{\vec{\dot T}(t)}} $ & 
+			$ \vec{N}(s) = \frac{\vec{T'}(s)}{\N{\vec{T}'(s)}} = \frac{\vec{r''}(s)}{\N{ \vec{r''}(s) }}$ \\  
+			\hline
+			Binormal & 
+			$ \vec{B} = \vec{T} \times \vec{N} = \frac{\vec{\dot r}(t) \times \vec{\ddot r}(t)}{\N{ \vec{\dot r}(t) \times \vec{\ddot r}(t) }}$ & 
+			$ \vec{B} = \vec{T} \times \vec{N} = \frac{\vec{r'}(s) \times \vec{r''}(s) }{\N{ \vec{r''}(s) }}$ \\  
+			\hline
+			Curvatura & 
+			$ \kappa = \frac{\N{ \vec{\dot T}(t) }}{ \N{ \vec{\dot r}(t) }} = \frac{\N{ \vec{\dot r}(t) \times \vec{\ddot r}(t) }}{\N{ \vec{\dot r}(t)}^3} $ & 
+			\makecell[r]{Definição: \\ $ \kappa = \N{ \frac{d \vec{T}}{ds}(s) } = \N{ \vec{r''}(s) }$ \\ Interpretação em curva plana \\ 
+			($\mathbb{R}^2$, o plano Osculatório): \\ Seja $ \phi(s) = \measuredangle(\vec{T}(s), 0x) $, $ \kappa(s) = \N{\frac{d\phi}{ds}} $  } \\  
+			\hline
+			Raio de Curvatura & $ \rho (t) = \frac{1}{\kappa (t)} $ & $ \rho (s) = \frac{1}{\kappa(s)} $ \\  
+			\hline
+			Torção & $ \tau(s) = \frac{(\vec{\dot{r}}(t), \vec{\ddot{r}}(t), \vec{\dddot{r}}(t))}{\N{\vec{\ddot{r}}(t) \times \vec{\ddot{r}}(t)}^2} = \frac{[\vec{\dot{r}}(t) \times \vec{\ddot{r}}(t)] \cdot \vec{\dddot{r}}(t)}{\N{\vec{\ddot{r}}(t) \times \vec{\ddot{r}}(t)}^2} $ & \makecell[r]{Definição: \\ $ \tau(s) = \vec{B}(s) \cdot \vec{N'}(s) = - \vec{B'}(s) \cdot \vec{N}(s) $} \\  
+			\hline
+			Equações de Frenet & {} & \makecell[r]{ $ \frac{d\vec{T}}{ds}(s) = \kappa \vec{N}(s) $ \\ $ \frac{\vec{N}}{ds}(s) = - \kappa\vec{T}(s) + \tau\vec{B}(s) $ \\ $ \frac{d\vec{B}}{ds}(s) = - \tau \vec{N}(s) $} \\  
+			\hline
+			Curvatura com Sinal & $ \kappa_s(t) = \frac{\vec{\dot T}(t)}{\N{\vec{\dot r}(t)}} \cdot \vec{N}(t) $ & $ \kappa_s(s) = \vec{T'}(s) \cdot \vec{N}(s) $\\  
+			\hline
+			\makecell[l]{Evoluta \\ Se a curva for regular \\ (ou seja, $\kappa_s$ nunca é zero):} & \makecell[r]{ \\ $ \vec{E}(t) = \vec{r}(t) + \rho (t)\vec{N}(t) $ \\ $ = \vec{r}(t) + \frac{1}{\kappa(t)}\vec{N}(t)$} & \makecell[r]{$ \vec{E}(s) = \vec{r}(s) + \rho (s)\vec{N}(s) $ \\ $ = \vec{r}(s) + \frac{1}{\kappa(s)}\vec{N}(s)$ \\ Obs.: essa fórmula é \\ igualmente vália para $s$ e \\ para $t$, porque $s$ pode ser, \\ também, considerada apenas \\ uma parametrização.} \\  
+				\hline
+			Velocidade & 
+			$ \vec{v}(t) = \frac{d\vec{r}}{dt}(t) = \vec{\dot r}(t) $
+			& $ \vec{v}(t) = \frac{ds}{dt}(t)\vec{T}(s(t)) $ \\
+			\hline
+			Aceleração & 
+			$ \vec{a}(t) = \frac{d\vec{v}}{dt}(t) = \vec{\dot v}(t) = \frac{d^2\vec{r}}{dt^2}(t) = \vec{\ddot r}(t)$
+			& \makecell[r]{$ \vec{a}(t) = \frac{d^2s}{dt^2}(t)\vec{T}(s(t)) + \left(\frac{ds}{dt}(t)\right)^2\kappa\vec{N}(t)$ \\ Onde: \\
+			Aceleração Tangencial: \\ $a_t(t) = \frac{d^2s}{dt^2}(t)$ \\
+			Aceleração Centrípeta: \\ $a_c(t) = \kappa\left(\frac{ds}{dt}(t)\right)^2 = \frac{\left(\frac{ds}{dt}(t)\right)^2}{\rho(t)}  $ } \\
+			\hline
+			Rapidez & 
+			$R = \N{\vec{v}(t)}$ 
+			& $R = \frac{ds}{dt}(t)$  \\ 
+			\hhline{===}
+		\end{tabular}
+	\end{center}
+\end{document}
