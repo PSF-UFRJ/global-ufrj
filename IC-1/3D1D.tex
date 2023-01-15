@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{natbib}
+\usepackage{amssymb}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=30mm,
+	top=30mm,
+	bottom=20mm,
+	right=20mm
+}
+\title{
+	Proposta para Projeto de Iniciação Científica \\
+	Visualização Unidimensional do Espaço Tridimensional \\
+	\large Prólogo para Visualização Bidimensional do Espaço Quadridimensional
+}
+\date{2023-01-15}
+\author{Paulo Roberto Rodrigues da Silva Filho\\ \small Felipe Acker (Orientador)}
+
+\newcommand\R{\mathbb{R}}
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+	\section{Introdução}
+	\paragraph{} Um dos grandes interesses dos Matemáticos, Físicos, Cientistas da Computação, Engenheiros e mesmo Filósofos é entender se é possível para o ser humano, que vive em uma realidade cujo espaço é tridimensional, perceber e entender, intuitivamente, o espaço quadridimensional. Aqui estamos chamando de Espaço a nossa representação da realidade, que os Físicos estudam diariamente, sem considerar a dimensão de Tempo. 
+	
+	\paragraph{}
+	A nossa percepção de espaço considera a nossa capacidade de nos movimentarmos em três dimensões dadas como largura, altura e profundidade, mas que os matemáticos chamam apenas de eixos de representação, \textbf{x}, \textbf{y} e \textbf{z}, sendo que os três eixos são ortogonais e todos os objetos que conhecemos se movimentam e estão posicionados como vetores desse espaço. Vetores esses no sentido mais estrito o possível, representáveis como um Espaço Vetorial em $\R$, sendo $\R$ o conjunto dos números reais.
+	
+	\paragraph{}
+	Foi, então, considerada a possibilidade de se verificar como seres bidimensionais poderiam enxergar e interagir com o espaço tridimensional e, a partir daí, generalizar os conceitos usados para resolver esse problema para resolver o caso da visualização de $\R^4$ por seres de $\R^3$ (ou seja, nós mesmos).
+	
+	\paragraph{}
+	Esta proposta de Projeto de Iniciação Científica visa apresentar uma forma de se modelar a visualização $\R^3$ para seres em $\R^2$, de acordo com o que é conhecido a respeito da anatomia humana para visualização e interação com o nosso universo tridimensional, então reduzindo tais mecanismos para seres que sejam estritamente bidimensionais. Esse problema é bastante explorado em Filosofia e Matemática, em geral, havendo livros escritos a respeito dessa assunto (\citep[p.~56]{1992Abbott}). Se for feita uma busca nos \textit{websites} \textbf{YouTube}\footnote{http://www.youtube.com} ou mesmo buscas mais gerais no \textbf{Google}\footnote{http://www.google.com}, é possível encontrar séries de videos tentando mostrar como seres tridimensionais veriam objetos e seres quadridimensionais, deixando claro que qualquer ponto situados em dimensões superiores não seria visível.
+	
+	\paragraph{}
+	A proposta central dessa pesquisa é deixar claro que essa invisibilidade de pontos de dimensões superiores e a incapacidade de interagir com esses pontos é \textbf{mentira}\footnote{A visualização de pontos no espaço depende de como a luz se propaga nesse espaço até chegar nas retinas dos olhos dos seres. Se houver uma forma distinta de propagação de luz nas dimensões superiores, seres de dimensão reduzida podem não enxergar os pontos em dimensões maiores - mas nesse estudo estamos considerando o espaço isotrópico, nesse tocante.}, porque seres bidimensionais podem existir dentro de espações tridimensionais, e seres tridimensionais podem existir dentro de espaços quadridimensionais, sendo necessário apenas um modelamento estrito da forma de visualização (ou seja, um modelo adequado de \textbf{olho}) e uma forma adequada de interação (ou seja, um mecanismo de mediação com essa nova realidade), para que seres em dimensões inferiores possam interagir, visualizar e mesmo desenvolver intuições a respeito de dimensões superiores.
+	
+	\paragraph{}
+	Assim, a \textbf{Seção \ref{ft}, Fundamentação Teórica}, possui todo o modelo de visualização e interação de seres bidimensionais imersos em um universo tridimensional. As extensões desse modelo de seres bidimensionais tentando enxergar espaços tridimensionais são feitas na conclusão desse documento, com uma proposta para extender essa pesquisa para a impleemntação do Visualizador quadridimensional para seres tridimensionais. 
+	
+	\section{Fundamentação Teórica} \label{ft}
+	\paragraph{}
+	O modelo criado de visualização da realidade tridimensional por seres bidimensionais partiu, inicialmente, do entendimento de como um olho tridimensional funciona, de forma a se modelar um olho bidimensional visualizando uma realidade 3D. A primeira coisa que se notou é que o olho 3D enxerga a realidade através de uma superfície (bidimensional), a retina - assim, por analogia, chegou-se à conclusão de que um olho 2D enxergaria a realidade através de uma retina unidimensional - e uma retina unidimensional é uma linha.
+	
+	\paragraph{}
+	Então, vamos começar analisando o olho 3D, para, então, apresentarmos o modelo de um olho 2D dentro de uma realidade 3D.
+	
+	\subsection{Modelo de Olho 3D} \label{mo3d}
+	
+	\subsection{Modelo de Olho 2D} \label{mo2d}
+	
+	\subsection{Critérios de Visualização e Interação 3D para 2D} \label{criterios}
+	\paragraph{}
+	Agora que temos um modelo de olho bidimensional que pode enxergar tridimensionalmente, podemos formalizar a forma que a luz chega na retina bidimensional para criar uma imagem unidimensional representando a realidade tridimensional.
+	
+	Os critérios definidos para isso, que foram aferidos empiricamente, portanto podendo ser considerados axiomáticos, dentro do modelo de visualização reduzido, são:
+	
+	\begin{enumerate}
+		\item \textbf{Critério da Direção}
+		\item \textbf{Critério da Distância}
+		\item \textbf{Critério da Abertura}
+		\item \textbf{Critério da Navegação}
+	\end{enumerate}
+	
+	Os critérios não estão ordenados segundo importância, porque todos eles são extremamente importantes para permitir a visualização e interação de seres bidimensionais em uma realidade tridimensional. Em termos de complexidade de implementação e entendimento, os critérios da Abertura e da Direção são, larga medida, os mais difíceis. Se considerarmos outra classificação, temos os critérios representacionais e o critério interacional.... continue...
+		
+	\section{Implementação - Ferramentas de Desenvolvimento Propostas} \label{if}
+	\paragraph{}
+	
+	\section{Implementação - Entregáveis Propostos} \label{ie}
+	\paragraph{}
+	
+	\section{Pesquisa de Campo - Interação pública} \label{pc}
+	\paragraph{}
+
+	\section{Conclusão} \label{c}
+	\paragraph{}
+		
+	\bibliographystyle{plainnat}
+	\bibliography{3D1D-Bibliography.bib}
+\end{document}

@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abbott(1992)]{1992Abbott}
+Edwin~Abbott Abbott.
+\newblock \emph{Flatland: A Romance of Many Dimensions}.
+\newblock Dover Publications; New edition (21 setembro 1992), 1992.
+\newblock [Disponível gratuitamente para o Kindle].
+
+\end{thebibliography}

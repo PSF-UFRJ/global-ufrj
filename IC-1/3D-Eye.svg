@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="3D-Eye.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="3.1072952"
+     inkscape:cx="382.00426"
+     inkscape:cy="305.57123"
+     inkscape:window-width="3840"
+     inkscape:window-height="2125"
+     inkscape:window-x="2560"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.903;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path848"
+       cx="68.791664"
+       cy="74.744789"
+       rx="50.270832"
+       ry="53.578125" />
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.903;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1160"
+       ry="16.534462"
+       rx="50.21312"
+       cy="75.285713"
+       cx="68.680931" />
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.904348;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1812"
+       cx="99.202805"
+       cy="88.766869"
+       rx="9.9291782"
+       ry="17.998892"
+       transform="matrix(1,0,-0.07715032,0.99701947,0,0)" />
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.915009;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1916"
+       cx="69.388725"
+       cy="74.831612"
+       rx="24.744343"
+       ry="53.511883" />
+  </g>
+</svg>
