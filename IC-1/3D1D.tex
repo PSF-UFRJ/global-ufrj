@@ -27,7 +27,9 @@
 	\graphicspath{ {./imagens/} }
 	\maketitle
 	\tableofcontents
+	
 	\section{Introdução}
+	
 	\paragraph{} Um dos grandes interesses dos Matemáticos, Físicos, Cientistas da Computação, Engenheiros e mesmo Filósofos é entender se é possível para o ser humano, que vive em uma realidade cujo espaço é tridimensional, perceber e entender, intuitivamente, o espaço quadridimensional. Aqui estamos chamando de Espaço a nossa representação da realidade, que os Físicos estudam diariamente, sem considerar a dimensão de Tempo. 
 	
 	\paragraph{}
@@ -49,12 +51,16 @@
 	A \textbf{Seção \ref{if}, Implementação - Ferramentas de Desenvolvimento Propostas}, apresenta as ferramentas que serão utilizadas para desenvolver esse modelo de visualização 3D em 1D, como software. Esse software será apresentado a voluntários. Assim, a implementação de tal projeção unidimensional deve ser facilmente distribuível e utilizável - sendo escolhido com cuildado um \textbf{tooolbox} para implementar um pequeno universo 3D representável como uma projeção 1D e tal implementação ser facilmente apresentada a voluntários pela Internet.
 	
 	\paragraph{}
-	A \textbf{Seção \ref{ie}, Implementação - Entregáveis Propostos}, lalalal.
+	A \textbf{Seção \ref{ie}, Implementação - Entregáveis Propostos}, apresenta os componentes de software que vão ser entregues e o método de distribuição. Apesar de parecer secundário, essa pesquisa envolve distribuição do software desenvolvido para voluntários - ou seja, envolve pesquisa de campo, e quanto mais voluntários, melhor, assim, uma boa forma de distribuição é imprescindível e essa seção apresenta como esse software será distribuído.
 	
 	\paragraph{}
-	A \textbf{Seção \ref{pc}, Pesquisa de Campo - Interação Pública}, alalalaal.
+	A \textbf{Seção \ref{pc}, Pesquisa de Campo - Interação Pública}, apresenta uma proposta de metodologia para pesquisa de campo e testes do software desenvolvido para atender os objetivos dessa pesquisa. Entretanto, orientação a respeito do uso correto de \textbf{Estatística} para se chegar às conclusões adequadas aos questionamentos levantados por essa pesquisa é necessário.
 	
+	\paragraph{}
+	A \textbf{Seção \ref{c}, Conclusão}, traz um melhor detalhamento das hipóteses a serem testadas nessa pesquisa - a saber, a hipótese central é a capacidade humana de navegar em, e interagir com, um ambiente tridimensional apenas tendo disponíveis capacidades de visão unidimensional. A partir daí, poderíamos inferir a capacidade humana de navegar e interagir em um ambiente quadridimensional a partir das capacidades de visão bidimensional que temos - mas isso seria objeto de uma pesquisa seguinte a essa.
+		
 	\section{Fundamentação Teórica} \label{ft}
+	
 	\paragraph{}
 	O modelo criado de visualização da realidade tridimensional por seres bidimensionais partiu, inicialmente, do entendimento de como um olho tridimensional funciona, de forma a se modelar um olho bidimensional visualizando uma realidade 3D. A primeira coisa que se notou é que o olho 3D enxerga a realidade através de uma superfície (bidimensional), a retina - assim, por analogia, chegou-se à conclusão de que um olho 2D enxergaria a realidade através de uma retina unidimensional - e uma retina unidimensional é uma linha.
 	
@@ -132,13 +138,54 @@
 	Uma vez modelado o olho bidimensional, devemos fazer o desenvelope da retina mapeada e criar uma projeção animada 1D da realidade 3D para que voluntários testem esse modelo de olho bidimensional. 
 		
 	\section{Implementação - Ferramentas de Desenvolvimento Propostas} \label{if}
+	
 	\paragraph{}
+	Essa proposta de pesquisa envolve o desenvolvimento de software para que pessoas, voluntários, interajam com ele e seja possível avaliar a sua capacidade de interagir com um espaço tridimensional, apenas visualizando esse espaço em uma projeção unidimensional.
+	
+	\paragraph{}
+	As ferramentas de software tradicionais em Computação Científica (\textbf{R}, \textbf{Python} e \textbf{Julia}) têm como característica comum o péssimo suporte a compilação e empacotamento de executáveis para distribuição. Assim, declinamos do uso delas para a geração do software necessário a ser distribuído a terceiros, para testar as hipóteses levantadas nessa proposta de projeto. As linguagens e compiladores com excelente suporte a distribuição de software, e fortemente utilizadas na academia são \textbf{Fortran}, \textbf{C} e \textbf{C++}. Assim, uma dessas três linguagens/compiladores poderia ser escolhido para o desenvolvimento desse projeto.
+	
+	\paragraph{}
+	O projeto aqui apresentado vai lidar com grande volumes de informações, para ser possível a representação de um espaço tridimensional. Para processar esse volume imenso de pontos, é necessário o suporte adequado de Hardware. Para tanto, o cálculo em nível vetorial necessitará ser feito com auxílio de placas de processamento 3D. A interface com essas placas pode ser feita através das APIs (de \textit{Application Program Interface}) tradicionais de Cálculo Vetorial, como \textbf{OpenGL}, \textbf{Vulkan} ou \textbf{Direct3D}, ou mesmo APIs mais modernas de Cálculo Numérico, como o \textbf{Cuda}.
+	
+	\paragraph{}
+	Entretanto, o software desenvolvido nesse projeto é para ser distribuído a terceiros e quanto mais fácil essa distribuição, melhor para a coleta de dados e para a avaliação da pesquisa. Para tanto, foi escolhida a distribuição Web - ou seja, desenvolver o sistema de forma que ele possa ser carregado dentro de um Website. Assim, cria-se um Website público e é necessário apenas compartilhar o seu endereço com os voluntários, para que a pesquisa de campo seja feita. Das APIs de Cálculo Vetorial, com aceleração de hardware, a única disponível para Web é a \textbf{OpenGL}, através da biblioteca \textbf{Emscripten}, que permite compilar \textbf{C} e \textbf{C++} para web. Como \textbf{Fortran} não é suportado pela \textbf{Emscripten}, tal linguagem foi desconsiderada para o \textit{toolchain}.
+	
+	\paragraph{}
+	Considerando todas as restrições acima, apenas \textbf{C} e \textbf{C++} são elegíveis para o desenvolvimento do projeto. Obviamente, elementos decorativos e subsidiários, como layout da página que vai hospedar o projeto e a interatividade inicial básica, devem ser desenvolvidos utilizando-se \textbf{HTML}, \textbf{CSS} e \textbf{Javascript}. Mas essa parte de código do projeto deve se manter mínima e sem representar nenhum interesse acadêmico. Por conta da disponibilidade de bibliotecas com suporte a diversos algoritmos de computação científica, disponíveis nos \textbf{Emscripten Ports}, para \textbf{C++}, como o \textbf{Boost}, além de sua excelente biblioteca de estruturas de dados, a \textbf{STL}, foi escolhida a linguagem \textbf{C++} para esse projeto.
+	
+	\paragraph{}
+	Assim o \textit{toolkit} escolhido para o desenvolvimento dessa proposta de pesquisa foi:
+	
+	\begin{itemize}
+			\item Plataforma de Distribuição: Web (Página distribuída na Internet, sob protocolo HTTP e acessível no navegador)
+			\item Linguagens de Programação: \textbf{C++}, para o projeto principal, \textbf{Javascript}, \textbf{CSS} e 	\textbf{HTML} para as páginas de suporte para levar os voluntários ao projeto.
+			\item Ferramenta de Compilação, Construção e Empacotamento: \textbf{Emscripten}
+			\item Bibliotecas de Suporte principais: \textbf{Boost}, \textbf{OpenGL}, \textbf{C++ STL}
+			\item Biblioteca de Cálculo Vetorial: \textbf{OpenGL}, através da biblioteca \textbf{GLM}					
+	\end{itemize}
 	
 	\section{Implementação - Entregáveis Propostos} \label{ie}
 	\paragraph{}
+	Os entregáveis propostos para essa pesquisa são:
+	
+	\begin{itemize}
+		\item A própria estrutura do Website para hospedar o projeto. A hospedagem em si está fora do escopo dessa proposta.
+		\item O componente de software, em \textbf{WASM} com o sistema que representa uma realidade 3D simulada, visível apenas através de uma retina 2D.
+		\item O conjunto de dados das interações dos voluntários, capturados e disponibilizados para análise.
+		\item A análise desses conjuntos de dados.
+		\item O relatório com toda a metodologia de análise e as conclusões tiradas.
+		\item Uma proposta de extensão dessa pesquisa para a representação de uma simulação 4D a ser visualizada através de uma retina 2D, como as que os seres humanos possuem no nosso universo real.
+	\end{itemize}
 	
 	\section{Pesquisa de Campo - Interação Pública} \label{pc}
 	\paragraph{}
+	A pesquisa de campo para esse projeto é feita através do uso do software distribuído pela internet por voluntários, que podem ou não ser anônimos.
+	
+	\paragraph{}
+	Como os voluntários interagirão com um software, toda a coleta de dados pode ser automatizada, e um conjunto de interações previsíveis e objetivas podem ser definidas para os voluntários seguirem, de forma que o software disponibilizado será muito parecido com um jogo eletrônico.
+	
+	\textbf{to be continued....}
 
 	\section{Conclusão} \label{c}
 	\paragraph{}
