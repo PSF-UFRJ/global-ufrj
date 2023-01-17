@@ -23,7 +23,7 @@
 \contentsline {subsection}{\numberline {2.3}Critérios de Visualização e Interação 3D para 2D}{4}{}%
 \contentsline {paragraph}{}{4}{}%
 \contentsline {paragraph}{}{4}{}%
-\contentsline {paragraph}{}{5}{}%
+\contentsline {paragraph}{}{4}{}%
 \contentsline {paragraph}{}{5}{}%
 \contentsline {paragraph}{}{5}{}%
 \contentsline {paragraph}{}{5}{}%
