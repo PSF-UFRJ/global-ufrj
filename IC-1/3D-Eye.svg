@@ -23,14 +23,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="24.858362"
-     inkscape:cx="245.39027"
-     inkscape:cy="747.25359"
-     inkscape:window-width="3840"
-     inkscape:window-height="2125"
-     inkscape:window-x="2560"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:zoom="1.5536476"
+     inkscape:cx="604.06233"
+     inkscape:cy="632.7046"
+     inkscape:window-width="2939"
+     inkscape:window-height="1774"
+     inkscape:window-x="2904"
+     inkscape:window-y="189"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1">
     <inkscape:grid
        type="xygrid"
@@ -175,7 +175,10 @@
        cx="85.454277"
        cy="72.345627"
        rx="50.270832"
-       ry="53.578125" />
+       ry="53.578125"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.903;stroke-miterlimit:4;stroke-dasharray:2.709, 2.709;stroke-dashoffset:0"
        id="path1160"
@@ -189,7 +192,10 @@
        sodipodi:open="true"
        sodipodi:arc-type="arc"
        d="m -35.830014,-73.93314 a 50.21312,16.534462 0 0 1 -24.097636,14.730557 50.21312,16.534462 0 0 1 -50.80621,0.262356 50.21312,16.534462 0 0 1 -25.4885,-14.474502"
-       transform="rotate(-179.61433)" />
+       transform="rotate(-179.61433)"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <ellipse
        style="fill:none;stroke:#000000;stroke-width:0.906668;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1812"
@@ -197,7 +203,10 @@
        cy="90.427048"
        rx="9.9289999"
        ry="18.091362"
-       transform="matrix(0.99945722,-0.03294344,-0.09409158,0.99556355,0,0)" />
+       transform="matrix(0.99945722,-0.03294344,-0.09409158,0.99556355,0,0)"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <ellipse
        style="fill:#000000;stroke:#000000;stroke-width:0.198077;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1812-3"
@@ -205,7 +214,10 @@
        cy="97.445045"
        rx="2.3063033"
        ry="3.7173526"
-       transform="matrix(0.99614034,-0.08777484,-0.05596153,0.99843293,0,0)" />
+       transform="matrix(0.99614034,-0.08777484,-0.05596153,0.99843293,0,0)"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.915009;stroke-miterlimit:4;stroke-dasharray:2.74503, 2.74503;stroke-dashoffset:0"
        id="path1916"
@@ -218,7 +230,10 @@
        sodipodi:end="4.7030331"
        sodipodi:open="true"
        sodipodi:arc-type="arc"
-       d="M 85.306587,125.92009 A 24.744343,53.511883 0 0 1 61.308327,71.877367 24.744343,53.511883 0 0 1 85.819836,18.922909" />
+       d="M 85.306587,125.92009 A 24.744343,53.511883 0 0 1 61.308327,71.877367 24.744343,53.511883 0 0 1 85.819836,18.922909"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.915009;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1916-5"
@@ -232,22 +247,34 @@
        sodipodi:open="true"
        sodipodi:arc-type="arc"
        d="M -85.622238,-20.060036 A 24.744343,53.511883 0 0 1 -109.6205,-74.102758 24.744343,53.511883 0 0 1 -85.108989,-127.05722"
-       transform="rotate(179.24437)" />
+       transform="rotate(179.24437)"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.86, 0.93;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
        d="M 61.906361,59.248754 185.99594,131.21542"
        id="path2025"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.86, 0.93;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker5873)"
        d="M 11.370944,110.04876 189.96469,69.038337"
        id="path2025-3"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.86, 0.93;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker5873)"
        d="M 101.79729,146.37509 119.92864,17.820714"
        id="path2025-3-5"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="fill:#000000;stroke:#000000;stroke-width:0.465;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect3597"
@@ -255,26 +282,41 @@
        height="65.667419"
        x="189.20477"
        y="51.283047"
-       transform="rotate(7.7034915)" />
+       transform="rotate(7.7034915)"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:#999999;stroke:#999999;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 62.354926,95.484928 2.774004,-0.433624 c 0,0 -3.070092,-12.510246 -2.587215,-23.77123 0.538067,-12.548056 2.889763,-23.458106 2.889763,-23.458106 l -2.868832,-0.294209 c 0,0 -2.447716,13.124557 -2.683541,23.475414 -0.190512,8.36196 2.475821,24.481755 2.475821,24.481755 z"
        id="path4142"
-       sodipodi:nodetypes="ccsccsc" />
+       sodipodi:nodetypes="ccsccsc"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 171.8204,141.25724 63.919567,47.551849"
-       id="path3832" />
+       id="path3832"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 180.62289,76.18247 63.9233,95.042271"
-       id="path3830" />
+       id="path3830"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
        x="179.71161"
        y="138.19414"
-       id="text10173"><tspan
+       id="text10173"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan10171"
          style="stroke-width:0.264583"
@@ -285,7 +327,10 @@
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
        x="186.30124"
        y="78.130249"
-       id="text18205"><tspan
+       id="text18205"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan18203"
          style="stroke-width:0.264583"
@@ -296,7 +341,10 @@
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
        x="122.28672"
        y="12.646883"
-       id="text24479"><tspan
+       id="text24479"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan24477"
          style="stroke-width:0.264583"
@@ -315,7 +363,10 @@
        sodipodi:open="true"
        sodipodi:arc-type="arc"
        transform="matrix(-0.9999748,-0.00709934,0.00638207,-0.99997963,0,0)"
-       d="m -40.5008,-216.25357 a 50.210712,17.43799 0 0 1 -18.620015,20.53306 50.210712,17.43799 0 0 1 -61.855275,-1.39401" />
+       d="m -40.5008,-216.25357 a 50.210712,17.43799 0 0 1 -18.620015,20.53306 50.210712,17.43799 0 0 1 -61.855275,-1.39401"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.903;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1160-6-0"
@@ -328,17 +379,26 @@
        sodipodi:end="2.7395351"
        sodipodi:open="true"
        sodipodi:arc-type="arc"
-       d="m 119.01291,197.73194 a 50.21312,16.534462 0 0 1 13.12903,18.0239 50.21312,16.534462 0 0 1 -45.935325,10.71261 50.21312,16.534462 0 0 1 -47.275462,-10.06059" />
+       d="m 119.01291,197.73194 a 50.21312,16.534462 0 0 1 13.12903,18.0239 50.21312,16.534462 0 0 1 -45.935325,10.71261 50.21312,16.534462 0 0 1 -47.275462,-10.06059"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.86, 0.93;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker5873-9)"
        d="M 11.179588,247.10386 189.77334,206.09344"
        id="path2025-3-2"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.86, 0.93;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker5873-9)"
        d="M 103.3575,272.88534 115.86876,177.7891"
        id="path2025-3-5-6"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="fill:#000000;stroke:#000000;stroke-width:0.465;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect3597-1"
@@ -346,18 +406,27 @@
        height="65.667419"
        x="207.30867"
        y="187.03336"
-       transform="rotate(7.7034915)" />
+       transform="rotate(7.7034915)"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 171.56404,278.20919 109.99119,224.18345 61.65,196.2007"
        id="path3832-7"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
        x="179.45525"
        y="275.14609"
-       id="text10173-2"><tspan
+       id="text10173-2"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan10171-0"
          style="stroke-width:0.264583"
@@ -368,7 +437,10 @@
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
        x="186.04488"
        y="215.08218"
-       id="text18205-2"><tspan
+       id="text18205-2"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan18203-3"
          style="stroke-width:0.264583"
@@ -379,7 +451,10 @@
        style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
        x="118.32797"
        y="182.01419"
-       id="text24479-7"><tspan
+       id="text24479-7"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan24477-5"
          style="stroke-width:0.264583"
@@ -388,25 +463,40 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:1.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 98.075426,225.84557 c 0,0 6.370374,-0.37924 11.763314,-1.49094 5.39293,-1.11169 8.39531,-1.9706 8.39531,-1.9706"
-       id="path29853" />
+       id="path29853"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:3.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 107.39238,224.81069 4.60232,-0.91025"
-       id="path29855" />
+       id="path29855"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#999999;stroke-width:1.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 58.786845,195.89703 3.263485,-0.58946"
-       id="path30189" />
+       id="path30189"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 180.36653,213.13442 109.99119,224.18345 60.387521,195.49054"
        id="path3830-9"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.86, 0.93;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Mend-6)"
        d="m 60.387521,195.49054 1.377377,0.7768 123.974682,71.90003"
        id="path2025-6"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.903;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1160-6"
@@ -419,6 +509,379 @@
        sodipodi:end="3.140304"
        sodipodi:open="true"
        sodipodi:arc-type="arc"
-       d="M 135.60964,72.985779 A 50.21312,16.534462 0 0 1 85.428876,89.520237 50.21312,16.534462 0 0 1 35.183445,73.007086" />
+       d="M 135.60964,72.985779 A 50.21312,16.534462 0 0 1 85.428876,89.520237 50.21312,16.534462 0 0 1 35.183445,73.007086"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583;fill:#ff0000"
+       x="182.00951"
+       y="97.557442"
+       id="text3913"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan3911"
+         style="font-style:italic;font-size:6.35px;stroke-width:0.264583;fill:#ff0000"
+         x="182.00951"
+         y="97.557442">(1)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#ff0000;stroke-width:0.264583"
+       x="181.19278"
+       y="247.81654"
+       id="text3913-1"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan3911-2"
+         style="font-style:italic;font-size:6.35px;fill:#ff0000;stroke-width:0.264583"
+         x="181.19278"
+         y="247.81654">(1)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#ff0000;stroke-width:0.264583"
+       x="334.18616"
+       y="72.082497"
+       id="text3913-5"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan3911-3"
+         style="font-style:italic;font-size:6.35px;fill:#ff0000;stroke-width:0.264583"
+         x="334.18616"
+         y="72.082497">(1)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';word-spacing:0px;stroke-width:0.264583;fill:#ff0000"
+       x="13.229166"
+       y="23.8125"
+       id="text11804"><tspan
+         sodipodi:role="line"
+         id="tspan11802"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583;font-size:6.35px;fill:#ff0000"
+         x="13.229166"
+         y="23.8125" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="7.9375"
+       y="34.395832"
+       id="text29176"><tspan
+         sodipodi:role="line"
+         id="tspan29174"
+         style="stroke-width:0.264583"
+         x="7.9375"
+         y="34.395832" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583;fill:#ff0000;-inkscape-font-specification:'sans-serif Italic';font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal"
+       x="2.6458333"
+       y="84.666664"
+       id="text36146"><tspan
+         sodipodi:role="line"
+         id="tspan36144"
+         style="fill:#ff0000;stroke-width:0.264583;-inkscape-font-specification:'sans-serif Italic';font-family:sans-serif;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal"
+         x="2.6458333"
+         y="84.666664" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="0"
+       y="34.395832"
+       id="text41070"><tspan
+         sodipodi:role="line"
+         id="tspan41068"
+         style="stroke-width:0.264583"
+         x="0"
+         y="34.395832" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583;-inkscape-font-specification:'sans-serif Italic';font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal"
+       x="7.9375"
+       y="26.458332"
+       id="text50906"><tspan
+         sodipodi:role="line"
+         id="tspan50904"
+         style="stroke-width:0.264583;-inkscape-font-specification:'sans-serif Italic';font-family:sans-serif;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal"
+         x="7.9375"
+         y="26.458332" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';word-spacing:0px;stroke-width:0.264583"
+       x="2.6458333"
+       y="13.229166"
+       id="text63944"><tspan
+         sodipodi:role="line"
+         id="tspan63942"
+         style="stroke-width:0.264583"
+         x="2.6458333"
+         y="13.229166" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';word-spacing:0px;stroke-width:0.264583"
+       x="31.75"
+       y="15.875"
+       id="text83004"><tspan
+         sodipodi:role="line"
+         id="tspan83002"
+         style="stroke-width:0.264583"
+         x="31.75"
+         y="15.875" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';word-spacing:0px;stroke-width:0.264583;fill:#ff0000"
+       x="50.704742"
+       y="73.002495"
+       id="text87496"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan87494"
+         style="stroke-width:0.264583;fill:#ff0000"
+         x="50.704742"
+         y="73.002495">(2)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';word-spacing:0px;fill:#ff0000;stroke-width:0.264583"
+       x="54.593052"
+       y="193.067"
+       id="text87496-7"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan87494-0"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="54.593052"
+         y="193.067">(2)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';word-spacing:0px;fill:#ff0000;stroke-width:0.264583"
+       x="99.54158"
+       y="95.266533"
+       id="text87496-2"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Tridimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan87494-9"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="99.54158"
+         y="95.266533">(3)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';word-spacing:0px;fill:#ff0000;stroke-width:0.264583"
+       x="100.01975"
+       y="232.14935"
+       id="text87496-2-9"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Olho-Bidimensional.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan87494-9-3"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="100.01975"
+         y="232.14935">(3)</tspan></text>
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path88344"
+       cx="246.0625"
+       cy="71.4375"
+       r="15.875"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path88390"
+       cx="259.3768"
+       cy="71.477684"
+       rx="1.3229166"
+       ry="5.2916665"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 275.16666,47.624999 298.97916,23.8125 v 108.47916 l -23.8125,-23.81249 z"
+       id="path88527"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect88551"
+       width="5.2916665"
+       height="31.75"
+       x="328.08334"
+       y="55.5625"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.330457;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect88551-6"
+       width="3.0084913"
+       height="12.445761"
+       x="284.61478"
+       y="65.636505"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.266892;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect88551-3"
+       width="1.8071135"
+       height="13.515285"
+       x="-231.10684"
+       y="64.814796"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.52999997,0.52999997;stroke-dashoffset:0"
+       d="M 328.08333,55.562499 231.91794,78.720514"
+       id="path88666"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.52999997,0.52999997;stroke-dashoffset:0"
+       d="M 328.08333,87.312499 231.59028,65.031352"
+       id="path88800"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.52999997,0.52999997;stroke-dashoffset:0"
+       d="m 286.19815,36.654179 0.0731,82.863381"
+       id="path88937"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';word-spacing:0px;stroke-width:0.264583"
+       x="299.64514"
+       y="130.10722"
+       id="text91245"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan91243"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="299.64514"
+         y="130.10722">(a)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 230.27255,38.574163 0.13789,33.346296 55.74082,0.192558 0.0598,-33.233364"
+       id="path97492"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 260.85649,72.14541 260.73035,38.115488"
+       id="path97494"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#marker5873)"
+       d="m 230.34992,45.564678 30.33153,-0.102086"
+       id="path97586"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#marker5873)"
+       d="m 260.68145,45.462592 25.21312,2.47e-4"
+       id="path97586-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';word-spacing:0px;stroke-width:0.264583"
+       x="242.99023"
+       y="41.440269"
+       id="text100980"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan100978"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="242.99023"
+         y="41.440269">d</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';word-spacing:0px;stroke-width:0.264583"
+       x="270.85538"
+       y="42.075256"
+       id="text104944"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan104942"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="270.85538"
+         y="42.075256">d</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:3.95406px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';word-spacing:0px;stroke-width:0.164752"
+       x="225.07968"
+       y="46.515732"
+       id="text108710"
+       transform="scale(1.0936947,0.91433195)"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan108708"
+         style="fill:#ff0000;stroke-width:0.164752"
+         x="225.07968"
+         y="46.515732">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:3.51717px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';word-spacing:0px;stroke-width:0.146549"
+       x="263.37851"
+       y="44.970909"
+       id="text112080"
+       transform="scale(1.0417495,0.95992366)"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan112078"
+         style="fill:#ff0000;stroke-width:0.146549"
+         x="263.37851"
+         y="44.970909">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';word-spacing:0px;fill:#ff0000;stroke-width:0.264583"
+       x="219.97569"
+       y="73.228348"
+       id="text87496-5"
+       inkscape:export-filename="/home/paulo/Documents/global-ufrj/IC-1/Desenvelope-Da-Retina.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan87494-6"
+         style="fill:#ff0000;stroke-width:0.264583"
+         x="219.97569"
+         y="73.228348">(2)</tspan></text>
   </g>
 </svg>

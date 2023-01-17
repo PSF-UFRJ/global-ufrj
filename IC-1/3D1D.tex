@@ -2,6 +2,8 @@
 \usepackage{geometry}
 \usepackage{natbib}
 \usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
 \geometry{
 	a4paper,
 	total={170mm,257mm},
@@ -21,6 +23,8 @@
 \newcommand\R{\mathbb{R}}
 
 \begin{document}
+	\renewcommand{\figurename}{Figura}
+	\graphicspath{ {./imagens/} }
 	\maketitle
 	\tableofcontents
 	\section{Introdução}
@@ -41,6 +45,15 @@
 	\paragraph{}
 	Assim, a \textbf{Seção \ref{ft}, Fundamentação Teórica}, possui todo o modelo de visualização e interação de seres bidimensionais imersos em um universo tridimensional. As extensões desse modelo de seres bidimensionais tentando enxergar espaços tridimensionais são feitas na conclusão desse documento, com uma proposta para extender essa pesquisa para a impleemntação do Visualizador quadridimensional para seres tridimensionais. 
 	
+	\paragraph{}
+	A \textbf{Seção \ref{if}, Implementação - Ferramentas de Desenvolvimento Propostas}, apresenta as ferramentas que serão utilizadas para desenvolver esse modelo de visualização 3D em 1D, como software. Esse software será apresentado a voluntários. Assim, a implementação de tal projeção unidimensional deve ser facilmente distribuível e utilizável - sendo escolhido com cuildado um \textbf{tooolbox} para implementar um pequeno universo 3D representável como uma projeção 1D e tal implementação ser facilmente apresentada a voluntários pela Internet.
+	
+	\paragraph{}
+	A \textbf{Seção \ref{ie}, Implementação - Entregáveis Propostos}, lalalal.
+	
+	\paragraph{}
+	A \textbf{Seção \ref{pc}, Pesquisa de Campo - Interação Pública}, alalalaal.
+	
 	\section{Fundamentação Teórica} \label{ft}
 	\paragraph{}
 	O modelo criado de visualização da realidade tridimensional por seres bidimensionais partiu, inicialmente, do entendimento de como um olho tridimensional funciona, de forma a se modelar um olho bidimensional visualizando uma realidade 3D. A primeira coisa que se notou é que o olho 3D enxerga a realidade através de uma superfície (bidimensional), a retina - assim, por analogia, chegou-se à conclusão de que um olho 2D enxergaria a realidade através de uma retina unidimensional - e uma retina unidimensional é uma linha.
@@ -49,23 +62,74 @@
 	Então, vamos começar analisando o olho 3D, para, então, apresentarmos o modelo de um olho 2D dentro de uma realidade 3D.
 	
 	\subsection{Modelo de Olho 3D} \label{mo3d}
+	\paragraph{}
+	O olho tridimensional é um olho similar ao olho humano. Ele existe no espaço tridimensional, e recebe a luz do ambiente e a projeta na superfície interna do olho - a retina. O modelo básico desse olho pode ser visto na Figura ~\ref{fig:Olho3D} , abaixo.
 	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.5]{Olho-Tridimensional}
+		\caption{Representação Esquemática do Olho Tridimensional.}
+		\label{fig:Olho3D}
+	\end{figure}
+
+	\paragraph{}
+	Na Figura ~\ref{fig:Olho3D}, acima, é possível ver um  \textbf{Objeto (1)} no espaço (posicionado de forma concorrente ao eixo \textbf{x}, na figura), com a sua imagem refletida na \textbf{Retina (2)}. Os raios de luz do objeto passam pela abertura da \textbf{Pupila (3)} e, quanto maior essa abertura, menor a definição da imagem registrada na \textbf{Retina(2)}, mas quanto menor a abertura, maior a definição, mas menos a disponibilidade de luz para formar a imagem.
+	
+	\paragraph{}
+	A principal característica do olho tridimensional é a sua retina bidimensional, e toda a realidade e todas as imagens obtidas a partir do espaço 3D, na verdade, são projeções sobre uma superfície.
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.7]{Desenvelope-Da-Retina}
+		\caption{Desenvelopando a Projeção Estereográfica do Espaço, na Retina, para um Plano.}
+		\label{fig:DesenvelopeRetina3D}
+	\end{figure}
+	
+	\paragraph{}
+	Como toda a realidade tridimensional é mapeada em uma superfície bidimensional, podemos dizer que o que o olho percebe é uma projeção estereográfica de metade do espaço tridimensional. O que está atrás do olho não pode ser mapeado, somente o que está à frente. Na Figura ~\ref{fig:DesenvelopeRetina3D}, acima, vemos a \textbf{Imagem (2)} do \textbf{objeto (1)} projetado na Retina e, então, desenvelopado em uma \textbf{superfície plana (a)}. A retina tem uma certa profundidade $\boldsymbol{d_1}$ e a sua imagem pode ser desenvelopada em qualquer superfície a qualquer distância $\boldsymbol{d_2}$. Se fizermos ao contrário, projetando a realidade (ou alguma imagem representando alguma realidade) na superfície \textbf{(a)}, e posicionarmos tal projeção perante o olho, este será enganado e perceberá tal projeção como a própria realidade. Esse é o princípio de funcionamento das televisões, computadores e cinema.
+	
+	Essa é apenas uma apresentação básica do Olho Tridimensional e não vamos entrar em mais detalhes a respeito de seu modelamento, porque esse já é um problema bem resolvido. Mas podemos usar esse modelo de olho 3D para apresentarmos o modelo de olho 2D para visualizar a realidade tridimensional.
+	 
 	\subsection{Modelo de Olho 2D} \label{mo2d}
 	
-	\subsection{Critérios de Visualização e Interação 3D para 2D} \label{criterios}
+	\paragraph{}
+	O olho 2D, diferentemente do olho 3D, existe apenas em um plano. Mas, no caso desse estudo, esse plano está contido em um espaço tridimensional. Uma representação visual desse olho pode ser vista na Figura ~\ref{fig:Olho2D}, abaixo. Deve-se esclarecer que, na figura do Olho Bidimensional, ele está posicionado no plano \textbf{xy}, sendo o eixo \textbf{z} ortogonal a esse "olho". Podemos ver nessa figura a \textbf{Retina (2)} e a \textbf{Pupila (3)}. Ambas unidimensionais. Vemos que o objeto é colapsado para uma curta linha, no centro da retina linear.
+	
+	\paragraph{}
+	Segundo o senso comum, assume-se que um olho bidimensional como esse não tem condições de perceber toda a realidade tridimensional e, se o fizer, a perda de informação é muito grande para tal visualização fazer sentido. Entretanto, mesmo a capacidade visual que temos com os nossos olhos tridimensionais permitem apenas a percepção de uma projeção, com enorme perda de informação, que é contrabalanceada pela nossa capacidade de navegarmos por dentro do espaço 3D.
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.7]{Olho-Bidimensional}
+		\caption{Representação Esquemática de um Olho Bidimensional Flutuando no Espaço 3D.}
+		\label{fig:Olho2D}
+	\end{figure}
+	
+	\paragraph{}
+	Assim, podemos considerar critérios de representação do espaço tridimensional em um olho bidimensional, com uma retina unidimensional e, dados critérios que reduzam ao máximo a perda de informação, podemos adicionar critérios de navegação (movimentação) desse olho no espaço tridimensional, de forma a recuperar a informação faltante.
+	
+	\subsection{Critérios de Visualização e Interação 3D para 2D} \label{criterios}.
+	
 	\paragraph{}
 	Agora que temos um modelo de olho bidimensional que pode enxergar tridimensionalmente, podemos formalizar a forma que a luz chega na retina bidimensional para criar uma imagem unidimensional representando a realidade tridimensional.
 	
-	Os critérios definidos para isso, que foram aferidos empiricamente, portanto podendo ser considerados axiomáticos, dentro do modelo de visualização reduzido, são:
+	\paragraph{}
+	Uma característica marcante desse olho 2D mergulhado no espaço 3D é que os raios de luz que chegam a esse olho provêm de todo o espaço, não apenas do Plano \textbf{xy}, onde tal olho reside. Quando os raios de luz não chegam a partir do Plano \textbf{xy}, ele possui um componente perpendicular ao olho. Esse componente é perdido, mas o olho ainda pode ver a projeção no Plano \textbf{xy} de tal vetor de luz. Obviamente, para representar essa captura de raio de luz não diretamente direcionado à retina, precisamos definir uma perda, e essa perda é justamente o componente em \textbf{z} desse raio de luz. Como todos os raios de luz que possuam uma componente \textbf{z} qualquer mas as mesmas componentes \textbf{x} e \textbf{y} vão ser representados no mesmo ponto na retina bidimensional, podemos dizer que tal olho bidimensional possui uma "reta de vista", não um ponto de vista - e podemos combinar todos os pontos dessa reta, considerando a perda do componente z e o uso da técnica de \textit{alpha-blending} \textbf{(adicionar referências)}. Utilizando os principios de \textit{ray-tracing} e de \textit{radiosity} \textbf{(adicionar referências)}, podemos combinar esses pontos da reta de vista de uma forma racional. Esse é o \textbf{Critério da Direção}.
 	
-	\begin{enumerate}
-		\item \textbf{Critério da Direção}
-		\item \textbf{Critério da Distância}
-		\item \textbf{Critério da Abertura}
-		\item \textbf{Critério da Navegação}
-	\end{enumerate}
+	\paragraph{}
+	Todos os pontos da realidade, se eles representam fontes de luz, essa luz possui uma perda de luminosidade até chegar a retina do olho bidimensional. Essa perda permite reduzir a representação de objetos a grandes distâncias, para dar mais importância à representação dos objetos mais próximos e relevantes. Além disso, se um objeto mais distante tiver seu raio de luz interceptado por um objeto mais próximo, passa a valer o raio de luz do objeto mais próximo. Esse é o \textbf{Critério da Distância}.
 	
-	Os critérios não estão ordenados segundo importância, porque todos eles são extremamente importantes para permitir a visualização e interação de seres bidimensionais em uma realidade tridimensional. Em termos de complexidade de implementação e entendimento, os critérios da Abertura e da Direção são, larga medida, os mais difíceis. Se considerarmos outra classificação, temos os critérios representacionais e o critério interacional.... continue...
+	\paragraph{}
+	A retina do olho bidimensional se funciona de forma similar à retina tridimensional e quanto maior a sua abertura, menor a qualidade da imagem formada. Entretanto, um detalhe da abertura do olho que não pode passar despercebido é que o angulo sólido que o olho capta para a formação da imagem cobre uma superfície limidada da abóboda da retina e o olho percebe um parte limitada do firmamento. Isso também tem a ver com a abertura da pupila e com a sensitividade das regiões da retina, havendo, inclusive um ponto específico de maior sensitividade, a \textbf{fóvea}. O controle da abertura da área de captura de luz e da pupila define o \textbf{Critério da Abertura}.
+	
+	\paragraph{}
+	Os critérios acima são utilizados para representar a realidade 3D como uma imagem 2D, ou, no caso do Olho Bidimensional, como uma imagem 1D. Essa imagem formada possui grande perda de informação. Então, para recuperar a informação perdida, precisamos movimentar o foco do olho para diversas direções, de forma a capturarmos o máximo de informações do ambiente e, então, reconstruir mentalmente o espaço. Podemos andar em três eixos e girar em três eixos - ou seja, estaremos trabalhando com seis graus de liberdade. E, nos movimentando, utilizando da nossa capacidade de paralaxe, podemos trabalhar para construir a realidade como um todo. Esse é o \textbf{Critério da Navegação}.
+	
+	\paragraph{}
+	Não vamos entrar em detalhes matemáticos de cada um dos critérios, pois explorá-los, formalizá-los e os utilizar como modelo para a generalização desse método para perceber um espaço quadridimensional em um olho tridimensional é a proposta final dessa pesquisa. A implementação das coordenadas do olho 2D no Espaço 3D e sua navegação, reposicionando todos os pontos do espaço é uma aplicação da movimentação de um \textbf{Referencial de Frenet} no espaço 3D, levando a crer que essa pesquisa tenha que tratar de elementos de Geometria Diferencial. E a representação dos objetos 3D na projeção 1D parece ser uma aplicação de Geometria Computacional, que depende fortemente de conhecimentos de Geometria Analítica, Cálculo Vetorial e Álgebra Linear.
+	
+	\paragraph{}
+	Uma vez modelado o olho bidimensional, devemos fazer o desenvelope da retina mapeada e criar uma projeção animada 1D da realidade 3D para que voluntários testem esse modelo de olho bidimensional. 
 		
 	\section{Implementação - Ferramentas de Desenvolvimento Propostas} \label{if}
 	\paragraph{}
@@ -73,7 +137,7 @@
 	\section{Implementação - Entregáveis Propostos} \label{ie}
 	\paragraph{}
 	
-	\section{Pesquisa de Campo - Interação pública} \label{pc}
+	\section{Pesquisa de Campo - Interação Pública} \label{pc}
 	\paragraph{}
 
 	\section{Conclusão} \label{c}
