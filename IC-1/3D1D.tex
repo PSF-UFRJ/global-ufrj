@@ -132,7 +132,7 @@
 	Os critérios acima são utilizados para representar a realidade 3D como uma imagem 2D, ou, no caso do Olho Bidimensional, como uma imagem 1D. Essa imagem formada possui grande perda de informação. Então, para recuperar a informação perdida, precisamos movimentar o foco do olho para diversas direções, de forma a capturarmos o máximo de informações do ambiente e, então, reconstruir mentalmente o espaço. Podemos andar em três eixos e girar em três eixos - ou seja, estaremos trabalhando com seis graus de liberdade. E, nos movimentando, utilizando da nossa capacidade de paralaxe, podemos trabalhar para construir a realidade como um todo. Esse é o \textbf{Critério da Navegação}.
 	
 	\paragraph{}
-	Não vamos entrar em detalhes matemáticos de cada um dos critérios, pois explorá-los, formalizá-los e os utilizar como modelo para a generalização desse método para perceber um espaço quadridimensional em um olho tridimensional é a proposta final dessa pesquisa. A implementação das coordenadas do olho 2D no Espaço 3D e sua navegação, reposicionando todos os pontos do espaço é uma aplicação da movimentação de um \textbf{Referencial de Frenet} no espaço 3D, levando a crer que essa pesquisa tenha que tratar de elementos de Geometria Diferencial. E a representação dos objetos 3D na projeção 1D parece ser uma aplicação de Geometria Computacional, que depende fortemente de conhecimentos de Geometria Analítica, Cálculo Vetorial e Álgebra Linear.
+	Não vamos entrar em detalhes matemáticos de cada um dos critérios, pois explorá-los, formalizá-los e os utilizar como modelo para a generalização desse método para perceber um espaço quadridimensional em um olho tridimensional é a proposta final dessa pesquisa. A implementação das coordenadas do olho 2D no Espaço 3D e sua navegação, reposicionando todos os pontos do espaço é uma aplicação da movimentação de um \textbf{Referencial de Frenet} no espaço 3D, levando a crer que essa pesquisa tenha que tratar de elementos de \textbf{Geometria Diferencial}. E a representação dos objetos 3D na projeção 1D parece ser uma aplicação de \textbf{Geometria Computacional}, que depende fortemente de conhecimentos de \textbf{Geometria Analítica}, \textbf{Cálculo Vetorial} e \textbf{Álgebra Linear}.
 	
 	\paragraph{}
 	Uma vez modelado o olho bidimensional, devemos fazer o desenvelope da retina mapeada e criar uma projeção animada 1D da realidade 3D para que voluntários testem esse modelo de olho bidimensional. 
@@ -155,14 +155,22 @@
 	Considerando todas as restrições acima, apenas \textbf{C} e \textbf{C++} são elegíveis para o desenvolvimento do projeto. Obviamente, elementos decorativos e subsidiários, como layout da página que vai hospedar o projeto e a interatividade inicial básica, devem ser desenvolvidos utilizando-se \textbf{HTML}, \textbf{CSS} e \textbf{Javascript}. Mas essa parte de código do projeto deve se manter mínima e sem representar nenhum interesse acadêmico. Por conta da disponibilidade de bibliotecas com suporte a diversos algoritmos de computação científica, disponíveis nos \textbf{Emscripten Ports}, para \textbf{C++}, como o \textbf{Boost}, além de sua excelente biblioteca de estruturas de dados, a \textbf{STL}, foi escolhida a linguagem \textbf{C++} para esse projeto.
 	
 	\paragraph{}
+	Todas as ferramentas acima são para o desenvolvimento do software que os voluntários irão interagir. Entretanto é necessário ter um software específico para recolher os dados das interações dos usuários e armazená-los, para análise ulterior. Para tanto, um servidor é necessário, com um banco de dados para receber as informações. O servidor pode ser hospedado no Sistema Operacional \textbf{Linux}, distribuição \textbf{Ubuntu}, com banco de dados relacional \textbf{PostgreSQL}, e uma camada \textit{backend} feita na Linguagem de Programação \textbf{Go}, porque ela permite o desenvolvimento de \textit{backends} muito enxutos e, portanto, muito baratos de se hospedar. \textit{Obs.:} Pensou-se em utilizar um banco de dados não relacional (como o \textbf{MongoDB}), mas esses bancos de dados não relacionais não são utilizados largamente para pesquisa acadêmica, sendo, então, desconsiderados, enquanto bancos de dados relacionais são largamente suportados academicamente, incluindo até uma algebra própria deles.
+	
+	\paragraph{}
+	A hospedagem web e o endereço DNS público para hospedar o sistema será fornecido pelo autor desse projeto.
+	
+	\paragraph{}
 	Assim o \textit{toolkit} escolhido para o desenvolvimento dessa proposta de pesquisa foi:
 	
 	\begin{itemize}
 			\item Plataforma de Distribuição: Web (Página distribuída na Internet, sob protocolo HTTP e acessível no navegador)
-			\item Linguagens de Programação: \textbf{C++}, para o projeto principal, \textbf{Javascript}, \textbf{CSS} e 	\textbf{HTML} para as páginas de suporte para levar os voluntários ao projeto.
+			\item Linguagens de Programação: \textbf{C++}, para o projeto principal, \textbf{Javascript}, \textbf{CSS} e 	\textbf{HTML} para as páginas de suporte \textit{frontend} para levar os voluntários ao projeto e a linguagem \textbf{Go} para o suporte \textit{backend}.
 			\item Ferramenta de Compilação, Construção e Empacotamento: \textbf{Emscripten}
 			\item Bibliotecas de Suporte principais: \textbf{Boost}, \textbf{OpenGL}, \textbf{C++ STL}
-			\item Biblioteca de Cálculo Vetorial: \textbf{OpenGL}, através da biblioteca \textbf{GLM}					
+			\item Biblioteca de Cálculo Vetorial: \textbf{OpenGL}, através da biblioteca \textbf{GLM}		
+			\item Hospedagem do Projeto sobre sistema operacional \textbf{Linux}, distribuição \textbf{Ubuntu}.	
+			\item Banco de Dados relacional \textbf{PostgreSQL}.
 	\end{itemize}
 	
 	\section{Implementação - Entregáveis Propostos} \label{ie}
@@ -183,13 +191,34 @@
 	A pesquisa de campo para esse projeto é feita através do uso do software distribuído pela internet por voluntários, que podem ou não ser anônimos.
 	
 	\paragraph{}
-	Como os voluntários interagirão com um software, toda a coleta de dados pode ser automatizada, e um conjunto de interações previsíveis e objetivas podem ser definidas para os voluntários seguirem, de forma que o software disponibilizado será muito parecido com um jogo eletrônico.
+	Como os voluntários interagirão com um software, toda a coleta de dados pode ser automatizada, e um conjunto de interações previsíveis e objetivas pode ser definida para os voluntários seguirem, de forma que o software disponibilizado será muito parecido com um jogo eletrônico.
 	
-	\textbf{to be continued....}
+	\paragraph{}
+	Não será descrita nessa proposta que conjunto de interações serão essas definidas para os usuários cumprirem, mas elas deverão ser cuidadosamente preparadas e roteirizadas para que se avalie se as pessoas conseguem navegar e interagir adequadamente em um ambiente tridimensional tendo acesso a apenas um mecanismo de visão unidimensional. A interação pode ser feito pelo Teclado do Computador ou através de \textit{joysticks}, e ambas formas de interação devem ser cuidadosamente preparadas, considerando os aspectos ergonômicos que surgirem.
+	
+	\paragraph{}
+	Não está claro ainda, nessa proposta, como definir grupos de controle e qual é o volume de pessoas que é necessária para uma amostra estatísticamente relevante. Ajuda de especialistas em \textbf{Percepção e Interatividade}, ou mesmo \textbf{Neurociência}, ou \textbf{Psicologia e Comportamento}, será necessária para definir os roteiros de interação. Como o projeto será distribuído pela Internet, então é possível, dado o trabalho adequado de divulgação, atingir um conjunto de voluntários na casa de milhares de pessoas: ou seja, esse projeto pode, inclusive, considerar elementos de \textbf{Estatística} mais sofisticados do que a inferência básica.
 
 	\section{Conclusão} \label{c}
+	
 	\paragraph{}
+	Partindo de uma premissa bastante simples, a possibilidade de um ser bidimensional se perceber a realidade tridimensional, chegou-se a uma proposta de Iniciação Científica bastante profunda, com grande nível de interdisciplinaridade.
+	
+	\paragraph{}
+	Se a tese da capacidade humana de perceber a realidade tridimensional apenas visualizando uma realidade bidimensional for comprovada (o que parece ser bastante plausível, uma vez que os cegos lidam com a realidade tridimensional não enxergando nada), parte-se para a próxima etapa dessa pesquisa: avaliar a capacidade humana de perceber o espaço quadridimensional, e mesmo desenvolver intuições quadridimensionais, quando vivemos em uma realidade espacial tridimensional.
+	
+	\paragraph{}
+	Nesse caso de perceber o espaço 4D, a única opção que temos é através da simulação, porque não é possível ter um espaço quadridimensional disponível para testarmos as nossas limitações de percepção. Esse espaço 4D simulado deverá ser navegado e interagido de forma mediada. Uma preparação cuidadosa de interfaces através do teclado do computador e de \textit{joysticks} deve ser desenvolvida, e essa interface deve funcionar como uma \textbf{extensão maquínica} que leva as pessoas para dentro do espaço quadridimensional. Uma das hipóteses é a capacidade de \textbf{cognição incorporada} (do inglês \textit{embodiment}/\textit{embodied cognition}) das pessoas permitirem que elas sejam transportadas virtualmente para o espaço quadridimensional e consigam interagir com esse espaço com sucesso e, então, desenvolver intuições e \textit{insights} quadridimensionais.
+	
+	\paragraph{}
+	A estrutura de projeto para a percepção do espaço 4D é exatamente a mesma estrutura desse projeto e, provavelmente, as bases teóricas em Matemática e nas outras ciências são exatamente as mesmas, também.
+	
+	\paragraph{}
+	De toda forma, fica a expectativa de, primeiro, se construir o projeto de visualização e percepção 3D em 1D, para, depois, partir para a percepção 4D por seres do espaço 3D. Mesmo o uso de realidade virtual pode ser possível para esses experimentos.
 		
 	\bibliographystyle{plainnat}
 	\bibliography{3D1D-Bibliography.bib}
+	
+	\paragraph{}
+	\textbf{Continuar aqui, adicionando as referências bibliográficas de tudo o que foi apresentado acima}
 \end{document}
