@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.15)  28 JUN 2023 18:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.15)  28 JUN 2023 19:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**3D1D.tex
-(./3D1D.tex
+**3D1D-Relatorio-01.tex
+(./3D1D-Relatorio-01.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -294,8 +294,8 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box52
 )
-(./3D1D.aux)
-\openout1 = `3D1D.aux'.
+(./3D1D-Relatorio-01.aux)
+\openout1 = `3D1D-Relatorio-01.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
@@ -389,9 +389,9 @@ LaTeX Info: Redefining \ref on input line 28.
 LaTeX Info: Redefining \pageref on input line 28.
 LaTeX Info: Redefining \nameref on input line 28.
 
-(./3D1D.out) (./3D1D.out)
+(./3D1D-Relatorio-01.out) (./3D1D-Relatorio-01.out)
 \@outlinefile=\write3
-\openout3 = `3D1D.out'.
+\openout3 = `3D1D-Relatorio-01.out'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
 
@@ -404,69 +404,34 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./3D1D.toc)
+)
+(./3D1D-Relatorio-01.toc)
 \tf@toc=\write4
-\openout4 = `3D1D.toc'.
+\openout4 = `3D1D-Relatorio-01.toc'.
 
+ [1
 
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<Olho-Tridimensional.png, id=102, 514.92375pt x 396.7322pt>
-File: Olho-Tridimensional.png Graphic file (type png)
-<use Olho-Tridimensional.png>
-Package pdftex.def Info: Olho-Tridimensional.png  used on input line 79.
-(pdftex.def)             Requested size: 257.46124pt x 198.3656pt.
-<Desenvelope-Da-Retina.png, id=105, 347.04657pt x 310.15875pt>
-File: Desenvelope-Da-Retina.png Graphic file (type png)
-<use Desenvelope-Da-Retina.png>
-Package pdftex.def Info: Desenvelope-Da-Retina.png  used on input line 92.
-(pdftex.def)             Requested size: 242.93094pt x 217.10963pt.
- [3 <./Olho-Tridimensional.png> <./Desenvelope-Da-Retina.png>]
-<Olho-Bidimensional.png, id=120, 514.92375pt x 291.33844pt>
-File: Olho-Bidimensional.png Graphic file (type png)
-<use Olho-Bidimensional.png>
-Package pdftex.def Info: Olho-Bidimensional.png  used on input line 113.
-(pdftex.def)             Requested size: 360.44417pt x 203.93552pt.
- [4 <./Olho-Bidimensional.png>]
-[5]
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 156.
- [6] [7] (./3D1D.bbl [8]) [9] (./3D1D.aux)
-Package rerunfilecheck Info: File `3D1D.out' has not changed.
-(rerunfilecheck)             Checksum: EA9849D492387724B3A9ECB5155D74BE;1827.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./3D1D-Relatorio-01.aux)
+Package rerunfilecheck Info: File `3D1D-Relatorio-01.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10418 strings out of 478287
- 159048 string characters out of 5849289
- 472044 words of memory out of 5000000
- 28364 multiletter control sequences out of 15000+600000
- 481885 words of font info for 75 fonts, out of 8000000 for 9000
+ 10178 strings out of 478287
+ 156100 string characters out of 5849289
+ 448097 words of memory out of 5000000
+ 28248 multiletter control sequences out of 15000+600000
+ 475107 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,63p,1703b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on 3D1D.pdf (9 pages, 352755 bytes).
+ 60i,7n,63p,234b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on 3D1D-Relatorio-01.pdf (1 page, 57757 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
- 327 compressed objects within 4 object streams
- 104 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 39 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
