@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.15)  28 JUN 2023 18:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.15)  28 JUN 2023 19:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -415,23 +415,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Olho-Tridimensional.png, id=102, 514.92375pt x 396.7322pt>
 File: Olho-Tridimensional.png Graphic file (type png)
 <use Olho-Tridimensional.png>
-Package pdftex.def Info: Olho-Tridimensional.png  used on input line 79.
+Package pdftex.def Info: Olho-Tridimensional.png  used on input line 80.
 (pdftex.def)             Requested size: 257.46124pt x 198.3656pt.
 <Desenvelope-Da-Retina.png, id=105, 347.04657pt x 310.15875pt>
 File: Desenvelope-Da-Retina.png Graphic file (type png)
 <use Desenvelope-Da-Retina.png>
-Package pdftex.def Info: Desenvelope-Da-Retina.png  used on input line 92.
+Package pdftex.def Info: Desenvelope-Da-Retina.png  used on input line 93.
 (pdftex.def)             Requested size: 242.93094pt x 217.10963pt.
  [3 <./Olho-Tridimensional.png> <./Desenvelope-Da-Retina.png>]
 <Olho-Bidimensional.png, id=120, 514.92375pt x 291.33844pt>
 File: Olho-Bidimensional.png Graphic file (type png)
 <use Olho-Bidimensional.png>
-Package pdftex.def Info: Olho-Bidimensional.png  used on input line 113.
+Package pdftex.def Info: Olho-Bidimensional.png  used on input line 114.
 (pdftex.def)             Requested size: 360.44417pt x 203.93552pt.
  [4 <./Olho-Bidimensional.png>]
 [5]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 156.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 157.
  [6] [7] (./3D1D.bbl [8]) [9] (./3D1D.aux)
 Package rerunfilecheck Info: File `3D1D.out' has not changed.
 (rerunfilecheck)             Checksum: EA9849D492387724B3A9ECB5155D74BE;1827.
