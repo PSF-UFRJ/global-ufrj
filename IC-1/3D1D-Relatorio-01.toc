@@ -8,7 +8,7 @@
 \contentsline {paragraph}{}{2}{section*.7}%
 \contentsline {paragraph}{}{2}{section*.8}%
 \contentsline {subsection}{\numberline {2.1}Iluminação Paralela}{2}{subsection.2.1}%
-\contentsline {paragraph}{}{2}{section*.9}%
+\contentsline {paragraph}{}{2}{figure.1}%
 \contentsline {subsection}{\numberline {2.2}Iluminação Radial}{2}{subsection.2.2}%
 \contentsline {paragraph}{}{2}{section*.10}%
 \contentsline {section}{\numberline {3}Modelo Ampliado (1) - Ambiente Tridimensional em Tela Monodimensional}{2}{section.3}%
