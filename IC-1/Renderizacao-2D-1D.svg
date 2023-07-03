@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="renderizacao-2D-1D.svg"
+   sodipodi:docname="Renderizacao-2D-1D.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,8 +24,8 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="4"
-     inkscape:cx="331.625"
-     inkscape:cy="530.625"
+     inkscape:cx="329.625"
+     inkscape:cy="630.625"
      inkscape:window-width="3840"
      inkscape:window-height="2125"
      inkscape:window-x="2560"
@@ -357,13 +357,19 @@
        style="fill:none;stroke:#0000fe;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 7.9375,189.17708 V 47.624999"
        id="path859"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
        x="2.2207143"
        y="45.730728"
-       id="text5221"><tspan
+       id="text5221"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan5219"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
@@ -375,7 +381,10 @@
        width="31.75"
        height="31.75"
        x="116.41666"
-       y="38.364582" />
+       y="38.364582"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        sodipodi:type="star"
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.46361;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -393,7 +402,10 @@
        d="m 320,485 -30.03606,-3.65891 -30.03606,-3.65891 -5.80182,-29.69666 -5.80182,-29.69665 26.45033,-14.69463 26.45034,-14.69463 22.14903,20.61487 22.14903,20.61487 -12.76149,27.43532 z"
        transform="matrix(0.39571252,0,0,0.41636531,24.999448,-33.601388)"
        inkscape:transform-center-x="-0.76119298"
-       inkscape:transform-center-y="-1.2699989" />
+       inkscape:transform-center-y="-1.2699989"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        sodipodi:type="star"
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -411,20 +423,32 @@
        d="M 510,320 467.62563,288.58757 415,285 446.41243,242.62563 450,190 492.37437,221.41243 545,225 513.58757,267.37437 Z"
        transform="matrix(0.26123009,0.04199025,-0.04199025,0.26123009,-22.611832,20.203127)"
        inkscape:transform-center-x="-1.2345278"
-       inkscape:transform-center-y="-0.50094285" />
+       inkscape:transform-center-y="-0.50094285"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 44.979167,55.5625 54.239583,75.40625 43.65625,78.052083 38.364583,92.604167 27.78125,101.86458"
        id="path6850"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 103.1875,164.04167 -5.291667,-17.19792 11.184897,-2.92057"
        id="path6852"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <g
        id="g7314"
-       transform="translate(0.53084239,-0.82769129)">
+       transform="translate(0.53084239,-0.82769129)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <ellipse
          style="fill:none;fill-opacity:1;stroke:#fd0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path7036"
@@ -443,13 +467,19 @@
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 72.760416,193.14583 H 125.67708"
        id="path7371"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;word-spacing:0px;stroke-width:0.264583;fill:#fe0000;fill-opacity:1"
        x="111.01614"
        y="213.68895"
-       id="text9334"><tspan
+       id="text9334"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan9332"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.264583;fill:#fe0000;fill-opacity:1"
@@ -459,138 +489,234 @@
        style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
        d="M 100.54167,203.72916 63.5,48.947917"
        id="path13032"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 72.760416,193.14583 v -1.32292"
-       id="path13213-94" />
+       id="path13213-94"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 78.052083,193.14583 v -1.32292"
-       id="path13213-3-8" />
+       id="path13213-3-8"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 75.40625,193.14583 v -1.32292"
-       id="path13213-9-1-4" />
+       id="path13213-9-1-4"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 83.343749,193.14583 v -1.32292"
-       id="path13213-5" />
+       id="path13213-5"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 80.697916,193.14583 v -1.32292"
-       id="path13213-9-0" />
+       id="path13213-9-0"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 88.635416,193.14583 v -1.32292"
-       id="path13213-3-3" />
+       id="path13213-3-3"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 85.989583,193.14583 v -1.32292"
-       id="path13213-9-1-6" />
+       id="path13213-9-1-6"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 93.927083,193.14583 v -1.32292"
-       id="path13213-94-1" />
+       id="path13213-94-1"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 91.28125,193.14583 v -1.32292"
-       id="path13213-9-7-0" />
+       id="path13213-9-7-0"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 99.218743,193.14583 v -1.32292"
-       id="path13213-3-8-6" />
+       id="path13213-3-8-6"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 96.57292,193.14583 v -1.32292"
-       id="path13213-9-1-4-3" />
+       id="path13213-9-1-4-3"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 104.51041,193.14583 v -1.32292"
-       id="path13213-2" />
+       id="path13213-2"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 101.86457,193.14583 v -1.32292"
-       id="path13213-9-06" />
+       id="path13213-9-06"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 109.80207,193.14583 v -1.32292"
-       id="path13213-3-1" />
+       id="path13213-3-1"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 107.15624,193.14583 v -1.32292"
-       id="path13213-9-1-5" />
+       id="path13213-9-1-5"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 115.09374,193.14583 v -1.32292"
-       id="path13213-94-5" />
+       id="path13213-94-5"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 112.44791,193.14583 v -1.32292"
-       id="path13213-9-7-4" />
+       id="path13213-9-7-4"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 120.3854,193.14583 v -1.32292"
-       id="path13213-3-8-7" />
+       id="path13213-3-8-7"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 117.73957,193.14583 v -1.32292"
-       id="path13213-9-1-4-6" />
+       id="path13213-9-1-4-6"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 125.67707,193.14583 v -1.32292"
-       id="path13213-5-5" />
+       id="path13213-5-5"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 123.03124,193.14583 v -1.32292"
-       id="path13213-9-0-6" />
+       id="path13213-9-0-6"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#fd0000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker14567);marker-end:url(#Arrow2Lend)"
        d="m 100.54167,47.625 0,156.10416 76.72916,-154.781243"
        id="path13995"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
        d="M 100.54167,203.72916 141.55208,25.135417"
        id="path16618"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#fe0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
        d="M 100.54167,203.72916 27.78125,56.885416"
-       id="path17398" />
+       id="path17398"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#0000ff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow2Lstart)"
        d="M 194.46875,84.666667 7.9374999,84.666666"
        id="path18327"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#0000ff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow2Lstart)"
        d="m 194.46875,113.77083 -186.5312501,0"
        id="path18329"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#0000ff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow2Lstart)"
        d="m 194.46875,156.10417 -186.5312501,-1e-5"
        id="path18331"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#0000ff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow2Lstart)"
        d="m 194.46875,153.45833 -186.5312501,0"
        id="path18335"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#0000ff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Lstart)"
        d="m 194.46875,70.114583 c -60.85417,0 -120.385417,0 -186.5312501,-10e-7"
        id="path18337"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#fe0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 68.791666,203.72916 H 130.96875"
-       id="path18940" />
+       id="path18940"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.26458299;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.26458299,0.26458299;stroke-dashoffset:0"
        d="m 74.083332,193.14583 26.458338,10.58333 25.13541,-10.58333"
-       id="path18942" />
+       id="path18942"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;fill-opacity:1;stroke:#fe0000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:0.26499999,0.26499999;stroke-opacity:1;marker-start:url(#Arrow2Sstart);marker-end:url(#Arrow2Send);stroke-dashoffset:0"
        id="path19323"
@@ -603,13 +729,19 @@
        sodipodi:end="5.8973649"
        sodipodi:arc-type="arc"
        d="m 96.733616,202.17066 a 4.1010418,3.96875 0 0 1 3.791694,-2.52945 4.1010418,3.96875 0 0 1 3.82978,2.47512"
-       sodipodi:open="true" />
+       sodipodi:open="true"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-style:italic;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';word-spacing:0px;stroke-width:0.264583"
        x="116.79806"
        y="199.923"
-       id="text20839"><tspan
+       id="text20839"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan20837"
          style="font-size:4.23333px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
@@ -619,19 +751,31 @@
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 144.19791,183.88542 5.29167,-11.90625 5.29166,10.58333 z"
        id="path23526"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
        d="m 100.54167,203.72916 96.57291,-55.56249"
        id="path24985"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#0000ff;stroke-width:0.263;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
        d="M 7.9374999,177.27083 H 193.14583"
-       id="path25308" />
+       id="path25308"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <g
        id="g37759"
-       transform="translate(32.09217,42.603473)">
+       transform="translate(32.09217,42.603473)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:2.82222px;line-height:1.25;font-family:symbol;-inkscape-font-specification:symbol;word-spacing:0px;stroke-width:0.264583"
@@ -657,7 +801,10 @@
     </g>
     <g
        id="g37759-3"
-       transform="translate(36.307062,42.688512)">
+       transform="translate(36.307062,42.688512)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:2.82222px;line-height:1.25;font-family:symbol;-inkscape-font-specification:symbol;word-spacing:0px;stroke-width:0.264583"
@@ -683,7 +830,10 @@
     </g>
     <g
        id="g37759-2"
-       transform="translate(40.455311,42.720566)">
+       transform="translate(40.455311,42.720566)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:2.82222px;line-height:1.25;font-family:symbol;-inkscape-font-specification:symbol;word-spacing:0px;stroke-width:0.264583"
@@ -709,7 +859,10 @@
     </g>
     <g
        id="g37759-8"
-       transform="translate(44.193162,42.65166)">
+       transform="translate(44.193162,42.65166)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:2.82222px;line-height:1.25;font-family:symbol;-inkscape-font-specification:symbol;word-spacing:0px;stroke-width:0.264583"
@@ -735,7 +888,10 @@
     </g>
     <g
        id="g37759-38"
-       transform="translate(48.533784,42.530772)">
+       transform="translate(48.533784,42.530772)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:2.82222px;line-height:1.25;font-family:symbol;-inkscape-font-specification:symbol;word-spacing:0px;stroke-width:0.264583"
@@ -761,7 +917,10 @@
     </g>
     <g
        id="g37759-9"
-       transform="translate(67.797244,42.670532)">
+       transform="translate(67.797244,42.670532)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:2.82222px;line-height:1.25;font-family:symbol;-inkscape-font-specification:symbol;word-spacing:0px;stroke-width:0.264583"
@@ -787,7 +946,10 @@
     </g>
     <g
        id="g56550"
-       transform="translate(6.1135881,-33.752331)">
+       transform="translate(6.1135881,-33.752331)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;word-spacing:0px;stroke-width:0.264583"
@@ -813,7 +975,10 @@
     </g>
     <g
        id="g56550-4"
-       transform="translate(46.501842,-6.5646895)">
+       transform="translate(46.501842,-6.5646895)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;word-spacing:0px;stroke-width:0.264583"
@@ -835,11 +1000,14 @@
            id="tspan49650-6"
            style="font-size:2.11667px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
            x="35.967827"
-           y="126.44475">1</tspan></text>
+           y="126.44475">2</tspan></text>
     </g>
     <g
        id="g56550-3"
-       transform="translate(62.789057,35.082821)">
+       transform="translate(62.789057,35.082821)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;word-spacing:0px;stroke-width:0.264583"
@@ -861,11 +1029,14 @@
            id="tspan49650-9"
            style="font-size:2.11667px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
            x="35.967827"
-           y="126.44475">1</tspan></text>
+           y="126.44475">3</tspan></text>
     </g>
     <g
        id="g56550-6"
-       transform="translate(86.591255,26.45233)">
+       transform="translate(86.591255,26.45233)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;word-spacing:0px;stroke-width:0.264583"
@@ -887,11 +1058,14 @@
            id="tspan49650-5"
            style="font-size:2.11667px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
            x="35.967827"
-           y="126.44475">1</tspan></text>
+           y="126.44475">5</tspan></text>
     </g>
     <g
        id="g56550-7"
-       transform="translate(97.301708,-50.445117)">
+       transform="translate(97.301708,-50.445117)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;word-spacing:0px;stroke-width:0.264583"
@@ -913,11 +1087,14 @@
            id="tspan49650-7"
            style="font-size:2.11667px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
            x="35.967827"
-           y="126.44475">1</tspan></text>
+           y="126.44475">4</tspan></text>
     </g>
     <g
        id="g56550-5"
-       transform="translate(109.16127,50.012555)">
+       transform="translate(109.16127,50.012555)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;word-spacing:0px;stroke-width:0.264583"
@@ -939,11 +1116,14 @@
            id="tspan49650-1"
            style="font-size:2.11667px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
            x="35.967827"
-           y="126.44475">1</tspan></text>
+           y="126.44475">6</tspan></text>
     </g>
     <g
        id="g62568"
-       transform="translate(9.7895837,7.9375003)">
+       transform="translate(9.7895837,7.9375003)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;word-spacing:0px;stroke-width:0.264583"
@@ -963,7 +1143,10 @@
     </g>
     <g
        id="g62568-3"
-       transform="translate(71.966667,-64.293749)">
+       transform="translate(71.966667,-64.293749)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;word-spacing:0px;stroke-width:0.264583"
@@ -983,7 +1166,10 @@
     </g>
     <g
        id="g62568-0"
-       transform="translate(32.808335,44.450005)">
+       transform="translate(32.808335,44.450005)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;word-spacing:0px;stroke-width:0.264583"
@@ -1003,7 +1189,10 @@
     </g>
     <g
        id="g62568-9"
-       transform="translate(68.527085,31.220834)">
+       transform="translate(68.527085,31.220834)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;word-spacing:0px;stroke-width:0.264583"
@@ -1023,7 +1212,10 @@
     </g>
     <g
        id="g62568-30"
-       transform="translate(86.254169,72.495833)">
+       transform="translate(86.254169,72.495833)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/g62568-30.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;word-spacing:0px;stroke-width:0.264583"
