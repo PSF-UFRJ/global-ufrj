@@ -8,8 +8,8 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="Renderizacao-2D-1D.svg"
-   inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+   sodipodi:docname="Renderizacao-2D-1D-radial.svg"
+   inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="2"
-     inkscape:cx="513.5"
-     inkscape:cy="481.75"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="350.01786"
+     inkscape:cy="628.26437"
      inkscape:window-width="2880"
      inkscape:window-height="1725"
      inkscape:window-x="0"
@@ -356,28 +356,20 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <path
-       style="fill:none;stroke:#0000fe;stroke-width:1.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 7.9375,189.17708 V 47.624999"
-       id="path859"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
-       x="2.2207143"
-       y="45.730728"
+       x="5.5229139"
+       y="208.77316"
        id="text5221"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan5219"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
-         x="2.2207143"
-         y="45.730728">Fonte de luz</tspan></text>
+         x="5.5229139"
+         y="208.77316">Fonte de luz</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6621"
@@ -385,7 +377,7 @@
        height="31.75"
        x="116.41666"
        y="38.364582"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
@@ -406,7 +398,7 @@
        transform="matrix(0.39571252,0,0,0.41636531,24.999448,-33.601388)"
        inkscape:transform-center-x="-0.76119298"
        inkscape:transform-center-y="-1.2699989"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
@@ -427,7 +419,7 @@
        transform="matrix(0.26123009,0.04199025,-0.04199025,0.26123009,-22.611832,20.203127)"
        inkscape:transform-center-x="-1.2345278"
        inkscape:transform-center-y="-0.50094285"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
@@ -435,7 +427,7 @@
        d="M 44.979167,55.5625 54.239583,75.40625 43.65625,78.052083 38.364583,92.604167 27.78125,101.86458"
        id="path6850"
        sodipodi:nodetypes="ccccc"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
@@ -443,13 +435,13 @@
        d="m 103.1875,164.04167 -5.291667,-17.19792 11.184897,-2.92057"
        id="path6852"
        sodipodi:nodetypes="ccc"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <g
        id="g7314"
        transform="translate(0.53084239,-0.82769129)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <ellipse
@@ -471,7 +463,7 @@
        d="M 72.760416,193.14583 H 125.67708"
        id="path7371"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <text
@@ -480,7 +472,7 @@
        x="111.01614"
        y="213.68895"
        id="text9334"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
@@ -493,154 +485,154 @@
        d="M 100.54167,203.72916 63.5,48.947917"
        id="path13032"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 72.760416,193.14583 v -1.32292"
        id="path13213-94"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 78.052083,193.14583 v -1.32292"
        id="path13213-3-8"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 75.40625,193.14583 v -1.32292"
        id="path13213-9-1-4"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 83.343749,193.14583 v -1.32292"
        id="path13213-5"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 80.697916,193.14583 v -1.32292"
        id="path13213-9-0"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 88.635416,193.14583 v -1.32292"
        id="path13213-3-3"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 85.989583,193.14583 v -1.32292"
        id="path13213-9-1-6"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 93.927083,193.14583 v -1.32292"
        id="path13213-94-1"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 91.28125,193.14583 v -1.32292"
        id="path13213-9-7-0"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 99.218743,193.14583 v -1.32292"
        id="path13213-3-8-6"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 96.57292,193.14583 v -1.32292"
        id="path13213-9-1-4-3"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 104.51041,193.14583 v -1.32292"
        id="path13213-2"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 101.86457,193.14583 v -1.32292"
        id="path13213-9-06"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 109.80207,193.14583 v -1.32292"
        id="path13213-3-1"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 107.15624,193.14583 v -1.32292"
        id="path13213-9-1-5"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 115.09374,193.14583 v -1.32292"
        id="path13213-94-5"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 112.44791,193.14583 v -1.32292"
        id="path13213-9-7-4"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 120.3854,193.14583 v -1.32292"
        id="path13213-3-8-7"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 117.73957,193.14583 v -1.32292"
        id="path13213-9-1-4-6"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 125.67707,193.14583 v -1.32292"
        id="path13213-5-5"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 123.03124,193.14583 v -1.32292"
        id="path13213-9-0-6"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
@@ -648,7 +640,7 @@
        d="m 100.54167,47.625 0,156.10416 76.72916,-154.781243"
        id="path13995"
        sodipodi:nodetypes="ccc"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
@@ -656,68 +648,28 @@
        d="M 100.54167,203.72916 141.55208,25.135417"
        id="path16618"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#fe0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
        d="M 100.54167,203.72916 27.78125,56.885416"
        id="path17398"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow2Lstart)"
-       d="M 194.46875,84.666667 7.9374999,84.666666"
-       id="path18327"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow2Lstart)"
-       d="m 194.46875,113.77083 -186.5312501,0"
-       id="path18329"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow2Lstart)"
-       d="m 194.46875,156.10417 -186.5312501,-1e-5"
-       id="path18331"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow2Lstart)"
-       d="m 194.46875,153.45833 -186.5312501,0"
-       id="path18335"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Lstart)"
-       d="m 194.46875,70.114583 c -60.85417,0 -120.385417,0 -186.5312501,-10e-7"
-       id="path18337"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#fe0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 68.791666,203.72916 H 130.96875"
        id="path18940"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.26458299;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.26458299,0.26458299;stroke-dashoffset:0"
        d="m 74.083332,193.14583 26.458338,10.58333 25.13541,-10.58333"
        id="path18942"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
@@ -733,7 +685,7 @@
        sodipodi:arc-type="arc"
        d="m 96.733616,202.17066 a 4.1010418,3.96875 0 0 1 3.791694,-2.52945 4.1010418,3.96875 0 0 1 3.82978,2.47512"
        sodipodi:open="true"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <text
@@ -742,7 +694,7 @@
        x="116.79806"
        y="199.923"
        id="text20839"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
@@ -755,7 +707,7 @@
        d="m 144.19791,183.88542 5.29167,-11.90625 5.29166,10.58333 z"
        id="path23526"
        sodipodi:nodetypes="cccc"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
@@ -763,20 +715,13 @@
        d="m 100.54167,203.72916 96.57291,-55.56249"
        id="path24985"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.263;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-       d="M 7.9374999,177.27083 H 193.14583"
-       id="path25308"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <g
        id="g37759"
        transform="translate(32.09217,42.603473)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -805,7 +750,7 @@
     <g
        id="g37759-3"
        transform="translate(36.307062,42.688512)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -834,7 +779,7 @@
     <g
        id="g37759-2"
        transform="translate(40.455311,42.720566)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -863,7 +808,7 @@
     <g
        id="g37759-8"
        transform="translate(44.193162,42.65166)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -892,7 +837,7 @@
     <g
        id="g37759-38"
        transform="translate(48.533784,42.530772)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -921,7 +866,7 @@
     <g
        id="g37759-9"
        transform="translate(67.797244,42.670532)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -950,7 +895,7 @@
     <g
        id="g56550"
        transform="translate(6.1135881,-33.752331)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -978,8 +923,8 @@
     </g>
     <g
        id="g56550-4"
-       transform="translate(46.501842,-6.5646895)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       transform="translate(45.443508,-7.6230229)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -1007,8 +952,8 @@
     </g>
     <g
        id="g56550-3"
-       transform="translate(62.789057,35.082821)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       transform="translate(62.789057,34.024487)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -1036,8 +981,8 @@
     </g>
     <g
        id="g56550-6"
-       transform="translate(86.591255,26.45233)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       transform="translate(87.120422,27.510664)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -1066,7 +1011,7 @@
     <g
        id="g56550-7"
        transform="translate(97.301708,-50.445117)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -1095,7 +1040,7 @@
     <g
        id="g56550-5"
        transform="translate(109.16127,50.012555)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -1124,7 +1069,7 @@
     <g
        id="g62568"
        transform="translate(9.7895837,7.9375003)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -1147,7 +1092,7 @@
     <g
        id="g62568-3"
        transform="translate(71.966667,-64.293749)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -1170,7 +1115,7 @@
     <g
        id="g62568-0"
        transform="translate(32.808335,44.450005)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -1193,7 +1138,7 @@
     <g
        id="g62568-9"
        transform="translate(68.527085,31.220834)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -1215,8 +1160,8 @@
     </g>
     <g
        id="g62568-9-3"
-       transform="translate(33.072917,10.054167)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       transform="translate(36.777086,13.758336)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -1239,7 +1184,7 @@
     <g
        id="g62568-30"
        transform="translate(86.254169,72.495833)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D.png"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
@@ -1258,6 +1203,87 @@
          d="m 64.822916,97.895832 2.116667,10e-7"
          id="path62129-2"
          sodipodi:nodetypes="cc" />
+    </g>
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="M 25.135416,191.82291 48.947916,35.71875"
+       id="path2473"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="M 25.135416,191.82291 132.29166,34.395833"
+       id="path2588"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="M 25.135416,191.82291 166.6875,29.104167"
+       id="path2703"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="M 25.135416,191.82291 187.85416,109.80208"
+       id="path2818"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="M 25.135416,191.82291 199.76042,125.67708"
+       id="path2933"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="M 25.135416,191.82291 201.08333,170.65625"
+       id="path3081"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g5737"
+       transform="matrix(2.2627063,0,0,3.3333331,-31.864217,-446.26382)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/Renderizacao-2D-1D-radial.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="fill:none;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 23.8125,193.14583 c 0,0 -2.959778,-0.18689 -2.959778,-2.56814 0,-2.38125 3.175,-2.64584 4.497917,-2.64584 1.322917,0 3.753528,0.71607 3.753527,2.56815 -1e-6,2.64583 -2.645833,2.64583 -2.645833,2.64583 v 1.32292 H 23.8125 Z"
+         id="path3871"
+         sodipodi:nodetypes="cssscccc" />
+      <path
+         style="fill:none;stroke:#0000fe;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 23.8125,194.20417 h 2.645833"
+         id="path4267" />
+      <path
+         style="fill:none;stroke:#0000fe;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 23.8125,193.14583 h 2.645833"
+         id="path4269" />
+      <path
+         style="fill:none;stroke:#0000fe;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 23.8125,193.675 h 2.645833"
+         id="path4271" />
+      <path
+         style="fill:none;stroke:#0000fe;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 24.077083,193.14583 -1.322917,-1.85208 0.79375,0.52916 0.529167,-0.52916 0.529167,0.52916 0.529166,-0.52916 0.529167,0.52916 0.529167,-0.52916 0.264583,0.52916 0.79375,-0.26458 -1.058333,1.5875 v 0"
+         id="path4600" />
+      <path
+         style="fill:none;stroke:#0000fd;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 22.489584,190.23542 0.264583,-0.79375 H 23.8125 v -0.52917 h -1.322916 l -0.529167,1.05833 z"
+         id="path5159" />
+      <path
+         style="fill:none;stroke:#0000fd;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 23.283333,191.02917 0.264583,-0.79375 h 1.058333 v -0.52917 h -1.322916 l -0.529167,1.05833 z"
+         id="path5159-3" />
     </g>
   </g>
 </svg>

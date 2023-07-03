@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  2 JUL 2023 23:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.15)  3 JUL 2023 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -412,27 +412,52 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<Renderizacao-2D-1D.png, id=69, 554.07pt x 557.08125pt>
+<Renderizacao-2D-1D.png, id=77, 554.07pt x 557.08125pt>
 File: Renderizacao-2D-1D.png Graphic file (type png)
 <use Renderizacao-2D-1D.png>
-Package pdftex.def Info: Renderizacao-2D-1D.png  used on input line 64.
+Package pdftex.def Info: Renderizacao-2D-1D.png  used on input line 72.
 (pdftex.def)             Requested size: 443.2566pt x 445.6656pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2] [3 <./Renderizacao-2D-1D.png>] (./3D1D-Relatorio-01.aux)
+<radiosity.png, id=79, 532.23843pt x 218.31563pt>
+File: radiosity.png Graphic file (type png)
+<use radiosity.png>
+Package pdftex.def Info: radiosity.png  used on input line 80.
+(pdftex.def)             Requested size: 372.56435pt x 152.81989pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Renderizacao-2D-1D-radial.png, id=80, 555.57562pt x 557.08125pt>
+File: Renderizacao-2D-1D-radial.png Graphic file (type png)
+<use Renderizacao-2D-1D-radial.png>
+Package pdftex.def Info: Renderizacao-2D-1D-radial.png  used on input line 93.
+(pdftex.def)             Requested size: 444.46109pt x 445.6656pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<radiosity-radial.png, id=81, 551.81157pt x 218.31563pt>
+File: radiosity-radial.png Graphic file (type png)
+<use radiosity-radial.png>
+Package pdftex.def Info: radiosity-radial.png  used on input line 101.
+(pdftex.def)             Requested size: 386.26547pt x 152.81989pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2] [3 <./Renderizacao-2D-1D.png>] [4 <./radiosity.png>] [5 <./Renderizacao-2D-
+1D-radial.png> <./radiosity-radial.png>] (./3D1D-Relatorio-01.aux)
 Package rerunfilecheck Info: File `3D1D-Relatorio-01.out' has not changed.
-(rerunfilecheck)             Checksum: 935D79544DCF66726CFDDF2EFCB9DA7D;2456.
+(rerunfilecheck)             Checksum: E012F60817177AC0C565B1498F58AE05;2742.
  ) 
 Here is how much of TeX's memory you used:
- 10252 strings out of 478287
- 157038 string characters out of 5849289
- 464172 words of memory out of 5000000
- 28289 multiletter control sequences out of 15000+600000
+ 10299 strings out of 478287
+ 157991 string characters out of 5849289
+ 464436 words of memory out of 5000000
+ 28324 multiletter control sequences out of 15000+600000
  478485 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,63p,683b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,7n,63p,737b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
@@ -443,10 +468,10 @@ s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on 3D1D-Relatorio-01.pdf (3 pages, 175687 bytes).
+Output written on 3D1D-Relatorio-01.pdf (5 pages, 271609 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 177 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
