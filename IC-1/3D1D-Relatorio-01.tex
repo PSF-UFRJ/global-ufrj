@@ -34,7 +34,7 @@
 	\section{Introdução}
 	
 	\paragraph{}
-	Atualmente, os algoritmos de Ray-Tracing, visualização e radiosidade, para projeção de espaços 3D em 2D estão dominados e tecnologicamente avançados, já tendo mesmo implementações em Hadware, através de placas de vídeo 3D \textbf{[adicionar referências]}. Entretanto, tais técnicas implementam a representação do espaço tridimensional no espaço bidimensional, reduzindo apenas uma dimensão de representação, e apenas para o caso particular de $\R^3$. Entratanto, não há tecnologias consistentes que permitam a redução de $\R^3$ para $\R$, ou de $\R^4$ para $\R^2$ - objetivo final desse projeto.
+	Atualmente, os algoritmos de Ray-Tracing, visualização e radiosidade, para projeção de espaços 3D em 2D estão dominados e tecnologicamente avançados, já tendo mesmo implementações em Hadware, através de placas de vídeo 3D \textit{\textbf{[adicionar referências]}}. Entretanto, tais técnicas implementam a representação do espaço tridimensional no espaço bidimensional, reduzindo apenas uma dimensão de representação, e apenas para o caso particular de $\R^3$. Entratanto, não há tecnologias consistentes que permitam a redução de $\R^3$ para $\R$, ou de $\R^4$ para $\R^2$ - objetivo final desse projeto.
 	
 	\paragraph{}
 	Assim, foi necessário desenvolver a tecnologia e os algoritmos para essas representações da estaca zero. Esse relatório visa apresentar os cálculos necessários para prover tal renderização de objetos tridimensionais, em projeção unidimensional, utilizando o modelamento físico de olho, apresentado na proposta e na renderização de objetos quadridimensionais em projeção bidimensional.
@@ -64,7 +64,14 @@
 	\subsubsection{Modelamento de Intensidade de Iluminação} \label{intensidade}
 	
 	\paragraph{}
-	A intensidade luminosa é parte integrante do cálculo da radiosidade.
+	A intensidade luminosa é parte integrante do cálculo da radiosidade. No nosso mundo real (que é um mundo tridimensional), a intensidade luminosa representa a dispersão da \textbf{energia} dispersada por uma fonte de luz, no tempo (ou seja, é uma medida de potência), por uma superfície. A unidade de intensidade luminosa é a \textbf{Candela}. \textit{\textbf{[adicionar referências]}}. 
+	
+	\paragraph{}
+	Uma das características fundamentais do decaimento luminoso, em função da distância, é que se assume que a luz se dispersa pelo ângulo sólido no qual ela se propaga a partir de sua fonte central. Assim, de uma fonte de luz paralela, não haveria decaimento de intensidade, nem de fonte de luz coerente (como no caso dos \textit{lasers}), mas em focos de luz ordinários, o decaimento seria com o quadrado da distância, pois essa é a área da superfície do ângulo sólido, na medida em que nos distanciamos do centro de emissão da luz.
+	
+	\paragraph{}
+	Para a renderização de imagens, a intensidade máxima de iluminação representa que nenhuma das cores da linha, superfície ou variedade iluminada possui qualquer tipo de desconto de brilho, por conta da distância da fonte de luz. \textbf{Continua...}
+	
 	
 	\paragraph{}
 		\begin{figure}[h]
