@@ -45,7 +45,7 @@
 	\paragraph{}
 	Em um primeiro momento, é entendido o processo de renderização de objetos bidimensionais em uma tela monodimensional, com a utilização de sombras, com o cálculo de radiosidade, mas sem a utilização completa de \textit{ray-tracing}, ou seja, não serão consideradas superfícies espelhadas. A partir daí, esse algoritmo é estendido para a renderização de objetos tridimensionais em tela monodimensional - que é o objetivo planejado para esse projeto - e, por último, esse algoritmo é estendido para a renderização de objetos quadridimensionais em telas bidimensionals, o que já seria o objetivo final do projeto. 
 	
-	\section{Modelo Mínimo - Ambiente Bidimensional em Tela Monodimensional}
+	\section{Modelo Mínimo - Ambiente Bidimensional em Tela Monodimensional} \label{modelo-minimo}
 	
 	\paragraph{}
 	O modelo mínimo é a renderização de objetos bidimensionais em uma tela unidimensional. Esse modelo de renderização é \textbf{inferior} ao que já é implementado atualmente em software e em hardware, pelas placas 3D, mas é a base do modelo de renderização quadridimensional - portanto, entendê-lo é fundamental para a implementação de modelos de renderização que fujam do padronizado, que é a Renderização de Ambientes Tridimensionais em Telas Bidimensionais.
@@ -61,25 +61,47 @@
 	\paragraph{}
 	Na iluminação paralela de ambiente bidimensional, a fonte de luz é representada como uma reta que emite luz na direção perpendicular de sua linha - ou seja, nas suas normais, em todos os pontos. A estrutura de visualização possui seus elementos apresentandos nas Figuras \ref{fig:rend} e \ref{fig:radio}. A iluminação paralela assume que não há decaimento de intensidade, mas esse modelo não é necessariamente verdadeiro em todos os cenários. Para um melhor entendimento do modelamento da intensidade luminosa, a seção a seguir, \ref{intensidade}, apresenta o racional físico/geométrico da intensidade, e um modelo extendido de como lidar com a intensidade luminosa.
 	
-	\subsubsection{Modelamento de Intensidade de Iluminação} \label{intensidade}
+	\subsubsection{Modelamento de Intensidade de Iluminação} \label{intensidade-1}
 	
 	\paragraph{}
 	A intensidade luminosa é parte integrante do cálculo da radiosidade. No nosso mundo real (que é um mundo tridimensional), a intensidade luminosa representa a dispersão da \textbf{energia} dispersada por uma fonte de luz, no tempo (ou seja, é uma medida de potência), por uma superfície. A unidade de intensidade luminosa é a \textbf{Candela}. \textit{\textbf{[adicionar referências]}}. 
 	
 	\paragraph{}
-	Uma das características fundamentais do decaimento luminoso, em função da distância, é que se assume que a luz se dispersa pelo ângulo sólido no qual ela se propaga a partir de sua fonte central. Assim, de uma fonte de luz paralela, não haveria decaimento de intensidade, nem de fonte de luz coerente (como no caso dos \textit{lasers}), mas em focos de luz ordinários, o decaimento seria com o quadrado da distância, pois essa é a área da superfície do ângulo sólido, na medida em que nos distanciamos do centro de emissão da luz.
+	Uma das características fundamentais do decaimento luminoso, em função da distância, é que se assume que a luz se dispersa pelo ângulo sólido no qual ela se propaga a partir de sua fonte central. Assim, nem de uma fonte de luz paralela, nem de fonte de luz coerente (como no caso dos \textit{lasers}), haveria decaimento de intensidade, mas em focos de luz ordinários, o decaimento seria com o quadrado da distância, pois essa é a taxa de crescimento da área da superfície do ângulo sólido, na medida em que nos distanciamos do centro de emissão da luz.
 	
 	\paragraph{}
-	Para a renderização de imagens, a intensidade máxima de iluminação representa que nenhuma das cores da linha, superfície ou variedade iluminada possui qualquer tipo de desconto de brilho, por conta da distância da fonte de luz. \textbf{Continua...}
+	Para a renderização de imagens, a intensidade máxima de iluminação representa que nenhuma das cores da linha, superfície ou variedade iluminada possui qualquer tipo de desconto de brilho, por conta da distância da fonte de luz. Em ambientes bidimensionais, a taxa de decaimento da intensidade é dada linearmente, pois o ângulo plano representa um comprimento unidimensional. Em ambientes tridimensionais, a taxa de decaimento cai com o quadrado da distância e em ambientes quadridimensionais, estaríamos falando de um ângulo representado por uma 3-variedade e a taxa de decaimento seria com o cubo da distância.
 	
+	De forma geral, a intensidade luminosa é dada por:
+	
+	$$ I(D) = \frac{1}{D^n}, n = 1,2,3, ... $$
+	
+	O valor de $n$, acima, pode ser modulado. Podemos ter universos bidimensionais que desejamos que o decaimento da intensidade luminosa não seja linear, podendo ser quadrática, para esse universo bidimensional representar um corte de um universo tridimensional maior, ou o decaimento da intensidade luminosa pode ser linear, em um universo tridimensional, no qual a intensidade deixa de ser um aspecto geométrico da luz, passando a seguir alguma lei alternativa que seja conveniente para a representação visual deste mundo. Assim, a dimensão de decaimento da intensidade luminosa fica escolhida arbitrariamente caso a caso, segundo a conveniência da implementação do mundo.
 	
 	\paragraph{}
 		\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.8]{Renderizacao-2D-1D}
-		\caption{Identificando pontos de renderização.}
+		\caption{Identificando pontos de renderização. No inferior da figura temos o foco de captura, interceptado por uma tela unidimensional com vinte pixels de tamanho. À esquerda, temos uma fonte de luz paralela. Essa fonte de luz, na figura, está na vertical, mas qualquer direção do plano pode ser utilizada por tal fonte - desde que ela esteja longe o suficiente para nunca estar entre o foco de captura e os objetos visualizados.}
 		\label{fig:rend}
 	\end{figure}
+
+	\subsubsection{Abertura de Visualização e Varredura de Pontos} \label{varredura-1}
+	
+	A Figura \ref{fig:rend} mostra o exemplo da captura de seis pixels por uma tela unidimensional, em um ambiente bidimensional, com fonte de luz paralela (ou seja, luz ambiente). Esse é o modelo mínimo, renderizando um ambiente bidimensional em uma tela unidimensional. Tal exemplo é utilizado para exemplificar os seguintes conceitos:
+	
+	\begin{enumerate}
+		\item Ângulo de abertura de visão - Aplicação do \textbf{Critério da Abertura}
+		\item Fonte de Luz - Aplicação do \textbf{Critério da Direção}
+		\item Radiosidade - Aplicação do \textbf{Critério da Distância e da Direção}, mas para a Fonte de Luz
+		\item Pontos visíveis e não visíveis - Aplicação do \textbf{Critério da Distância}
+	\end{enumerate}
+	
+	\paragraph{}
+    Na Figura \ref{fig:rend} mostra-se, logo acima do foco de captura, a tela unidimensional, com vinte pixels. Cada pixel é renderizado de acordo com as interseções dos raios de visão (representados pelas setas vermelhas) com os objetos que tais raios atravessam. Cada raio renderiza apenas \textbf{o ponto mais próximo} ao foco de captura. Essa condição faz parte do \textbf{Critério da Distância}. Assim, para os raios de visão $\alpha_1, ..., \alpha_6$, são renderizados os pontos $p_1, ..., p_6$, na tela. Esses pontos são aqueles mais próximos do foco de captura, e o que estiver para além deles, não é renderizável - ou seja, é invisível para o Foco de Captura. Assim, todos os pontos representados por $\bar{p}$ são invisíveis ao foco de captura e, portanto, não são renderizados.
+    
+    \paragraph{}
+    A renderização do ponto na tela, em si, é apenas a ativação e desativação de uma determinada cor naquele ponto de tela, ou \textbf{pixel}. O pixel não tem dimensão, e ou ele é integralmente representado, ou não - ficando apenas um ponto preto em sua posição\footnote{Essa regra não é tão rigorosa assim. Existem técnicas de \textit{anti-aliasing} que podem flexibilizar um pouco essas condições - entretanto, \textit{anti-aliasing} está além do escopo desse relatório e dessa projeto}. Se o raio de visão identifica quais pontos da tela serão ativados ou não, qual cor será ativada depende da cor do objeto representado e da radiosidade do ponto desse objeto que está sendo representado em tela.
 	
 	\paragraph{}
 	\begin{figure}[h]
@@ -89,8 +111,10 @@
 		\label{fig:radio}
 	\end{figure}
 
+	\subsubsection{Iluminação e Coloração (tinting) do Pixel}
+	
 	\paragraph{}
-	\textbf{Continua...}
+	Uma vez identificado o ponto $p_i$ a ser renderizado, deve-se identificar se esse ponto possui iluminação ou não. Se o ponto $p$ receber um raio de iluminação diretamente da Fonte de Luz, sem haver nenhuma interrupção - ou seja, se o raio de iluminação, definido pela linha perpendicular à paralela de luz que passe por $p$ não tiver nenhuma interseção com nenhum objeto do ambiente, até chegar em $p$, então esse ponto é iluminado, não o sendo, caso contrário.
 
 	\subsection{Iluminação Radial}
 	

@@ -2,7 +2,7 @@
 \contentsline {paragraph}{}{1}{section*.2}%
 \contentsline {paragraph}{}{1}{section*.3}%
 \contentsline {paragraph}{}{1}{section*.4}%
-\contentsline {paragraph}{}{1}{section*.5}%
+\contentsline {paragraph}{}{2}{section*.5}%
 \contentsline {section}{\numberline {2}Modelo Mínimo - Ambiente Bidimensional em Tela Monodimensional}{2}{section.2}%
 \contentsline {paragraph}{}{2}{section*.6}%
 \contentsline {paragraph}{}{2}{section*.7}%
@@ -13,20 +13,24 @@
 \contentsline {paragraph}{}{2}{section*.10}%
 \contentsline {paragraph}{}{2}{section*.11}%
 \contentsline {paragraph}{}{2}{section*.12}%
-\contentsline {paragraph}{}{2}{figure.1}%
-\contentsline {paragraph}{}{2}{figure.2}%
-\contentsline {paragraph}{}{2}{section*.15}%
-\contentsline {subsection}{\numberline {2.2}Iluminação Radial}{2}{subsection.2.2}%
-\contentsline {paragraph}{}{2}{figure.3}%
-\contentsline {paragraph}{}{3}{figure.4}%
-\contentsline {paragraph}{}{3}{section*.18}%
-\contentsline {section}{\numberline {3}Modelo Ampliado (1) - Ambiente Tridimensional em Tela Monodimensional}{3}{section.3}%
-\contentsline {paragraph}{}{3}{section*.19}%
-\contentsline {section}{\numberline {4}Modelo Ampliado (2) - Ambiente Quadridimensional em Tela bidimensional}{3}{section.4}%
-\contentsline {paragraph}{}{3}{section*.20}%
-\contentsline {section}{\numberline {5}Modelo Ampliado (3) - Ambiente N-Dimensional em Tela M-dimensional}{4}{section.5}%
-\contentsline {paragraph}{}{4}{section*.21}%
-\contentsline {section}{\numberline {6}Múltiplas fontes de Luz e \textit {tinting}}{4}{section.6}%
-\contentsline {paragraph}{}{4}{section*.22}%
-\contentsline {section}{\numberline {7}Conclusões e Próximos Passos}{4}{section.7}%
-\contentsline {paragraph}{}{4}{section*.23}%
+\contentsline {paragraph}{}{4}{figure.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Abertura de Visualização e Varredura de Pontos}{4}{subsubsection.2.1.2}%
+\contentsline {paragraph}{}{4}{section*.14}%
+\contentsline {paragraph}{}{4}{section*.15}%
+\contentsline {paragraph}{}{4}{figure.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Iluminação e Coloração (tinting) do Pixel}{4}{subsubsection.2.1.3}%
+\contentsline {paragraph}{}{4}{section*.17}%
+\contentsline {subsection}{\numberline {2.2}Iluminação Radial}{5}{subsection.2.2}%
+\contentsline {paragraph}{}{5}{figure.3}%
+\contentsline {paragraph}{}{5}{figure.4}%
+\contentsline {paragraph}{}{5}{section*.20}%
+\contentsline {section}{\numberline {3}Modelo Ampliado (1) - Ambiente Tridimensional em Tela Monodimensional}{5}{section.3}%
+\contentsline {paragraph}{}{5}{section*.21}%
+\contentsline {section}{\numberline {4}Modelo Ampliado (2) - Ambiente Quadridimensional em Tela bidimensional}{6}{section.4}%
+\contentsline {paragraph}{}{6}{section*.22}%
+\contentsline {section}{\numberline {5}Modelo Ampliado (3) - Ambiente N-Dimensional em Tela M-dimensional}{6}{section.5}%
+\contentsline {paragraph}{}{6}{section*.23}%
+\contentsline {section}{\numberline {6}Múltiplas fontes de Luz e \textit {tinting}}{6}{section.6}%
+\contentsline {paragraph}{}{6}{section*.24}%
+\contentsline {section}{\numberline {7}Conclusões e Próximos Passos}{6}{section.7}%
+\contentsline {paragraph}{}{6}{section*.25}%
