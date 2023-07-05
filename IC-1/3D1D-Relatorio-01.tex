@@ -59,8 +59,15 @@
 	\subsection{Iluminação Paralela}
 	
 	\paragraph{}
-	Na iluminação paralela de ambiente bidimensional, a fonte de luz é representada como uma reta que emite luz na direção perpendicular de sua linha - ou seja, nas suas normais, em todos os pontos. A estrutura de visualização possui seus elementos apresentandos nas Figuras \ref{fig:rend} e \ref{fig:radio}. A iluminação paralela assume que não há decaimento de intensidade, mas esse modelo não é necessariamente verdadeiro em todos os cenários. Para um melhor entendimento do modelamento da intensidade luminosa, a seção a seguir, \ref{intensidade}, apresenta o racional físico/geométrico da intensidade, e um modelo extendido de como lidar com a intensidade luminosa.
+	Na iluminação paralela de ambiente bidimensional, a fonte de luz é representada como uma reta que emite luz na direção perpendicular de sua linha - ou seja, nas suas normais, em todos os pontos. A estrutura de visualização possui seus elementos apresentandos nas Figuras \ref{fig:rend} e \ref{fig:radio}. A iluminação paralela assume que não há decaimento de intensidade, mas esse modelo não é necessariamente verdadeiro em todos os cenários. Para um melhor entendimento do modelamento da intensidade luminosa, a seção a seguir, \ref{intensidade-1}, apresenta o racional físico/geométrico da intensidade, e um modelo extendido de como lidar com a intensidade luminosa.
 	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.7]{Renderizacao-2D-1D}
+		\caption{Identificando pontos de renderização. No inferior da figura temos o foco de captura, interceptado por uma tela unidimensional com vinte pixels de tamanho. À esquerda, temos uma fonte de luz paralela. Essa fonte de luz, na figura, está na vertical, mas qualquer direção do plano pode ser utilizada por tal fonte - desde que ela esteja longe o suficiente para nunca estar entre o foco de captura e os objetos visualizados.}
+		\label{fig:rend}
+	\end{figure}
+
 	\subsubsection{Modelamento de Intensidade de Iluminação} \label{intensidade-1}
 	
 	\paragraph{}
@@ -72,20 +79,14 @@
 	\paragraph{}
 	Para a renderização de imagens, a intensidade máxima de iluminação representa que nenhuma das cores da linha, superfície ou variedade iluminada possui qualquer tipo de desconto de brilho, por conta da distância da fonte de luz. Em ambientes bidimensionais, a taxa de decaimento da intensidade é dada linearmente, pois o ângulo plano representa um comprimento unidimensional. Em ambientes tridimensionais, a taxa de decaimento cai com o quadrado da distância e em ambientes quadridimensionais, estaríamos falando de um ângulo representado por uma 3-variedade e a taxa de decaimento seria com o cubo da distância.
 	
-	De forma geral, a intensidade luminosa é dada por:
-	
-	$$ I(D) = \frac{1}{D^n}, n = 1,2,3, ... $$
-	
-	O valor de $n$, acima, pode ser modulado. Podemos ter universos bidimensionais que desejamos que o decaimento da intensidade luminosa não seja linear, podendo ser quadrática, para esse universo bidimensional representar um corte de um universo tridimensional maior, ou o decaimento da intensidade luminosa pode ser linear, em um universo tridimensional, no qual a intensidade deixa de ser um aspecto geométrico da luz, passando a seguir alguma lei alternativa que seja conveniente para a representação visual deste mundo. Assim, a dimensão de decaimento da intensidade luminosa fica escolhida arbitrariamente caso a caso, segundo a conveniência da implementação do mundo.
-	
 	\paragraph{}
-		\begin{figure}[h]
-		\centering
-		\includegraphics[scale=0.8]{Renderizacao-2D-1D}
-		\caption{Identificando pontos de renderização. No inferior da figura temos o foco de captura, interceptado por uma tela unidimensional com vinte pixels de tamanho. À esquerda, temos uma fonte de luz paralela. Essa fonte de luz, na figura, está na vertical, mas qualquer direção do plano pode ser utilizada por tal fonte - desde que ela esteja longe o suficiente para nunca estar entre o foco de captura e os objetos visualizados.}
-		\label{fig:rend}
-	\end{figure}
-
+	De forma geral, a intensidade luminosa utilizada para a renderização de imagens é dada por:
+	
+	$$ I(D) = \frac{k}{(1+D)^n}, n = 1,2,3, ... $$
+	
+	\paragraph{}	
+	O valor $k$ é uma constante de intensidade arbitrária (sendo o valor padrão $k=2$, enquanto o valor de $n$, acima, pode ser modulado, dependendo da conveniência da implementação, enquanto $D$ é, necessariamente, a distância entre o ponto visualizado e a fonte de luz. Podemos ter universos bidimensionais que desejamos que o decaimento da intensidade luminosa não seja linear, podendo ser quadrática, para esse universo bidimensional representar um corte de um universo tridimensional maior, ou o decaimento da intensidade luminosa pode ser linear, em um universo tridimensional, no qual a intensidade deixa de ser um aspecto geométrico da luz, passando a seguir alguma lei alternativa que seja conveniente para a representação visual deste mundo. Assim, a dimensão de decaimento da intensidade luminosa fica escolhida arbitrariamente caso a caso, segundo a conveniência da implementação do mundo.
+	
 	\subsubsection{Abertura de Visualização e Varredura de Pontos} \label{varredura-1}
 	
 	A Figura \ref{fig:rend} mostra o exemplo da captura de seis pixels por uma tela unidimensional, em um ambiente bidimensional, com fonte de luz paralela (ou seja, luz ambiente). Esse é o modelo mínimo, renderizando um ambiente bidimensional em uma tela unidimensional. Tal exemplo é utilizado para exemplificar os seguintes conceitos:
@@ -101,9 +102,8 @@
     Na Figura \ref{fig:rend} mostra-se, logo acima do foco de captura, a tela unidimensional, com vinte pixels. Cada pixel é renderizado de acordo com as interseções dos raios de visão (representados pelas setas vermelhas) com os objetos que tais raios atravessam. Cada raio renderiza apenas \textbf{o ponto mais próximo} ao foco de captura. Essa condição faz parte do \textbf{Critério da Distância}. Assim, para os raios de visão $\alpha_1, ..., \alpha_6$, são renderizados os pontos $p_1, ..., p_6$, na tela. Esses pontos são aqueles mais próximos do foco de captura, e o que estiver para além deles, não é renderizável - ou seja, é invisível para o Foco de Captura. Assim, todos os pontos representados por $\bar{p}$ são invisíveis ao foco de captura e, portanto, não são renderizados.
     
     \paragraph{}
-    A renderização do ponto na tela, em si, é apenas a ativação e desativação de uma determinada cor naquele ponto de tela, ou \textbf{pixel}. O pixel não tem dimensão, e ou ele é integralmente representado, ou não - ficando apenas um ponto preto em sua posição\footnote{Essa regra não é tão rigorosa assim. Existem técnicas de \textit{anti-aliasing} que podem flexibilizar um pouco essas condições - entretanto, \textit{anti-aliasing} está além do escopo desse relatório e dessa projeto}. Se o raio de visão identifica quais pontos da tela serão ativados ou não, qual cor será ativada depende da cor do objeto representado e da radiosidade do ponto desse objeto que está sendo representado em tela.
-	
-	\paragraph{}
+    A renderização do ponto na tela, em si, é apenas a ativação e desativação de uma determinada cor naquele ponto de tela, ou \textbf{pixel}. O pixel não tem dimensão, e ou ele é integralmente representado, ou não - ficando apenas um ponto preto em sua posição\footnote{Essa regra não é tão rigorosa assim. Existem técnicas de \textit{anti-aliasing} que podem flexibilizar um pouco essas condições - entretanto, \textit{anti-aliasing} está além do escopo desse relatório e desse projeto.}. Se o raio de visão identifica quais pontos da tela serão ativados ou não, qual cor será ativada depende da cor do objeto representado e da radiosidade do ponto desse objeto que está sendo representado em tela.
+    
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.7]{radiosity}
@@ -111,14 +111,42 @@
 		\label{fig:radio}
 	\end{figure}
 
-	\subsubsection{Iluminação e Coloração (tinting) do Pixel}
+	\paragraph{}
+	O primeiro critério a ser considerado para haver iluminação de um ponto visível por estar diretamente exposto ao raio de visão é verificar se ele também está diretamente exposto a um raio de luz proveniente da fonte. No caso da fonte de luz paralela, considera-se uma reta paralela, mas normal à Fonte de Luz, que estará posicionada em um local infinitamente\footnote{Na verdade, esse foco de luz paralelo precisa estar em um ponto \textbf{convenientemente} distante, caso seja aplicado qualquer critério de decaimento de intensidade para os feixes paralelos de luz, em algum "universo" ficcional simulado, no qual as fontes paralelas de luz tenham tal comportamento.} distante, passando pelo ponto visualizado. Se esse ponto for o primeiro irradiado pelo raio de luz (ou se for a primeira interseção com algum objeto que seja atravessado por tal raio, considerando sua direção), então o ponto é iluminado. Observando a Figura \ref{fig:rend}, percebe-se que os pontos $p_1$, $p_2$, $p_3$ e $p_6$ são iluminados. Já o ponto $p_5$ não é iluminado porque seu raio de luz é interrompido pelo objeto que contém o ponto $p_3$, estando, portanto, em sombra. Já o ponto $p_4$ está em um segmento paralelo aos raios de luz, não recebendo iluminação, também. Outra justificativa de $p_4$ não ser iluminado é porque o primeiro ponto do segmento ao qual ele pertence é que é iluminado, e todos os outros pontos depois desse, considerando a direção do raio de luz, estão em sombra. 
 	
 	\paragraph{}
-	Uma vez identificado o ponto $p_i$ a ser renderizado, deve-se identificar se esse ponto possui iluminação ou não. Se o ponto $p$ receber um raio de iluminação diretamente da Fonte de Luz, sem haver nenhuma interrupção - ou seja, se o raio de iluminação, definido pela linha perpendicular à paralela de luz que passe por $p$ não tiver nenhuma interseção com nenhum objeto do ambiente, até chegar em $p$, então esse ponto é iluminado, não o sendo, caso contrário.
+	Mas o ponto iluminado por ser o primeiro a ser irradiado precisa refletir o raio de luz recebido em direção ao foco de captura, para dizer que ele, o ponto visualizado, está sendo realmente iluminado. Assim, na Figura \ref{fig:radio} são mostradas as duas possibilidades de identificação de se um ponto visível por estar diretamente exposto ao raio de visão receberá iluminação ou não. Em \textit{\textbf{(a)}}, tanto o raio de visão, quanto o raio de iluminação estão diretamente acessando o ponto $p$, visualizado, e o ponto $p_l$ e $p_0$ estão do mesmo lado da reta $p_i$-$p_f$, que representa o objeto visualizado, que contém o ponto $p$. Nesse caso, o ponto $p$ é iluminado. Em \textit{\textbf{(b)}}, o ponto $p_l$ e o ponto $p_0$ estão em lados opostos da reta $p_i$-$p_f$. Já nesse caso, o ponto $p$ não é iluminado, porque ele reflete a luz recebida para uma direção fora do foco de captura. Assim, o ponto $p$ aparece em sombra.
+	
+	\subsubsection{Identificação, Iluminação e Coloração do Pixel - cálculos}
+	
+	\paragraph{}
+	Uma vez identificado o ponto $p_i$ a ser renderizado e se ele está iluminado ou não, deve-se calcular a cor de tal ponto. Calculada a cor, ele pode ser renderizado na tela (unidimensional). Assume-se as seguintes informações iniciais, em notação consistente com as figuras \ref{fig:rend} e \ref{fig:radio}:
+	
+	\begin{enumerate}
+		\item $p$: Ponto Visualizado.
+		\item $p_0$: Ponto do Foco de Captura. Por definição $p_0$ é a origem do sistema de coordenadas, porque assume-se que o foco de captura é o ponto central de representação.
+		\item $p_L$: Ponto da Fonte de Luz.
+		\item $p_i$-$p_f$: Segmento Visualizado.
+		\item $t_l$: Largura da tela (unidimensional).
+		\item $n$: Número de Pixels da Tela.
+		\item $\alpha$: Ângulo do Pixel renderizado.
+		\item $d$: Distância da tela ao Foco de Captura.
+		\item $d_c$: Distância do ponto visualizado ao foco de captura.
+		\item $d_L$: Distancia do ponto visualizado à fonte de luz.
+		\item $\phi$: Ângulo de incidência da luz na normal do Segmento Visualizado em $p$.
+		\item $(r_i, g_i, b_i)$: vetor de cor original de $p$, valor intrínseco ao objeto representado pelo segmento visualizado.
+		\item $(r_f, g_f, b_f)$: vetor de cor renderizado (final) de $p$.
+		\item $I_L(D)$: taxa de iluminação, dependente da distância $D$ do ponto iluminado em relação à fonte de luz.
+		\item $I_d$: taxa de iluminação difusa, constante para todos os pontos do ambiente.
+	\end{enumerate}
+
+	\paragraph{}
+	\textbf{Continua...}
 
 	\subsection{Iluminação Radial}
 	
 	\paragraph{}
+	\textbf{Continua...}
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.8]{Renderizacao-2D-1D-radial}
@@ -134,6 +162,8 @@
 		\label{fig:radio-rad}
 	\end{figure}
 
+	\subsection{Encontrando os pontos renderizados, pixel a pixel da tela}
+	
 	\paragraph{}
 	\textbf{Continua...}
 	
