@@ -133,7 +133,26 @@
 	\subsubsection{Identificação, Iluminação e Coloração do Pixel - cálculos}
 	
 	\paragraph{}
-	Uma vez identificado o ponto $p_i$ a ser renderizado e se ele está iluminado ou não, deve-se calcular a cor de tal ponto. Calculada a cor, ele pode ser renderizado na tela (unidimensional). Assume-se as informações iniciais da tabela \ref{tab:var}, em notação consistente com as figuras \ref{fig:rend}, \ref{fig:radio} , \ref{fig:rend-rad} e \ref{fig:radio-rad}.
+	Uma vez identificado o ponto $p_i$ a ser renderizado e se ele está iluminado ou não, deve-se calcular a cor de tal ponto. Calculada a cor, ele pode ser renderizado na tela (unidimensional). Assume-se as informações iniciais da tabela \ref{tab:var}, em notação consistente com as figuras \ref{fig:rend}, \ref{fig:radio} , \ref{fig:rend-rad} e \ref{fig:radio-rad}. 
+	
+	\paragraph{Orientação Espacial:} Uma das informações mais relevantes para todos os cálculos apresentados aqui, em todas as dimensões apresentadas, é o fato de que os eixos de representação, com origem no ponto $p_0$, seguem a regra de que o primeiro eixo, $x$, parte de $p_0$ para o $+\infty$, na direção \textit{para frente}; e, \textit{para trás}, ele segue para o $-\infty$. O próximo eixo, $y$, ele segue para $+\infty$ na direção \textit{para a esquerda}, e os outros eixos ($z$ e $w$) são orientados de acordo com a \textbf{\textit{regra da mão direita}}, ou seja, o eixo $z$ é direcionado \textit{para cima} e os outros eixos seguem a sua orientação seja ela qual for, desde que cumpram com a regra da mão direita. Assim, assumindo a existência de um produto exterior, nessa orientação, temos os vetores unitários nos eixos $x$, $y$, $z$ e $w$, respectivamente $\boldsymbol{e_x}$, $\boldsymbol{e_y}$, $\boldsymbol{e_z}$ e $\boldsymbol{e_w}$, respeitando:
+	\begin{itemize}
+		\item $\boldsymbol{e_x} \rightarrow$ Orientação Positiva
+		\item $\boldsymbol{e_y} \rightarrow$ Orientação Positiva
+		\item $\boldsymbol{e_z} \rightarrow$ Orientação Positiva
+		\item $\boldsymbol{e_x} \wedge \boldsymbol{e_y} \rightarrow$ Orientação Positiva
+		\item $\boldsymbol{e_y} \wedge \boldsymbol{e_z} \rightarrow$ Orientação Positiva
+		\item $\boldsymbol{e_x} \wedge \boldsymbol{e_y} \wedge \boldsymbol{e_z} \rightarrow$ Orientação Positiva
+		\item $\boldsymbol{e_x} \wedge \boldsymbol{e_y} \wedge \boldsymbol{e_z}  \wedge \boldsymbol{e_w} \rightarrow$ Orientação Positiva
+	\end{itemize}
+	Todas as outras possíveis orientações podendo ser deduzidas a partir das propriedades de \textit{Produto Exterior}. A figura \ref{fig:Olho3D} apresenta a orientação, seguindo essa convenção, para um espaço tridimensional.
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.5]{3D-Eye-no-legend}
+		\caption{Representação Esquemática do Olho Tridimensional. Ver referências dessa figura na Proposta de Iniciação Científica}
+		\label{fig:Olho3D}
+	\end{figure}
 	
 	\paragraph{}
 	O algoritmo de renderização deve ser repetido \textbf{para cada ponto da tela}, sendo a ordem não importante, desde que a tela como um todo seja desenhada apenas depois que todos os pixels forem renderizados. Entretanto, por uma questão prática, escolhe-se desenhar a tela começando pelo pixel de índice $i=1$, e indo até o píxel de índice $i=n$.
@@ -166,28 +185,51 @@
 		    \makecell{$P_i$} & \makecell{Pixel, de índice $i$, a ser renderizado} \\
 		    \makecell{$S$} & \makecell{Largura total da tela}\\
 		    \makecell{$S_f$} & \makecell{Distância da borda da tela até a posição do foco de captura perante ela.} \\
+		    \makecell{$i_i$} & \makecell{Índice do Pixel, apenas para diferenciar da unidade imaginária  ($i$).} \\
 		    \bottomrule[1.3pt]
 		\end{tabular}
 	\end{table}
 
 	Então, para cada pixel $i = 1, 2, ..., n$, deve-se implementar o seguinte algoritmo:
 	
-	\paragraph*{alalala}
-	alalla
+	\paragraph{1 - Identificação do ponto de renderização do pixel:}
+	Cada pixel deve renderizar um ponto de acordo com o \textbf{Critério da Direção}: renderiza-se o ponto de algum segmento $p_i$-$p_f$ que intercepte a reta que passa pelo centro do pixel e pela origem (o ponto $p_0$, ou foco de captura) e que esteja mais próximo da origem. Todos os outros pontos que cumprirem a condição de estarem na reta determinada por $p_0$ e $P_i$ serão ignorados.
+	
+	Assim deve-se calcular:
+	
+	\begin{itemize}
+		\item Reta de todos os pontos $r_\text{pixel} : r_\text{pixel} = (P_i - P_0) \cdot t$, $P_i = d \cdot \boldsymbol{e_x} + S_f \cdot \boldsymbol{e_y}$, $S_f = \frac{S}{2} - \frac{S}{n} \cdot i_i + \frac{S}{2n}$
+		\item Retas de todos os segmentos renderizáveis: Para todo $p_i$, $p_f$ representado no espaço a ser renderizado. $p_i$ e $p_f$ representando segmentos renderizáveis, calcular as suas retas $r_\text{segmento}: r_\text{segmento} = (p_i + p_f \cdot t)$
+		\item Pontos de interseção de $r_\text{pixel}$ e de $r_\text{segmento}$. Para calcular tal interseção, basta resolver os sistemas de equação de $r_\text{pixel}$ com cada $r_\text{segmento}$ e verificar se o valor no eixo $x$ de cada ponto encontrado está entre o valor de $x_{p_i}$ e $x_{p_f}$ correspondente a cada segmento cuja reta foi usada para se fazer tal interseção. 
+		\item Distância de cada ponto de interseção encontrado em relação à origem.
+	\end{itemize}
 	 
+	De todos os pontos identificados e com distância calculada, deve-se renderizar apenas aquele cuja distância em relação à origem for o menor. Esta é uma aplicação do \textbf{Critério da Distância}. Todos os outros pontos estão escondidos \textbf{atrás} deste.
+	
+	\paragraph{Verificação se o ponto está iluminado ou em sombra:}
+	Uma vez identificado o ponto, precisamos identificar o vetor que liga o Foco de Captura a esse ponto, e, também tal ponto à Fonte de Luz. Um vetor normal ao segmento,  $(p_i\text{-}p_f)^\bot$, passando pelo ponto $p$ identificado, também é necessário. Se os vetores $p_0$-$p$ e $p_{L}$-$p$ tiverem origem do mesmo lado do segmento $p_i$-$p_f$, então:
+	
+	$$\frac{\langle p_0\text{-}p , (p_i\text{-}p_f)^\bot \rangle}{\lvert \langle p_0\text{-}p , (p_i\text{-}p_f)^\bot \rangle \rvert} = \frac{\langle p_L\text{-}p , (p_i\text{-}p_f)^\bot \rangle}{\lvert \langle p_L\text{-}p , (p_i\text{-}p_f)^\bot \rangle \rvert}$$
+	
+	Se os vetores $p_0\text{-}p$ e $p_L\text{-}p$ estiverem do mesmo lado, ou seja, se a igualdade acima valer, então o ponto é iluminado. Caso contrário, é ponto de sombra.
+	
+	\paragraph{Cálculo da cor do pixel: }
+	Se foi identificado se o pixel está representando um ponto iluminado ou um ponto de sombra, é necessário, então, definir qual cor o pixel irá assumir, e após essa definição, renderizar o pixel é apenas colori-lo integralmente com essa cor.
+	
 	\paragraph{}
 	\textbf{Continua...}
 
 	\subsection{Iluminação Radial}
 	
-	\paragraph{}
-	\textbf{Continua...}
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.8]{Renderizacao-2D-1D-radial}
 		\caption{Identificando pontos de renderização.}
 		\label{fig:rend-rad}
 	\end{figure}
+	
+	\paragraph{}
+	\textbf{Continua...}
 	
 	\paragraph{}
 	\begin{figure}[h]
@@ -197,11 +239,9 @@
 		\label{fig:radio-rad}
 	\end{figure}
 
-	\subsection{Encontrando os pontos renderizados, pixel a pixel da tela}
-	
 	\paragraph{}
 	\textbf{Continua...}
-	
+
 	\section{Modelo Ampliado (1) - Ambiente Tridimensional em Tela Monodimensional}
 	
 	\paragraph{}
