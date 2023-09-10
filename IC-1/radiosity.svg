@@ -2,13 +2,16 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="212.61063mm"
+   height="96.440872mm"
+   viewBox="0 0 212.61063 96.440872"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="radiosity.svg"
+   inkscape:export-filename="/home/paulo/Documents/UFRJ-Science/global-ufrj/IC-1/radiosity.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,81 +26,152 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="0.7768238"
-     inkscape:cx="352.71834"
-     inkscape:cy="733.11348"
-     inkscape:window-width="1536"
-     inkscape:window-height="1563"
-     inkscape:window-x="1312"
-     inkscape:window-y="73"
+     inkscape:zoom="2.1971895"
+     inkscape:cx="392.31937"
+     inkscape:cy="278.53765"
+     inkscape:window-width="3046"
+     inkscape:window-height="1614"
+     inkscape:window-x="2919"
+     inkscape:window-y="181"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      showguides="true"
-     inkscape:guide-bbox="true">
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <inkscape:grid
        type="xygrid"
-       id="grid824" />
+       id="grid824"
+       originx="-7.6550056"
+       originy="-66.502109" />
   </sodipodi:namedview>
   <defs
      id="defs2">
     <marker
-       style="overflow:visible;"
+       style="overflow:visible"
+       id="Arrow2Mstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path11126" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Sstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path11114" />
+    </marker>
+    <marker
+       style="overflow:visible"
        id="Arrow2Mend"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow2Mend"
        inkscape:isstock="true">
       <path
-         transform="scale(0.6) rotate(180) translate(0,0)"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
          id="path1514" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path11126-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1514-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker26953"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path26951" />
     </marker>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-7.6550058,-66.502111)">
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 147.3729,108.21459 193.67499,76.464587"
+       d="M 146.31457,103.45216 192.61666,71.702172"
        id="path894"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 47.300583,70.114587 89.488986,107.15625"
+       d="M 43.067254,71.437504 85.255657,108.47917"
        id="path894-3"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
        style="fill:none;stroke:#fe0000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
-       d="M 65.087496,127 V 85.989583"
+       d="M 83.34375,145.52083 60.854167,87.3125"
        id="path1111"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
-       d="m 13.493746,85.989583 h 51.59375"
+       d="M 9.2604167,87.3125 H 60.854167"
        id="path1226"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#fe0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
-       d="M 172.50832,132.02708 V 91.016667"
-       id="path1111-6"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
        style="fill:none;stroke:#0000ff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
-       d="m 118.53332,91.016667 h 53.975"
+       d="m 117.47499,86.254252 h 53.975"
        id="path1226-7"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
@@ -108,8 +182,8 @@
        id="rect858"
        width="1.3229166"
        height="42.333332"
-       x="12.170835"
-       y="76.729164"
+       x="7.9375052"
+       y="78.052078"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
@@ -118,14 +192,14 @@
        id="rect858-5"
        width="1.3229166"
        height="42.333332"
-       x="116.94582"
-       y="76.72908"
+       x="115.88749"
+       y="71.966667"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <g
        id="g7314"
-       transform="matrix(0.37783385,0,0,0.38370203,27.330654,48.524948)"
+       transform="matrix(0.37783385,0,0,0.38370203,45.532591,66.862653)"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -143,29 +217,9 @@
          cy="206.86275"
          r="1.3229166" />
     </g>
-    <g
-       id="g7314-3"
-       transform="matrix(0.37783385,0,0,0.38370203,134.70523,53.373657)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <ellipse
-         style="fill:none;fill-opacity:1;stroke:#fd0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path7036-6"
-         cx="99.880211"
-         cy="212.98958"
-         rx="8.598958"
-         ry="7.9375" />
-      <circle
-         style="fill:#ff0001;fill-opacity:1;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path7038-7"
-         cx="100.10973"
-         cy="206.86275"
-         r="1.3229166" />
-    </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.265, 0.265;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 74.347913,75.40625 -31.75,35.71875"
+       d="m 70.114584,76.729167 -31.75,35.718753"
        id="path1894"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
@@ -174,8 +228,8 @@
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
-       x="69.304825"
-       y="129.40669"
+       x="87.506767"
+       y="147.74438"
        id="text32028"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
@@ -183,37 +237,18 @@
          sodipodi:role="line"
          id="tspan32026"
          style="fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
-         x="69.304825"
-         y="129.40669">Foco de </tspan><tspan
+         x="87.506767"
+         y="147.74438">Foco de </tspan><tspan
          sodipodi:role="line"
          style="fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
-         x="69.304825"
-         y="134.69835"
+         x="87.506767"
+         y="153.03604"
          id="tspan37112">Captura</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
-       x="176.72359"
-       y="133.63454"
-       id="text32028-5"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan32026-9"
-         style="fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
-         x="176.72359"
-         y="133.63454">Foco de </tspan><tspan
-         sodipodi:role="line"
-         style="fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
-         x="176.72359"
-         y="138.92619"
-         id="tspan37112-2">Captura</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
-       x="15.065031"
-       y="91.534912"
+       x="10.831701"
+       y="92.857826"
        id="text39000"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
@@ -221,18 +256,18 @@
          sodipodi:role="line"
          id="tspan38998"
          style="fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
-         x="15.065031"
-         y="91.534912">Fonte de</tspan><tspan
+         x="10.831701"
+         y="92.857826">Fonte de</tspan><tspan
          sodipodi:role="line"
          style="fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
-         x="15.065031"
-         y="96.826576"
+         x="10.831701"
+         y="98.14949"
          id="tspan39002">Luz Paralela</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
-       x="119.71294"
-       y="96.737442"
+       x="118.65461"
+       y="91.975029"
        id="text39000-1"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
@@ -240,16 +275,16 @@
          sodipodi:role="line"
          id="tspan38998-8"
          style="fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
-         x="119.71294"
-         y="96.737442">Fonte de</tspan><tspan
+         x="118.65461"
+         y="91.975029">Fonte de</tspan><tspan
          sodipodi:role="line"
          style="fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
-         x="119.71294"
-         y="102.02911"
+         x="118.65461"
+         y="97.266693"
          id="tspan39002-7">Luz Paralela</tspan></text>
     <g
        id="g51000"
-       transform="translate(-6.3500003)"
+       transform="translate(-10.057925,-1.9379228)"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -278,38 +313,38 @@
            y="119.03698">c</tspan></text>
     </g>
     <g
-       id="g51000-4"
-       transform="translate(100.65052,7.5954937)"
+       id="g51000-6"
+       transform="translate(0.525409,3.3537431)"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <text
          xml:space="preserve"
          style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
-         x="72.610359"
-         y="109.0004"
-         id="text6194-7"><tspan
+         x="78.259941"
+         y="127.17433"
+         id="text6194-0"><tspan
            sodipodi:role="line"
-           id="tspan6192-8"
-           style="font-size:4.93889px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
-           x="72.610359"
-           y="109.0004">d</tspan></text>
+           id="tspan6192-62"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:symbol;-inkscape-font-specification:symbol;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+           x="78.259941"
+           y="127.17433">a</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;stroke-width:0.213498"
          x="70.008316"
          y="119.03698"
-         id="text43790-4"
+         id="text43790-6"
          transform="scale(1.0802976,0.92567087)"><tspan
            sodipodi:role="line"
-           id="tspan43788-5"
+           id="tspan43788-1"
            style="fill:#ff0000;fill-opacity:1;stroke-width:0.213498"
            x="70.008316"
-           y="119.03698">c</tspan></text>
+           y="119.03698" /></text>
     </g>
     <g
        id="g51000-1"
-       transform="translate(-13.405551,16.312814)"
+       transform="translate(9.2206306,46.819557)"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -339,7 +374,7 @@
     </g>
     <g
        id="g51000-1-0"
-       transform="translate(-27.793808,-41.055135)"
+       transform="translate(-32.027137,-39.732218)"
        style="fill:#000000;fill-opacity:1"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
@@ -369,69 +404,142 @@
            y="119.03698">i</tspan></text>
     </g>
     <g
-       id="g51000-1-2"
-       transform="translate(17.876785,-0.98095378)"
-       style="fill:#000000;fill-opacity:1"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       id="g37612">
       <text
          xml:space="preserve"
          style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke-width:0.264583"
-         x="72.610359"
-         y="109.0004"
+         x="86.253815"
+         y="109.34236"
          id="text6194-2-06"><tspan
            sodipodi:role="line"
            id="tspan6192-7-1"
            style="font-size:4.93889px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
-           x="72.610359"
-           y="109.0004">p</tspan></text>
+           x="86.253815"
+           y="109.34236">p</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke-width:0.213498"
-         x="70.008316"
-         y="119.03698"
+         x="82.637665"
+         y="119.4064"
          id="text43790-0-5"
-         transform="scale(1.0802976,0.92567087)"><tspan
+         transform="scale(1.0802976,0.92567086)"><tspan
            sodipodi:role="line"
            id="tspan43788-93-5"
            style="fill:#000000;fill-opacity:1;stroke-width:0.213498"
-           x="70.008316"
-           y="119.03698">f</tspan></text>
-    </g>
-    <g
-       id="g51000-1-9"
-       transform="translate(94.154856,21.191915)"
-       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+           x="82.637665"
+           y="119.4064">f</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
-         x="72.610359"
-         y="109.0004"
-         id="text6194-2-7"><tspan
+         style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke-width:0.213498"
+         x="74.926689"
+         y="124.12274"
+         id="text43790-0-5-3"
+         transform="scale(1.0802976,0.92567086)"><tspan
            sodipodi:role="line"
-           id="tspan6192-7-3"
-           style="font-size:4.93889px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
-           x="72.610359"
-           y="109.0004">p</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;stroke-width:0.213498"
-         x="70.008316"
-         y="119.03698"
-         id="text43790-0-6"
-         transform="scale(1.0802976,0.92567087)"><tspan
-           sodipodi:role="line"
-           id="tspan43788-93-1"
-           style="fill:#ff0000;fill-opacity:1;stroke-width:0.213498"
-           x="70.008316"
-           y="119.03698">0</tspan></text>
+           id="tspan43788-93-5-56"
+           style="fill:#000000;fill-opacity:1;stroke-width:0.213498"
+           x="74.926689"
+           y="124.12274">f</tspan></text>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke-width:0.213498"
+       x="52.976803"
+       y="144.89178"
+       id="text43790-0-5-8"
+       transform="scale(1.0802976,0.92567086)"><tspan
+         sodipodi:role="line"
+         id="tspan43788-93-5-7"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.213498"
+         x="52.976803"
+         y="144.89178">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke-width:0.213498"
+       x="55.541161"
+       y="144.87047"
+       id="text43790-0-5-8-9"
+       transform="scale(1.0802976,0.92567086)"><tspan
+         sodipodi:role="line"
+         id="tspan43788-93-5-7-2"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.213498"
+         x="55.541161"
+         y="144.87047">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke-width:0.213498"
+       x="99.278572"
+       y="145.00778"
+       id="text43790-0-5-8-9-3"
+       transform="scale(1.0802976,0.92567086)"><tspan
+         sodipodi:role="line"
+         id="tspan43788-93-5-7-2-7"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.213498"
+         x="99.278572"
+         y="145.00778">n</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke-width:0.213498"
+       x="58.458939"
+       y="144.91586"
+       id="text43790-0-5-8-9-0"
+       transform="scale(1.0802976,0.92567086)"><tspan
+         sodipodi:role="line"
+         id="tspan43788-93-5-7-2-2"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.213498"
+         x="58.458939"
+         y="144.91586">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke-width:0.213498"
+       x="154.81293"
+       y="143.87274"
+       id="text43790-0-5-8-4"
+       transform="scale(1.0802976,0.92567086)"><tspan
+         sodipodi:role="line"
+         id="tspan43788-93-5-7-3"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.213498"
+         x="154.81293"
+         y="143.87274">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke-width:0.213498"
+       x="157.37727"
+       y="143.85143"
+       id="text43790-0-5-8-9-1"
+       transform="scale(1.0802976,0.92567086)"><tspan
+         sodipodi:role="line"
+         id="tspan43788-93-5-7-2-4"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.213498"
+         x="157.37727"
+         y="143.85143">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke-width:0.213498"
+       x="201.11469"
+       y="143.98874"
+       id="text43790-0-5-8-9-3-9"
+       transform="scale(1.0802976,0.92567086)"><tspan
+         sodipodi:role="line"
+         id="tspan43788-93-5-7-2-7-2"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.213498"
+         x="201.11469"
+         y="143.98874">n</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke-width:0.213498"
+       x="160.29506"
+       y="143.89682"
+       id="text43790-0-5-8-9-0-0"
+       transform="scale(1.0802976,0.92567086)"><tspan
+         sodipodi:role="line"
+         id="tspan43788-93-5-7-2-2-6"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.213498"
+         x="160.29506"
+         y="143.89682">...</tspan></text>
     <g
        id="g51000-1-6"
-       transform="translate(-58.651052,-24.873798)"
+       transform="translate(-62.884381,-23.550881)"
        style="fill:#0000ff;fill-opacity:1"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
@@ -466,7 +574,7 @@
     </g>
     <g
        id="g51000-1-6-9"
-       transform="translate(46.395536,-19.891923)"
+       transform="translate(45.337212,-24.654338)"
        style="fill:#0000ff;fill-opacity:1"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
@@ -501,7 +609,7 @@
     </g>
     <g
        id="g51000-3"
-       transform="translate(-28.31838,-18.61617)"
+       transform="translate(-32.551709,-17.293253)"
        style="fill:#0700ff;fill-opacity:1"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
@@ -532,7 +640,7 @@
     </g>
     <g
        id="g51000-3-2"
-       transform="translate(77.209582,-13.652185)"
+       transform="translate(76.151258,-18.4146)"
        style="fill:#0700ff;fill-opacity:1"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
@@ -564,8 +672,8 @@
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-       x="65.156395"
-       y="90.983116"
+       x="60.923065"
+       y="92.30603"
        id="text61067"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
@@ -573,13 +681,13 @@
          sodipodi:role="line"
          id="tspan61065"
          style="stroke-width:0.264583"
-         x="65.156395"
-         y="90.983116">p</tspan></text>
+         x="60.923065"
+         y="92.30603">p</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-       x="173.27318"
-       y="94.057129"
+       x="172.21486"
+       y="89.294716"
        id="text61067-2"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
@@ -587,29 +695,29 @@
          sodipodi:role="line"
          id="tspan61065-8"
          style="stroke-width:0.264583"
-         x="173.27318"
-         y="94.057129">p</tspan></text>
+         x="172.21486"
+         y="89.294716">p</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path62218"
        sodipodi:type="arc"
-       sodipodi:cx="65.043854"
-       sodipodi:cy="86.751495"
+       sodipodi:cx="60.810524"
+       sodipodi:cy="88.074409"
        sodipodi:rx="7.2760415"
        sodipodi:ry="7.2760415"
        sodipodi:start="2.3738384"
        sodipodi:end="3.2469207"
        sodipodi:open="true"
        sodipodi:arc-type="arc"
-       d="M 59.808944,91.804861 A 7.2760415,7.2760415 0 0 1 57.808135,85.98654"
+       d="M 55.575614,93.127775 A 7.2760415,7.2760415 0 0 1 53.574805,87.309454"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;fill:#0000fe;fill-opacity:1;stroke-width:0.264583"
-       x="55.557499"
-       y="90.660347"
+       x="51.324169"
+       y="91.983261"
        id="text68957"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
@@ -617,11 +725,11 @@
          sodipodi:role="line"
          id="tspan68955"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:symbol;-inkscape-font-specification:symbol;fill:#0000fe;fill-opacity:1;stroke-width:0.264583"
-         x="55.557499"
-         y="90.660347">f</tspan></text>
+         x="51.324169"
+         y="91.983261">f</tspan></text>
     <g
        id="g51000-1-0-4"
-       transform="translate(73.841811,3.3837697)"
+       transform="translate(72.783487,-1.3786438)"
        style="fill:#000000;fill-opacity:1"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
@@ -652,7 +760,7 @@
     </g>
     <g
        id="g51000-1-2-9"
-       transform="translate(121.91084,-30.19125)"
+       transform="translate(120.85251,-34.953665)"
        style="fill:#000000;fill-opacity:1"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
@@ -683,31 +791,530 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-       x="50.257812"
-       y="141.33824"
+       style="font-size:7.04916px;line-height:1.25;font-family:sans-serif;stroke-width:0.440572"
+       x="48.595108"
+       y="158.58116"
        id="text86600"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
+       inkscape:export-ydpi="96"
+       transform="scale(0.97893438,1.0215189)"><tspan
          sodipodi:role="line"
          id="tspan86598"
-         style="font-size:4.23333px;stroke-width:0.264583"
-         x="50.257812"
-         y="141.33824">(a)</tspan></text>
+         style="font-size:7.04916px;stroke-width:0.440572"
+         x="48.595108"
+         y="158.58116">(a)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.04916px;line-height:1.25;font-family:sans-serif;stroke-width:0.440572"
+       x="157.04979"
+       y="158.39516"
+       id="text86600-8"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(0.9789344,1.0215189)"><tspan
+         sodipodi:role="line"
+         id="tspan86598-8"
+         style="font-size:7.04916px;stroke-width:0.440572"
+         x="157.04979"
+         y="158.39516">(b)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-       x="153.58266"
-       y="141.32593"
-       id="text86600-2"
+       x="86.788986"
+       y="142.10318"
+       id="text86600-2-9"
        inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
-         id="tspan86598-5"
+         id="tspan86598-5-3"
          style="font-size:4.23333px;stroke-width:0.264583"
-         x="153.58266"
-         y="141.32593">(b)</tspan></text>
+         x="86.788986"
+         y="142.10318">d</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="101.74313"
+       y="119.08897"
+       id="text86600-2-9-3"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan86598-5-3-6"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="101.74313"
+         y="119.08897">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="78.257599"
+       y="113.55627"
+       id="text86600-2-9-3-7"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan86598-5-3-6-5"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="78.257599"
+         y="113.55627">S</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.264583;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 83.34375,145.52083 V 123.03125"
+       id="path1237" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 56.885417,136.26042 52.916663,-1e-5"
+       id="path1489"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 83.34375,136.26042 v -1.32291"
+       id="path1491" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 85.989584,136.26042 v -1.32291"
+       id="path1493" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 80.697917,136.26041 V 134.9375"
+       id="path1493-3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 78.052083,136.26042 v -1.32291"
+       id="path1493-3-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 88.635417,136.26042 v -1.32291"
+       id="path1495" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 91.28125,136.26042 v -1.32291"
+       id="path1497" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 93.927084,136.26042 v -1.32291"
+       id="path1499" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 96.572917,136.26042 v -1.32291"
+       id="path1501" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 99.21875,136.26042 v -1.32291"
+       id="path1503" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 101.86459,136.26042 v -1.32291"
+       id="path1505" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 104.51042,136.26042 v -1.32291"
+       id="path1507" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 107.15625,136.26042 v -1.32291"
+       id="path1509" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 109.80209,136.26042 v -1.32291"
+       id="path1511" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 75.40625,136.26042 v -1.32291"
+       id="path1493-3-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 72.760417,136.26041 V 134.9375"
+       id="path1493-3-3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 70.114583,136.26041 V 134.9375"
+       id="path1493-3-56" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 67.46875,136.26041 V 134.9375"
+       id="path1493-3-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 64.822916,136.26041 V 134.9375"
+       id="path1493-3-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 62.177083,136.26041 V 134.9375"
+       id="path1493-3-1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 59.53125,136.26041 V 134.9375"
+       id="path1493-3-27" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 56.885416,136.26041 V 134.9375"
+       id="path1493-3-0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 85.195833,145.78542 0.793749,-10e-6 10e-7,-9.26041 h -0.79375"
+       id="path3278"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#fe0000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path11078"
+       sodipodi:type="arc"
+       sodipodi:cx="82.919388"
+       sodipodi:cy="136.15166"
+       sodipodi:rx="5.5570469"
+       sodipodi:ry="5.0013428"
+       sodipodi:start="3.8166762"
+       sodipodi:end="4.7888279"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="m 78.581253,133.02601 a 5.5570469,5.0013428 0 0 1 4.762496,-1.86109" />
+    <path
+       style="fill:none;stroke:#fe0000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-2)"
+       d="M 193.675,144.72715 171.18542,86.518835"
+       id="path1111-8"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       sodipodi:nodetypes="cc" />
+    <g
+       id="g7314-9"
+       transform="matrix(0.37783385,0,0,0.38370203,155.86384,66.068988)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <ellipse
+         style="fill:none;fill-opacity:1;stroke:#fd0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path7036-7"
+         cx="99.880211"
+         cy="212.98958"
+         rx="8.598958"
+         ry="7.9375" />
+      <circle
+         style="fill:#ff0001;fill-opacity:1;stroke:#ff0000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path7038-3"
+         cx="100.10973"
+         cy="206.86275"
+         r="1.3229166" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+       x="197.83806"
+       y="146.95074"
+       id="text32028-6"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan32026-1"
+         style="fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         x="197.83806"
+         y="146.95074">Foco de </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         x="197.83806"
+         y="152.2424"
+         id="tspan37112-2">Captura</tspan></text>
+    <g
+       id="g51000-9"
+       transform="translate(100.27333,-2.7315866)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <text
+         xml:space="preserve"
+         style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         x="72.610359"
+         y="109.0004"
+         id="text6194-3"><tspan
+           sodipodi:role="line"
+           id="tspan6192-1"
+           style="font-size:4.93889px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+           x="72.610359"
+           y="109.0004">d</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;stroke-width:0.213498"
+         x="70.008316"
+         y="119.03698"
+         id="text43790-9"
+         transform="scale(1.0802976,0.92567087)"><tspan
+           sodipodi:role="line"
+           id="tspan43788-4"
+           style="fill:#ff0000;fill-opacity:1;stroke-width:0.213498"
+           x="70.008316"
+           y="119.03698">c</tspan></text>
+    </g>
+    <g
+       id="g51000-6-7"
+       transform="translate(110.85666,2.5600793)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <text
+         xml:space="preserve"
+         style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         x="78.259941"
+         y="127.17433"
+         id="text6194-0-8"><tspan
+           sodipodi:role="line"
+           id="tspan6192-62-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:symbol;-inkscape-font-specification:symbol;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+           x="78.259941"
+           y="127.17433">a</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;stroke-width:0.213498"
+         x="70.008316"
+         y="119.03698"
+         id="text43790-6-5"
+         transform="scale(1.0802976,0.92567087)"><tspan
+           sodipodi:role="line"
+           id="tspan43788-1-0"
+           style="fill:#ff0000;fill-opacity:1;stroke-width:0.213498"
+           x="70.008316"
+           y="119.03698" /></text>
+    </g>
+    <g
+       id="g51000-1-3"
+       transform="translate(119.55188,46.025892)"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <text
+         xml:space="preserve"
+         style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         x="72.610359"
+         y="109.0004"
+         id="text6194-2-6"><tspan
+           sodipodi:role="line"
+           id="tspan6192-7-10"
+           style="font-size:4.93889px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+           x="72.610359"
+           y="109.0004">p</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;stroke-width:0.213498"
+         x="70.008316"
+         y="119.03698"
+         id="text43790-0-6"
+         transform="scale(1.0802976,0.92567087)"><tspan
+           sodipodi:role="line"
+           id="tspan43788-93-3"
+           style="fill:#ff0000;fill-opacity:1;stroke-width:0.213498"
+           x="70.008316"
+           y="119.03698">0</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="197.12027"
+       y="141.30954"
+       id="text86600-2-9-2"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan86598-5-3-0"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="197.12027"
+         y="141.30954">d</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.264583;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 193.675,144.72715 V 122.23757"
+       id="path1237-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 167.21667,135.46674 52.91666,-10e-6"
+       id="path1489-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 193.675,135.46674 v -1.32291"
+       id="path1491-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 196.32084,135.46674 v -1.32291"
+       id="path1493-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 191.02917,135.46673 v -1.32291"
+       id="path1493-3-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 188.38334,135.46674 v -1.32291"
+       id="path1493-3-6-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 198.96667,135.46674 v -1.32291"
+       id="path1495-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 201.6125,135.46674 v -1.32291"
+       id="path1497-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 204.25834,135.46674 v -1.32291"
+       id="path1499-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 206.90417,135.46674 v -1.32291"
+       id="path1501-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 209.55,135.46674 v -1.32291"
+       id="path1503-3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 212.19584,135.46674 v -1.32291"
+       id="path1505-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 214.84167,135.46674 v -1.32291"
+       id="path1507-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 217.4875,135.46674 v -1.32291"
+       id="path1509-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 220.13334,135.46674 v -1.32291"
+       id="path1511-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 185.7375,135.46674 v -1.32291"
+       id="path1493-3-5-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 183.09167,135.46673 v -1.32291"
+       id="path1493-3-3-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 180.44584,135.46673 v -1.32291"
+       id="path1493-3-56-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 177.8,135.46673 v -1.32291"
+       id="path1493-3-2-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 175.15417,135.46673 v -1.32291"
+       id="path1493-3-9-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 172.50834,135.46673 v -1.32291"
+       id="path1493-3-1-3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 169.8625,135.46673 v -1.32291"
+       id="path1493-3-27-0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 167.21667,135.46673 v -1.32291"
+       id="path1493-3-0-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 195.52709,144.99174 0.79375,-1e-5 v -9.26041 h -0.79375"
+       id="path3278-8"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#fe0000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path11078-6"
+       sodipodi:type="arc"
+       sodipodi:cx="193.25064"
+       sodipodi:cy="135.42633"
+       sodipodi:rx="5.557055"
+       sodipodi:ry="5.0013499"
+       sodipodi:start="3.8166762"
+       sodipodi:end="4.7888279"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="m 188.9125,132.30067 a 5.557055,5.0013499 0 0 1 4.7625,-1.86109" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.26499999,0.26499999;stroke-dashoffset:0"
+       d="M 56.885417,120.38542 H 109.80208"
+       id="path1083" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.265, 0.265;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 56.885417,112.44792 0,18.52083"
+       id="path1085"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.26499999,0.26499999;stroke-dashoffset:0"
+       d="m 109.80208,119.0625 v 11.90625"
+       id="path1087" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458299;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.26458299,0.26458299;stroke-dashoffset:0"
+       d="M 83.34375,115.09375 H 56.885417"
+       id="path3516" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458299;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.26458299,0.26458299;stroke-dashoffset:0"
+       d="m 83.34375,112.44792 v 6.61458"
+       id="path3518" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.41597px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke-width:0.213498"
+       x="177.05711"
+       y="122.6936"
+       id="text43790-0-5-3-2"
+       transform="scale(1.0802976,0.92567086)"><tspan
+         sodipodi:role="line"
+         id="tspan43788-93-5-56-9"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.213498"
+         x="177.05711"
+         y="122.6936">f</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="212.07437"
+       y="117.76604"
+       id="text86600-2-9-3-1"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan86598-5-3-6-2"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="212.07437"
+         y="117.76604">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="188.58884"
+       y="112.23335"
+       id="text86600-2-9-3-7-7"
+       inkscape:export-filename="/home/paulo/Documents/UFRJ/IC-1/radiosity.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan86598-5-3-6-5-0"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="188.58884"
+         y="112.23335">S</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.265, 0.265;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 167.21667,119.06251 h 52.91666"
+       id="path1083-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.265, 0.265;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 167.21667,111.12501 v 18.52083"
+       id="path1085-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.265, 0.265;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 220.13333,117.73959 v 11.90625"
+       id="path1087-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.264583;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 193.675,113.77084 H 167.21667"
+       id="path3516-0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.264583;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 193.675,111.12501 v 6.61458"
+       id="path3518-6" />
   </g>
 </svg>

@@ -6,6 +6,10 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{textcomp}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage[singlelinecheck=false]{caption}
 
 \geometry{
 	a4paper,
@@ -27,6 +31,10 @@
 
 \begin{document}
 	\renewcommand{\figurename}{Figura}
+	\renewcommand{\tablename}{Tabela}
+	\renewcommand{\cellalign}{tl}
+	\renewcommand{\theadalign}{tl}
+	
 	\graphicspath{ {./imagens/} }
 	\maketitle
 	\tableofcontents
@@ -54,7 +62,7 @@
 	Para haver renderização, é necessário haver \textbf{iluminação} e \textbf{captura}. A captura é feita pelo olho, é já é uma característica da renderização assumida por definição. A iluminação, apesar de obrigatória para a renderização, não é imediatamente considerada pelo senso comum. Entretanto, renderização sem um modelo de iluminação adequada apresentaria figuras achatadas e sem volume aparente, que permitiria discernir sobre as formas representadas na renderização.
 	
 	\paragraph{}
-	Usamos dois modelos de iluminação: \textbf{(1)} Iluminação Paralela, adequada para ambientes externos e \textbf{(2)} Iluminação radial, adequada para ambientes internos. Em ambos os casos adicionamos um componente de iluminação difusa. Não é apresentado o algoritmo de \textit{tinting}, então todas as fontes luminosas são brancas e não é apresentado o algoritmo para a utilização de mais de uma fonte luminosa. Essas omissões são corrigidas posteriormente, em uma seção específica para elas.
+	Usamos dois modelos de iluminação: \textbf{(1)} Iluminação Paralela, adequada para ambientes externos e \textbf{(2)} Iluminação radial, adequada para ambientes internos. Em ambos os casos adicionamos um componente de iluminação difusa. Não é apresentado o algoritmo de \textit{tinting}, então todas as fontes luminosas são brancas e não é apresentado o algoritmo para a utilização de mais de uma fonte luminosa. Essas omissões são corrigidas posteriormente, em uma seção específica para elas.	
 	
 	\subsection{Iluminação Paralela}
 	
@@ -80,9 +88,11 @@
 	Para a renderização de imagens, a intensidade máxima de iluminação representa que nenhuma das cores da linha, superfície ou variedade iluminada possui qualquer tipo de desconto de brilho, por conta da distância da fonte de luz. Em ambientes bidimensionais, a taxa de decaimento da intensidade é dada linearmente, pois o ângulo plano representa um comprimento unidimensional. Em ambientes tridimensionais, a taxa de decaimento cai com o quadrado da distância e em ambientes quadridimensionais, estaríamos falando de um ângulo representado por uma 3-variedade e a taxa de decaimento seria com o cubo da distância.
 	
 	\paragraph{}
-	De forma geral, a intensidade luminosa utilizada para a renderização de imagens é dada por:
+	De forma geral, a intensidade luminosa utilizada para a renderização de imagens pode ser dada por:
 	
 	$$ I(D) = \frac{k}{(1+D)^n}, n = 1,2,3, ... $$
+	
+	Assumindo que à distância 1 (em uma unidade arbitrária), da fonte de luz, a intensidade luminosa é, por definição, igual a 1, e há o decaimento exponencial a partir daí. Se essa assunção não for feita, haveriam casos de intensidade luminosa infinita, o que não seria estritamente errado, para $D = 0$, mas muito inconveniente, para fins de representação.
 	
 	\paragraph{}	
 	O valor $k$ é uma constante de intensidade arbitrária (sendo o valor padrão $k=2$, enquanto o valor de $n$, acima, pode ser modulado, dependendo da conveniência da implementação, enquanto $D$ é, necessariamente, a distância entre o ponto visualizado e a fonte de luz. Podemos ter universos bidimensionais que desejamos que o decaimento da intensidade luminosa não seja linear, podendo ser quadrática, para esse universo bidimensional representar um corte de um universo tridimensional maior, ou o decaimento da intensidade luminosa pode ser linear, em um universo tridimensional, no qual a intensidade deixa de ser um aspecto geométrico da luz, passando a seguir alguma lei alternativa que seja conveniente para a representação visual deste mundo. Assim, a dimensão de decaimento da intensidade luminosa fica escolhida arbitrariamente caso a caso, segundo a conveniência da implementação do mundo.
@@ -100,6 +110,9 @@
 	
 	\paragraph{}
     Na Figura \ref{fig:rend} mostra-se, logo acima do foco de captura, a tela unidimensional, com vinte pixels. Cada pixel é renderizado de acordo com as interseções dos raios de visão (representados pelas setas vermelhas) com os objetos que tais raios atravessam. Cada raio renderiza apenas \textbf{o ponto mais próximo} ao foco de captura. Essa condição faz parte do \textbf{Critério da Distância}. Assim, para os raios de visão $\alpha_1, ..., \alpha_6$, são renderizados os pontos $p_1, ..., p_6$, na tela. Esses pontos são aqueles mais próximos do foco de captura, e o que estiver para além deles, não é renderizável - ou seja, é invisível para o Foco de Captura. Assim, todos os pontos representados por $\bar{p}$ são invisíveis ao foco de captura e, portanto, não são renderizados.
+    
+    \paragraph{}
+    Nas figuras \ref{fig:rend} e \ref{fig:rend-rad}, o foco de captura está centralizado no décimo-primeiro pixel, da esquerda para a direita. Isso é apenas para propósito de apresentação. Rigorosamente, foco deve estar localizado exatamente no meio da tela, mas isso tornaria a representação no desenho mais difícil. De toda forma, a posição da tela perante o foco de captura é totalmente arbitrário e pode mudar implementação a implementação. Nas outras figuras, a representação de tela está mais alinhada com o esperado para uma implementação real.
     
     \paragraph{}
     A renderização do ponto na tela, em si, é apenas a ativação e desativação de uma determinada cor naquele ponto de tela, ou \textbf{pixel}. O pixel não tem dimensão, e ou ele é integralmente representado, ou não - ficando apenas um ponto preto em sua posição\footnote{Essa regra não é tão rigorosa assim. Existem técnicas de \textit{anti-aliasing} que podem flexibilizar um pouco essas condições - entretanto, \textit{anti-aliasing} está além do escopo desse relatório e desse projeto.}. Se o raio de visão identifica quais pontos da tela serão ativados ou não, qual cor será ativada depende da cor do objeto representado e da radiosidade do ponto desse objeto que está sendo representado em tela.
@@ -120,26 +133,48 @@
 	\subsubsection{Identificação, Iluminação e Coloração do Pixel - cálculos}
 	
 	\paragraph{}
-	Uma vez identificado o ponto $p_i$ a ser renderizado e se ele está iluminado ou não, deve-se calcular a cor de tal ponto. Calculada a cor, ele pode ser renderizado na tela (unidimensional). Assume-se as seguintes informações iniciais, em notação consistente com as figuras \ref{fig:rend} e \ref{fig:radio}:
+	Uma vez identificado o ponto $p_i$ a ser renderizado e se ele está iluminado ou não, deve-se calcular a cor de tal ponto. Calculada a cor, ele pode ser renderizado na tela (unidimensional). Assume-se as informações iniciais da tabela \ref{tab:var}, em notação consistente com as figuras \ref{fig:rend}, \ref{fig:radio} , \ref{fig:rend-rad} e \ref{fig:radio-rad}.
 	
-	\begin{enumerate}
-		\item $p$: Ponto Visualizado.
-		\item $p_0$: Ponto do Foco de Captura. Por definição $p_0$ é a origem do sistema de coordenadas, porque assume-se que o foco de captura é o ponto central de representação.
-		\item $p_L$: Ponto da Fonte de Luz.
-		\item $p_i$-$p_f$: Segmento Visualizado.
-		\item $t_l$: Largura da tela (unidimensional).
-		\item $n$: Número de Pixels da Tela.
-		\item $\alpha$: Ângulo do Pixel renderizado.
-		\item $d$: Distância da tela ao Foco de Captura.
-		\item $d_c$: Distância do ponto visualizado ao foco de captura.
-		\item $d_L$: Distancia do ponto visualizado à fonte de luz.
-		\item $\phi$: Ângulo de incidência da luz na normal do Segmento Visualizado em $p$.
-		\item $(r_i, g_i, b_i)$: vetor de cor original de $p$, valor intrínseco ao objeto representado pelo segmento visualizado.
-		\item $(r_f, g_f, b_f)$: vetor de cor renderizado (final) de $p$.
-		\item $I_L(D)$: taxa de iluminação, dependente da distância $D$ do ponto iluminado em relação à fonte de luz.
-		\item $I_d$: taxa de iluminação difusa, constante para todos os pontos do ambiente.
-	\end{enumerate}
+	\paragraph{}
+	O algoritmo de renderização deve ser repetido \textbf{para cada ponto da tela}, sendo a ordem não importante, desde que a tela como um todo seja desenhada apenas depois que todos os pixels forem renderizados. Entretanto, por uma questão prática, escolhe-se desenhar a tela começando pelo pixel de índice $i=1$, e indo até o píxel de índice $i=n$.
+	
+	\paragraph{}
+	\begin{table}
+		\caption{Conjunto de variáveis necessárias para renderizar um único pixel na tela}\label{tab:var}
+		\begin{tabular}{ll}
+			\toprule[1.3pt]
+			\thead{\textbf{Variável}} & \thead{\textbf{Descrição}} \\
+			\midrule 
+	    	\makecell{$p$} & \makecell{Ponto Visualizado.} \\
+		    \makecell{$p_0$} & \makecell{Ponto do Foco de Captura. Por definição $p_0$ é a origem do sistema de coordenadas, \\
+		    	porque assume-se que o foco de captura é o ponto central de representação.} \\
+		    \makecell{$p_L$} & \makecell{Ponto da Fonte de Luz.} \\
+		    \makecell{$p_i$-$p_f$} & \makecell{Segmento Visualizado.} \\
+		    \makecell{$t_l$} & \makecell{Largura da tela (unidimensional).} \\
+		    \makecell{$n$} & \makecell{Número de Pixels da Tela.} \\
+		    \makecell{$\alpha$} & \makecell{Ângulo do Pixel renderizado.} \\
+		    \makecell{$d$} & \makecell{Distância da tela ao Foco de Captura.} \\
+		    \makecell{$d_c$} & \makecell{Distância do ponto visualizado ao foco de captura.} \\
+		    \makecell{$d_L$} & \makecell{Distancia do ponto visualizado à fonte de luz.} \\
+		    \makecell{$\phi$} & \makecell{Ângulo de incidência da luz na normal do Segmento Visualizado em $p$.} \\
+		    \makecell{$(r_i, g_i, b_i)$} & \makecell{Vetor de cor original de $p$, valor intrínseco ao objeto representado \\ 
+		    	pelo segmento visualizado.} \\
+		    \makecell{$(r_f, g_f, b_f)$} & \makecell{Vetor de cor renderizado (final) de $p$.} \\
+		    \makecell{$I_L(D)$} & \makecell{Taxa de iluminação, dependente da distância $D$ do ponto iluminado em relação \\
+		    	à fonte de luz.} \\
+		    \makecell{$I_d$} & \makecell{Taxa de iluminação difusa, constante para todos os pontos do ambiente.} \\
+		    \makecell{$P_i$} & \makecell{Pixel, de índice $i$, a ser renderizado} \\
+		    \makecell{$S$} & \makecell{Largura total da tela}\\
+		    \makecell{$S_f$} & \makecell{Distância da borda da tela até a posição do foco de captura perante ela.} \\
+		    \bottomrule[1.3pt]
+		\end{tabular}
+	\end{table}
 
+	Então, para cada pixel $i = 1, 2, ..., n$, deve-se implementar o seguinte algoritmo:
+	
+	\paragraph*{alalala}
+	alalla
+	 
 	\paragraph{}
 	\textbf{Continua...}
 
