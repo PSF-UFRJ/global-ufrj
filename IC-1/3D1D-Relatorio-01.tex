@@ -226,13 +226,13 @@
 	A taxa de iluminação total do ponto renderizado: 
 	
 	\begin{equation} \label{eq:2}
-	I_t = min(I_d + I_L(D), 1), D = dist(p, F_L) = dist(p, p_L)
+	I_t = min(I_d + I_L(D_L), 1), D_L = dist(p, F_L) = dist(p, p_L)
 	\end{equation}
 	
 	Sendo $p_L$ o ponto da fonte de luz paralela $F_L$, que pode ser modelada como uma reta passando por $p_L$ (reta infinita, não apenas segmento), e $p_L$ pertencendo à reta $p$-$p_L$ perpendicular a $F_L$, lembrando que é $F_L$ que está fixa no espaço, não $p$-$p_L$, e, da equação \ref{eq:1}, assumindo $n = 2$ e $k = 2$:
 	
 	\begin{equation} \label{eq:3}
-		I_L(D) = I(dist(p, p_L)) =  \frac{2}{(1+dist(p, p_L))^2}
+		I_L(D_L) = I(dist(p, p_L)) =  \frac{2}{(1+dist(p, p_L))^2}
 	\end{equation}
 	
 	A distância $d(p, p_L)$ deve ter uma unidade de distância qualquer, mas, aqui, vamos considerar que existe uma unidade padrão e que as fórmulas todas apresentadas estão nessa unidade padrão.
@@ -241,7 +241,14 @@
 	E a intensidade de renderização na tela, que segue a mesma fórmula de intensidade da iluminação:
 	
 	\begin{equation} \label{eq:4}
-		I_R(D) = I(dist(p, p_0)) = \frac{2}{(1+dist(p, p_0))^2}
+		I_R \equiv I_D, I_R(D_0) = I(dist(p, p_0)) = \frac{2}{(1+dist(p, p_0))^2}
+	\end{equation}
+	
+	\paragraph{}
+	Uma vez que temos a Intensidade de Iluminação e a Intensidade de Renderização, podemos definir a cor final do pixel:
+	
+	\begin{equation}
+		(r_f, g_f, b_f) = I_t \cdot I_R(D_0) \cdot (r_i, g_i, b_i), \text{para cada ponto $p$ na tela}.
 	\end{equation}
 	
 	\subsection{Iluminação Radial}
