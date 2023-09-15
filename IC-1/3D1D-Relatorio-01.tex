@@ -214,7 +214,11 @@
 	
 	$$\frac{\langle p_0\text{-}p , (p_i\text{-}p_f)^\bot \rangle}{\lvert \langle p_0\text{-}p , (p_i\text{-}p_f)^\bot \rangle \rvert} = \frac{\langle p_L\text{-}p , (p_i\text{-}p_f)^\bot \rangle}{\lvert \langle p_L\text{-}p , (p_i\text{-}p_f)^\bot \rangle \rvert}$$
 	
+	\paragraph{}
 	Se os vetores $p_0\text{-}p$ e $p_L\text{-}p$ estiverem do mesmo lado, ou seja, se a igualdade acima valer, então o ponto é iluminado. Caso contrário, é ponto de sombra.
+	
+	\paragraph{}
+	Entretanto, antes de se fazer essa verificação de sinal dos vetores e da normal, deve-se verificar se o ponto $p$ em questão é o primeiro a ser interceptado, a partir da Fonte de Luz, na reta $p_0$-$p_L$. Se esse não for o caso, como, por exemplo, os dos pontos $p_4$ e $p_5$, da Figura \ref{fig:rend}, o ponto é, automaticamente, um ponto de sombra, e nenhum cálculo adicional é necessário.
 	
 	\paragraph{Cálculo da cor do pixel: }
 	Se foi identificado se o pixel está representando um ponto iluminado ou um ponto de sombra, é necessário, então, definir qual cor o pixel irá assumir, e após essa definição, renderizar o pixel é apenas colori-lo integralmente com essa cor.
@@ -224,11 +228,14 @@
 	
 	\paragraph{}
 	A taxa de iluminação total do ponto renderizado: 
-	
+
 	\begin{equation} \label{eq:2}
-	I_t = min(I_d + I_L(D_L), 1), D_L = dist(p, F_L) = dist(p, p_L)
+		I_t =  \begin{cases} 
+			min(I_d + I_L(D_L), 1), D_L = dist(p, F_L) = dist(p, p_L) & \text{se o ponto está iluminado} \\
+			I_d & \text{se o ponto é de sombra} \\
+		\end{cases} 
 	\end{equation}
-	
+
 	Sendo $p_L$ o ponto da fonte de luz paralela $F_L$, que pode ser modelada como uma reta passando por $p_L$ (reta infinita, não apenas segmento), e $p_L$ pertencendo à reta $p$-$p_L$ perpendicular a $F_L$, lembrando que é $F_L$ que está fixa no espaço, não $p$-$p_L$, e, da equação \ref{eq:1}, assumindo $n = 2$ e $k = 2$:
 	
 	\begin{equation} \label{eq:3}
@@ -251,7 +258,13 @@
 		(r_f, g_f, b_f) = I_t \cdot I_R(D_0) \cdot (r_i, g_i, b_i), \text{para cada ponto $p$ na tela}.
 	\end{equation}
 	
+	\paragraph{}
+	Lembrando que $0 \le r_i < 256$, $0 \le g_i < 256$ e $0 \le b_i < 256$.
+	
 	\subsection{Iluminação Radial}
+	
+	\paragraph{} 
+	Para a Fonte de Luz pontual, que permite uma iluminaçao radial, segue exatamente os mesmos princípios e cálculos de identificação dos pixels a serem renderizados, da sua intensidade luminosa e decaimento de intensidade de representação. 
 	
 	\begin{figure}[h]
 		\centering
@@ -261,7 +274,10 @@
 	\end{figure}
 	
 	\paragraph{}
-	\textbf{Continua...}
+	A única diferença é que $p_L$, ao invés de estar em uma reta infinita representando a fonte de luz, está em uma posição específica no espaço, e a distância $p$-$p_L$ é a distância do ponto $p$ ao próprio ponto $p_L$, já previamente definido, enquanto no caso da iluminação paralela, $p_L$ precisava ser tal que a reta $p$-$p_L$ fosse perpendicular à reta da fonte de luz.
+	
+	\paragraph{}
+	Sendo assim, nenhuma informação adicional a respeito dos procedimentos para renderização nesse caso serão apresentados, pois seria pura redundância.
 	
 	\paragraph{}
 	\begin{figure}[h]
@@ -271,13 +287,10 @@
 		\label{fig:radio-rad}
 	\end{figure}
 
-	\paragraph{}
-	\textbf{Continua...}
-
 	\section{Modelo Ampliado (1) - Ambiente Tridimensional em Tela Monodimensional}
 	
 	\paragraph{}
-	\textbf{Continua...}
+	A apresentação do Ambiente Bidimensional em Tela Monodimensional teve, como propósito, apenas lançar as bases para a representação de ambientes de dimensão mais alta em telas de dimensão inferiores, a uma diferença superior a um, como o caso desse modelo aqui apresentado.
 	
 	\section{Modelo Ampliado (2) - Ambiente Quadridimensional em Tela bidimensional}
 	
