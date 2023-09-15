@@ -90,8 +90,10 @@
 	\paragraph{}
 	De forma geral, a intensidade luminosa utilizada para a renderização de imagens pode ser dada por:
 	
-	$$ I(D) = \frac{k}{(1+D)^n}, n = 1,2,3, ... $$
-	
+	\begin{equation} \label{eq:1}
+	 I(D) = \frac{k}{(1+D)^n}, n = 1,2,3, ... 
+	\end{equation}
+
 	Assumindo que à distância 1 (em uma unidade arbitrária), da fonte de luz, a intensidade luminosa é, por definição, igual a 1, e há o decaimento exponencial a partir daí. Se essa assunção não for feita, haveriam casos de intensidade luminosa infinita, o que não seria estritamente errado, para $D = 0$, mas muito inconveniente, para fins de representação.
 	
 	\paragraph{}	
@@ -140,6 +142,7 @@
 		\item $\boldsymbol{e_x} \rightarrow$ Orientação Positiva
 		\item $\boldsymbol{e_y} \rightarrow$ Orientação Positiva
 		\item $\boldsymbol{e_z} \rightarrow$ Orientação Positiva
+		\item $\boldsymbol{e_w} \rightarrow$ Orientação Positiva
 		\item $\boldsymbol{e_x} \wedge \boldsymbol{e_y} \rightarrow$ Orientação Positiva
 		\item $\boldsymbol{e_y} \wedge \boldsymbol{e_z} \rightarrow$ Orientação Positiva
 		\item $\boldsymbol{e_x} \wedge \boldsymbol{e_y} \wedge \boldsymbol{e_z} \rightarrow$ Orientação Positiva
@@ -217,8 +220,30 @@
 	Se foi identificado se o pixel está representando um ponto iluminado ou um ponto de sombra, é necessário, então, definir qual cor o pixel irá assumir, e após essa definição, renderizar o pixel é apenas colori-lo integralmente com essa cor.
 	
 	\paragraph{}
-	\textbf{Continua...}
-
+	As duas primeiras variáveis a serem calculadas são:
+	
+	\paragraph{}
+	A taxa de iluminação total do ponto renderizado: 
+	
+	\begin{equation} \label{eq:2}
+	I_t = min(I_d + I_L(D), 1), D = dist(p, F_L) = dist(p, p_L)
+	\end{equation}
+	
+	Sendo $p_L$ o ponto da fonte de luz paralela $F_L$, que pode ser modelada como uma reta passando por $p_L$ (reta infinita, não apenas segmento), e $p_L$ pertencendo à reta $p$-$p_L$ perpendicular a $F_L$, lembrando que é $F_L$ que está fixa no espaço, não $p$-$p_L$, e, da equação \ref{eq:1}, assumindo $n = 2$ e $k = 2$:
+	
+	\begin{equation} \label{eq:3}
+		I_L(D) = I(dist(p, p_L)) =  \frac{2}{(1+dist(p, p_L))^2}
+	\end{equation}
+	
+	A distância $d(p, p_L)$ deve ter uma unidade de distância qualquer, mas, aqui, vamos considerar que existe uma unidade padrão e que as fórmulas todas apresentadas estão nessa unidade padrão.
+	
+	\paragraph{}
+	E a intensidade de renderização na tela, que segue a mesma fórmula de intensidade da iluminação:
+	
+	\begin{equation} \label{eq:4}
+		I_R(D) = I(dist(p, p_0)) = \frac{2}{(1+dist(p, p_0))^2}
+	\end{equation}
+	
 	\subsection{Iluminação Radial}
 	
 	\begin{figure}[h]
