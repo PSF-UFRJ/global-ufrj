@@ -44,11 +44,13 @@
 \contentsline {section}{\numberline {3}Modelo Ampliado (1) - Ambiente Tridimensional em Tela Monodimensional}{9}{section.3}%
 \contentsline {paragraph}{}{9}{section*.44}%
 \contentsline {paragraph}{}{9}{section*.45}%
-\contentsline {section}{\numberline {4}Modelo Ampliado (2) - Ambiente Quadridimensional em Tela bidimensional}{9}{section.4}%
 \contentsline {paragraph}{}{9}{section*.46}%
-\contentsline {section}{\numberline {5}Modelo Ampliado (3) - Ambiente N-Dimensional em Tela M-dimensional}{9}{section.5}%
 \contentsline {paragraph}{}{9}{section*.47}%
+\contentsline {section}{\numberline {4}Modelo Ampliado (2) - Ambiente Quadridimensional em Tela bidimensional}{9}{section.4}%
+\contentsline {paragraph}{}{9}{section*.50}%
+\contentsline {section}{\numberline {5}Modelo Ampliado (3) - Ambiente N-Dimensional em Tela M-dimensional}{10}{section.5}%
+\contentsline {paragraph}{}{10}{section*.51}%
 \contentsline {section}{\numberline {6}Múltiplas fontes de Luz e \textit {tinting}}{10}{section.6}%
-\contentsline {paragraph}{}{10}{section*.48}%
+\contentsline {paragraph}{}{10}{section*.52}%
 \contentsline {section}{\numberline {7}Conclusões e Próximos Passos}{10}{section.7}%
-\contentsline {paragraph}{}{10}{section*.49}%
+\contentsline {paragraph}{}{10}{section*.53}%
