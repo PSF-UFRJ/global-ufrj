@@ -172,7 +172,6 @@
 		    	porque assume-se que o foco de captura é o ponto central de representação.} \\
 		    \makecell{$p_L$} & \makecell{Ponto da Fonte de Luz.} \\
 		    \makecell{$p_i$-$p_f$} & \makecell{Segmento Visualizado.} \\
-		    \makecell{$t_l$} & \makecell{Largura da tela (unidimensional).} \\
 		    \makecell{$n$} & \makecell{Número de Pixels da Tela.} \\
 		    \makecell{$\alpha$} & \makecell{Ângulo do Pixel renderizado.} \\
 		    \makecell{$d$} & \makecell{Distância da tela ao Foco de Captura.} \\
@@ -202,7 +201,7 @@
 	
 	\begin{itemize}
 		\item Reta de todos os pontos $r_\text{pixel} : r_\text{pixel} = (P_i - P_0) \cdot t$, $P_i = d \cdot \boldsymbol{e_x} + S_f \cdot \boldsymbol{e_y}$, $S_f = \frac{S}{2} - \frac{S}{n} \cdot i_i + \frac{S}{2n}$
-		\item Retas de todos os segmentos renderizáveis: Para todo $p_i$, $p_f$ representado no espaço a ser renderizado. $p_i$ e $p_f$ representando segmentos renderizáveis, calcular as suas retas $r_\text{segmento}: r_\text{segmento} = (p_i + p_f \cdot t)$
+		\item Retas de todos os segmentos renderizáveis: Para todo $p_i$, $p_f$ representado no espaço a ser renderizado; $p_i$ e $p_f$ representando segmentos renderizáveis, calcular as suas retas $r_\text{segmento}: r_\text{segmento} = (p_i + p_f \cdot t)$
 		\item Pontos de interseção de $r_\text{pixel}$ e de $r_\text{segmento}$. Para calcular tal interseção, basta resolver os sistemas de equação de $r_\text{pixel}$ com cada $r_\text{segmento}$ e verificar se o valor no eixo $x$ de cada ponto encontrado está entre o valor de $x_{p_i}$ e $x_{p_f}$ correspondente a cada segmento cuja reta foi usada para se fazer tal interseção. 
 		\item Distância de cada ponto de interseção encontrado em relação à origem.
 	\end{itemize}
@@ -319,7 +318,7 @@
 	A pergunta que não quer calar é se é possível para um ser bidimensional, imerso em um espaço tridimensional, enxergar figuras tridimensionais. Essa pergunta é bastante inadequada, porque em um ambiente tridimensional não é possível ter seres bidimensionais: o que é possível é ter seres achatados, cujos órgãos de visão são estruturados bidimensionalmente. É fisicamente factível a existência de uma retina bidimensional em um ser tridimensional achatado, conforme pode ser visto na Figura \ref{fig:refr-cap}, que apresenta o corte de um olho bidimensional, feito com material transparente de alta refringência, que pode captura todos os raios de luz que atingem o seu ponto de captura luminosa e os direciona para um objeto matemático com uma dimensão a menos.
 	
 	\paragraph{}
-	Na Figura \ref{fig:refr-cap}, o ponto de entrada de luz é o representado pelo encontro dos eixos \textbf{X}, que aponta para a direita, \textbf{Y}, que aponta para dentro do papel, e \textbf{Z}, que, para respeitar a orientação da Regra da Mão Direita, aponta para cima. O raio de luz incide no corpo do olho com um ângulo de incidência $\phi$ e, como o olho é feito com material de alta refringência, uma parte da luz é refletida, e uma parte, com a intensidade igual à intensidade original multiplicada pelo cosseno do ângulo de incidência $\phi$ é capturado e retido dentro da estrutura do olho pelas propriedades da reflexão total.
+	Na Figura \ref{fig:refr-cap}, o ponto de entrada de luz é o representado pelo encontro dos eixos \textbf{X}, que aponta para a direita, \textbf{Y}, que aponta para dentro do papel, e \textbf{Z}, que, para respeitar a orientação da Regra da Mão Direita, aponta para cima. O raio de luz incide no corpo do olho com um ângulo de incidência $\beta$ e, como o olho é feito com material de alta refringência, uma parte da luz é refletida, e uma parte, com a intensidade igual à intensidade original multiplicada pelo cosseno do ângulo de incidência $\beta$ é capturado e retido dentro da estrutura do olho pelas propriedades da reflexão total.
 	
 	\paragraph{}
 	Sabendo que há justificativa física para a construção de olhos que reduzem a dimensão do objeto de projeção - que no caso de um ambiente 3D seria uma linha, no caso de um ambiente 4D um plano, ou uma superfície bidimensional, e assim por diante - devemos, agora, avaliar como representar os pontos capturados por essa \textit{retina} unidimensional em um ambiente tridimensional.
@@ -328,35 +327,117 @@
 	Observando a Figura \ref{fig:olho-bidi}, vamos dar atenção ao ponto $p$, que é o ponto capturado. Para esse ponto ser capturado e impresso na tela, são utilizados os mesmos critérios apresentados para a Tela Unidimensional em um Ambiente Bidimensional:
 	
 	\paragraph{1 - Identificação do ponto de renderização do pixel:}
-	Aqui, tanto quanto no caso do ambiente bidimensional, deve-se respeitar o \textbf{Critério da Direção}. Aqui temos a representação da tela como uma linha no espaço, entre $\alpha_0$-$\alpha_1$, conforme a Figura \ref{fig:olho-bidi}.
+	Aqui, tanto quanto no caso do ambiente bidimensional, deve-se respeitar o \textbf{Critério da Direção}. Aqui temos a representação da tela como uma linha no espaço, entre $\theta_0$-$\theta_1$, conforme a Figura \ref{fig:olho-bidi}. Entretanto, os raios que chegam ao ponto de captura do olho, $p_0$, não sao apenas os que residem no plano X-Y. Se fosse assim, a representação do espaço por esse olho bidimensional não seria possível, e cairíamos no mesmo caso apresentado para o olho bidimensional em ambiente bidimensional. Para cada pixel da tela $\theta_0$-$\theta_1$, há um reticulado de pontos renderizáveis que variam em \textbf{Z}, entre as coordenadas $\theta_3$ e $\theta_4$, também representados na figura \ref{fig:olho-bidi}, no plano de projeção $\theta$.
+	
+	\paragraph{}
+	No Modelo Mínimo, apresentado acima, há a construção de um reticulado da tela, um ponto para cada pixel, e as retas de representação variando um ângulo $\alpha$, até cobrir toda a abertura de visão. Agora, temos o mesmo ângulo $\alpha$, cobrindo a abertura em \textbf{Y} e um ângulo $\phi$, cobrindo a abertura em \textbf{Z}
+	
+	\begin{table}
+		\caption{Conjunto de variáveis necessárias para renderizar um único pixel na tela}\label{tab:newvar}
+		\begin{tabular}{ll}
+			\toprule[1.3pt]
+			\thead{\textbf{Variável}} & \thead{\textbf{Descrição}} \\
+			\midrule 
+			\makecell{$n_Y$} & \makecell{Número de Pixels da Tela, número de pontos do reticulado de \\ representação da abertura de visão, em Y.} \\
+			\makecell{$n_Z$} & \makecell{Número de Pixels da Tela, número de pontos do reticulado de \\ representação da abertura de visão, em Z.} \\
+			\makecell{$(r_{ij}, g_{ij}, b_{ij})$} & \makecell{Vetor de cor original de $p$, valor intrínseco ao objeto representado \\ 
+				pelo segmento visualizado.} \\
+			\makecell{$(r_{fj}, g_{fj}, b_{fj})$} & \makecell{Vetor de cor renderizado (final) do subpixel $p_j$.} \\
+			\makecell{$(r_f, g_f, b_f)$} & \makecell{Vetor de cor renderizado (final) de $p$.} \\
+			\makecell{$I_L(D)$} & \makecell{Taxa de iluminação, dependente da distância $D$ do ponto iluminado em relação \\
+				à fonte de luz.} \\
+			\makecell{$I_d$} & \makecell{Taxa de iluminação difusa, constante para todos os pontos do ambiente.} \\
+			\makecell{$P_i$} & \makecell{Pixel, de índice $i$, a ser renderizado} \\
+			\makecell{$P_{ij}$} & \makecell{Componente do Pixel de índice $i$, com subíndice $j$, a ser renderizado} \\
+			\makecell{$S_Y$} & \makecell{Largura total da tela, que representa a largura total de visão em Y}\\
+			\makecell{$S_Z$} & \makecell{Largura total da abertura de visão em Z}\\
+			\makecell{$S_{fY}$} & \makecell{Distância da borda da abertura de visão, em Y, até a posição do \\ foco de captura perante ela.} \\
+			\makecell{$S_{fZ}$} & \makecell{Distância da borda da abertura de visão, em Z, até a posição do \\ foco de captura perante ela.} \\
+			\makecell{$i_i$} & \makecell{Índice do Pixel, apenas para diferenciar da unidade imaginária  ($i$).} \\
+			\makecell{$i_{ij}$} & \makecell{Índice do Componente do Pixel, subindexado em $j$.} \\
+			\bottomrule[1.3pt]
+		\end{tabular}
+	\end{table}
+
+	\paragraph{}
+	Então, devemos considerar as novas variáveis apresentadas na Tabela \ref{tab:newvar}, para calcular:
+		
+	\begin{itemize}
+		\item Reta de todos os pontos $r_{\text{subpixel}_{ij}} : r_{\text{subpixel}_{ij}} = (P_{ij} - P_0) \cdot t$, $P_{ij} = d \cdot \boldsymbol{e_x} + S_{fY} \cdot \boldsymbol{e_y} + S_{fZ} \cdot \boldsymbol{e_z}$, $S_{fY} = \frac{S_Y}{2} - \frac{S_Y}{n_Y} \cdot i_{ij} + \frac{S_Y}{2n_Y}$, $S_{fZ}$ calculado de forma correspondente.
+		\item Triângulos de todas as superfícies renderizáveis: Objetos tridimensionais não são representados por seus segmentos delimitadores - mas sim, pelos suas superfícies delimitadoras, que, por sua vez, são simplificadas para triângulos, com três pontos: $p_1$, $p_2$ e $p_3$, no lugar de $p_i$ e $p_f$. Então, para todo $p_1$, $p_2$, $p_3$ representado no espaço a ser renderizado;  $p_1$, $p_2$, $p_3$ representando segmentos renderizáveis, calcular os seus planos correspondentes $r_\text{plano}: r_\text{plano} = (p_1 + p_2 \cdot t + p_3 \cdot s)$, $t,s \in \R$
+		\item Pontos de interseção de $r_{\text{subpixel}_{ij}}$ e de $r_\text{plano}$. Para calcular tal interseção, basta resolver os sistemas de equação de $r_{\text{subpixel}_{ij}}$ com cada $r_\text{plano}$ e verificar se o valor no eixo $(x,y,z)$ de cada ponto encontrado está entre os pontos $p_1$, $p_2$, $p_3$. Para fazer essa verificação, diversas técnicas existem, sendo uma das mais eficientes computacionalmente, definir vetores para dois lados e para para o ponto em questão, iniciando em um vértice particular, e verificar se a orientação desses vetores, em relação a um vetor inicial é sempre o mesmo. Por exemplo, podemos fixar o vértice $p1$, gerar os vetores \textbf{a} = $p1$-$p2$, \textbf{b} = $p1$-$p3$ e \textbf{c} = $p1$-$p$. Se $a \wedge b$ tiver a mesma orientação de $a \wedge c$, então o ponto p está no ângulo interno de $p2$-$p1$-$p3$. Se isso for verdade se fixarmos os vértices também em $p2$ e $p3$, então $p$ está dentro do triângulo e o ponto pode ser renderizado. Esse método pode ser generalizado para verificar pontos internos a tetraedros em $\R^4$, ou em figuras correspondentes em dimensões superiores.
+		\item Distância de cada ponto de interseção encontrado em relação à origem.
+	\end{itemize}
 	
 	\paragraph{2 - Verificação se o ponto está iluminado ou em sombra:}
-	\paragraph{3 - Cálculo da cor do pixel: }
+	A verificação se um ponto é iluminado ou não depende de se verificar se o vetor de iluminação está do mesmo lado da superfície renderizada ou não. A fórmula para tal verificação é estritamente a mesma do caso bidimensional, o que muda é a definição do vetor perpendicular, agora em relação à superfície $p_1$-$p_2$-$p_3$, não ao segmento $p_i$-$p_f$. Assim:
+	
+	\begin{equation}
+		\frac{\langle p_0\text{-}p , (p_1\text{-}p_2\text{-}p_3)^\bot \rangle}{\lvert \langle p_0\text{-}p , (p_1\text{-}p_2\text{-}p_3)^\bot \rangle \rvert} = \frac{\langle p_L\text{-}p , (p_1\text{-}p_2\text{-}p_3)^\bot \rangle}{\lvert \langle p_L\text{-}p , (p_1\text{-}p_2\text{-}p_3)^\bot \rangle \rvert}
+	\end{equation}
+	
+	Onde:
+	
+	\begin{equation}
+		(p_1\text{-}p_2\text{-}p_3)^\bot = p_1\text{-}p_2 \wedge p_1\text{-}p_3
+	\end{equation}
+		
+	
+	\paragraph{3 - Cálculo da cor do pixel:}
+	Não se calcula diretamente a cor do píxel, mas a do subpixel, para cada ponto do reticulado de representação - a superfície $\theta$ - com um determinado valor de \textbf{Y}, para todos os valores de \textbf{Z}, e para cada subpixel, o valor é dado por:
+	
+	\begin{equation}
+		(r_{fj}, g_{fj}, b_{fj}) = I_t \cdot I_R(D_0) \cdot (r_i, g_i, b_i) \cdot cos(\beta), \text{para cada subixel $p_j$ na abertura de visão}.
+	\end{equation}
+
+	Conforme as mesmas regras do cálculo de cor para o Modelo Mínimo, apresentado acima. O valor $cos(\beta)$, acima, representa o enfraquecimento do vetor de luz provocado pela inclinação $\beta$ desse vetor em relação ao plano \textbf{X-Y} onde reside a retina bidimensional - ou seja, a inclinação do vetor de luz no eixo suprimido (\textbf{Z}, nesse caso), provoca o enfraquecimento do sinal do pixel, dando maior ênfaze de representação para os pontos mais alinhados ao plano do olho.
 	
 	\paragraph{}
 	Entretanto, pode-se verificar, aqui, que cada pixel da tela irá renderizar todos pontos que possuem uma coordenada \textbf{Y} em comum - ou seja, para todos os pontos que se projetarem em $\alpha$ em uma determinada coordenada $(Y',Z')$, todos os pontos com o mesmo valor de \textbf{Y} vão ser renderizados no mesmo ponto. Para isso ser possível, todos esses pontos serão combinados utilizando-se a técnica de \textit{alpha-blending}. A combinação de todos esses pontos representa o que vai ser visualizado naquele ponto da tela (unidimensional no caso apresentado nessa seção).
 	
+	\paragraph{}
+	O valor da cor do ponto $P_i$ é dado por:
+	
+	\begin{equation}
+		(r_f, g_f b_f) = \text{Alpha-Blending}\left((r_{f0}, g_{f0} b_{f0}), ..., (r_{fn_Z}, g_{fn_Z} b_{fn_Z})\right)
+	\end{equation}
+
+	A forma para o cálculo do \textit{alpha blending} não é dada aqui, e pode ser vista nas referências \textbf{[adicionar referência]}.
+	
+	Esse modelo de representação do espaço tridimensional em uma linha pode trazer dificuldades, porque, nesse contexto, o conceito de \textit{altura} não existe, então um objeto representado acima do horizonte de visão não é distinguível de um objeto representado abaixo do horizonte de visão. Uma forma de resolver esse problema é restringir a abertura de visão àpenas acima ou abaixo do horizonte. Outras formas de correção desse problema são possíveis, mas a sua apresentação está fora do escopo desse documento.
+	
 	\section{Modelo Ampliado (2) - Ambiente Quadridimensional em Tela bidimensional}
 	
 	\paragraph{}
-	\textbf{Continua...}
-	
-	\section{Modelo Ampliado (3) - Ambiente N-Dimensional em Tela M-dimensional}
+	O modelo ampliado representando um ambiente quadridimensional em tela bidimensional segue exatamente o modelo de representação de ambiente tridimensional em tela unidimensional, no qual todos os pontos que possuem um mesmo componente \textbf{Y}, colapsando nesse ponto, todos os pontos do reticulado de representação $\theta$, para todos os valores de \textbf{Z}.
 	
 	\paragraph{}
-	\textbf{Continua...}
-	
-	\section{Múltiplas fontes de Luz e \textit{tinting}}
+	Para a representação do Ambiente Quadridimensional em Tela bidimensional, a tela possui uma altura e largura, e os pixels indexados para \textbf{Y} e \textbf{Z}, conforme a estrutura padrão de uma retina bidimensional \textbf{[adicionar referências]}. Entretanto, o espaço de representação possui um componente \textbf{W}, representando a quarta dimensão.
 	
 	\paragraph{}
-	Essa seção apresenta a implementação da importante omissão do uso de múltiplas fontes de luz e do \textit{tinting}. O \textit{tinting} é a aplicação de fontes de luz coloridas, que alteram as cores dos objetos iluminados segundo regras específicas diferentes do \textit{alpha-blending} utilizado nas renderizações apresentadas acima. Já o uso de multiplas fontes de luz provoca um grande aumento de complexidade para a renderização de cada pixel da tela, ainda mais, considerando que cada fonte de luz pode ter uma cor diferente, alterando as regras de \textit{tinting}.
+	Se, para o caso do olho bidimensional em ambiente tridimensional, estamos interessados no ângulo do vetor de luz do pixel, com o plano \textbf{X-Y}, para se calcular a cor do pixel e o enfraquecimento do sinal (ângulo $\beta$), para o caso do olho tridimensional em ambiente quadridimensional, estamos interessados no ângulo do vetor de luz do pixel com o espaço \textbf{X-Y-Z}, para se calcular o enfraquecimento do sinal.
 	
-	\textbf{Continua...}
+	\paragraph{}
+	Dadas essas observações, o cálculo da cor do pixel na coordenada \textbf{y-z} é dada pela combinação em \textit{alpha blending} de todos os pontos do reticulado de representação (tridimensional) que possuem os mesmos valores de \textbf{X} e \textbf{Y}, para todo valor de \textbf{W}.
+	
+	\paragraph{}
+	Todos os valores intermediários podem ser deduzidos por generalização do primeiro modelo ampliado.
+	
+	\section{Modelo Ampliado (3) - Ambiente N-Dimensional em Tela bidimensional}
+	
+	\paragraph{}
+	É possível ampliar a representação em tela bidimensional para ambientes com mais do que quatro dimensões, mas é completamente sem sentido aumentar o número de dimensões da tela, porque o olho humano só pode enxergar representações bidimensionais. Para ambientes com dimensões maiores do que 4, a representação pode ser deduzida como generalização ainda mais extensa do primeiro modelo ampliado.
 	
 	\section{Conclusões e Próximos Passos}
 	
 	\paragraph{}
-	\textbf{Continua...}
+	Esse documento apresenta a teoria necessária para se fazer a representação de ambientes bidimensionals em tela unidimensional, ambientes tridimensionais em telas unidimensionais e ambientes tetradimensionais em telas bidimensionais - o objetivo final do projeto. A partir daí, é possível fazer representações ainda mais altas, mas saímos do objetivo do projeto.
+	
+	\paragraph{}
+	Podemos, ainda, detalhar modelos de múltipla iluminação e iluminação a cores (\textit{tinting}), mas essas técnicas são bem dominadas, não sendo necessário repeti-las aqui \textbf{[adicionar referências]}.
+	
+	\paragraph{}
+	A partir da teoria aqui apresentada, pode-se iniciar a implementação de software para fazer representação \textbf{3D} em telas \textbf{1D} e representação \textbf{4D} em telas \textbf{2D}. Essas representações provocam, necessariamente, perda de informação do ambiente observado. Essa perda de informação também ocorre na visão humana usual, sendo mitigada pela possibilidade de movimentação dentro do ambiente tridimensional que estamos imersos. Essa mesma movimentação, que é a realização do \textbf{Critério da Navegação} permite os mesmo efeito de mitigação da perda de dados da representação 3D em tela 1D e do ambiente 4D em tela 2D. Essa navegação é dada fixando-se um \textbf{Referencial de Frenet} no ponto $\boldsymbol{p_0}$, que é o ponto de captura no olho, tanto em 3D quanto em 4D. Fixando esse referencial, é possível navegar dentro dos ambientes tridimensionais e quadridimensionais, tentando recuperar a informação perdida pelas projeções em telas 1D e 2D, respectivamente.
 
 	
 \end{document}
