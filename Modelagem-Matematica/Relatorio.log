@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.2)  18 JUL 2024 13:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.2)  18 JUL 2024 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -146,6 +146,40 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \Gin@req@height=\dimen156
 \Gin@req@width=\dimen157
 )
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen158
+\captionmargin@=\dimen159
+\captionwidth=\dimen160
+\caption@tempdima=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count275
+\c@continuedfloat=\count276
+)
+\c@KVtest=\count277
+\sf@farskip=\skip54
+\sf@captopadj=\dimen165
+\sf@capskip=\skip55
+\sf@nearskip=\skip56
+\c@subfigure=\count278
+\c@subfigure@save=\count279
+\c@lofdepth=\count280
+\c@subtable=\count281
+\c@subtable@save=\count282
+\c@lotdepth=\count283
+\sf@top=\skip57
+\sf@bottom=\skip58
+)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
@@ -184,9 +218,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen158
-\Hy@linkcounter=\count275
-\Hy@pagecounter=\count276
+\@linkdim=\dimen166
+\Hy@linkcounter=\count284
+\Hy@pagecounter=\count285
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
@@ -203,7 +237,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count277
+\Hy@SavedSpaceFactor=\count286
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
@@ -217,14 +251,14 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count278
+\c@Hy@tempcnt=\count287
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen159
+\XeTeXLinkMargin=\dimen167
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -233,9 +267,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count279
-\Field@Width=\dimen160
-\Fld@charsize=\dimen161
+\Fld@menulength=\count288
+\Field@Width=\dimen168
+\Fld@charsize=\dimen169
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -250,9 +284,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count280
-\c@Item=\count281
-\c@Hfootnote=\count282
+\Hy@abspage=\count289
+\c@Item=\count290
+\c@Hfootnote=\count291
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -264,8 +298,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count283
-\c@bookmark@seq@number=\count284
+\Fld@listcount=\count292
+\c@bookmark@seq@number=\count293
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -276,64 +310,46 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip54
+\Hy@SectionHShift=\skip59
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen162
+\col@sep=\dimen170
 \ar@mcellbox=\box52
-\extrarowheight=\dimen163
+\extrarowheight=\dimen171
 \NC@list=\toks24
-\extratabsurround=\skip55
-\backup@length=\skip56
+\extratabsurround=\skip60
+\backup@length=\skip61
 \ar@cellbox=\box53
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen164
-\lightrulewidth=\dimen165
-\cmidrulewidth=\dimen166
-\belowrulesep=\dimen167
-\belowbottomsep=\dimen168
-\aboverulesep=\dimen169
-\abovetopsep=\dimen170
-\cmidrulesep=\dimen171
-\cmidrulekern=\dimen172
-\defaultaddspace=\dimen173
-\@cmidla=\count285
-\@cmidlb=\count286
-\@aboverulesep=\dimen174
-\@belowrulesep=\dimen175
-\@thisruleclass=\count287
-\@lastruleclass=\count288
-\@thisrulewidth=\dimen176
+\heavyrulewidth=\dimen172
+\lightrulewidth=\dimen173
+\cmidrulewidth=\dimen174
+\belowrulesep=\dimen175
+\belowbottomsep=\dimen176
+\aboverulesep=\dimen177
+\abovetopsep=\dimen178
+\cmidrulesep=\dimen179
+\cmidrulekern=\dimen180
+\defaultaddspace=\dimen181
+\@cmidla=\count294
+\@cmidlb=\count295
+\@aboverulesep=\dimen182
+\@belowrulesep=\dimen183
+\@thisruleclass=\count296
+\@lastruleclass=\count297
+\@thisrulewidth=\dimen184
 )
 (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen177
-\c@nlinenum=\count289
+\rotheadsize=\dimen185
+\c@nlinenum=\count298
 \TeXr@lab=\toks25
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen178
-\captionmargin@=\dimen179
-\captionwidth=\dimen180
-\caption@tempdima=\dimen181
-\caption@indent=\dimen182
-\caption@parindent=\dimen183
-\caption@hangindent=\dimen184
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count290
-\c@continuedfloat=\count291
-Package caption Info: hyperref package is loaded.
 )
 
 Package geometry Warning: Over-specification in `h'-direction.
@@ -345,30 +361,30 @@ Package geometry Warning: Over-specification in `v'-direction.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count292
+\l__color_backend_stack_int=\count299
 \l__pdf_internal_box=\box54
 )
 (./Relatorio.aux)
 \openout1 = `Relatorio.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -406,16 +422,16 @@ LaTeX Font Info:    ... okay on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count293
-\scratchdimen=\dimen185
+\scratchcounter=\count300
+\scratchdimen=\dimen186
 \scratchbox=\box55
-\nofMPsegments=\count294
-\nofMParguments=\count295
+\nofMPsegments=\count301
+\nofMParguments=\count302
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count296
-\MPscratchDim=\dimen186
-\MPnumerator=\count297
-\makeMPintoPDFobject=\count298
+\MPscratchCnt=\count303
+\MPscratchDim=\dimen187
+\MPnumerator=\count304
+\makeMPintoPDFobject=\count305
 \everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -426,7 +442,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 32.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -437,25 +457,23 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count299
+\c@section@level=\count306
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (./Relatorio.out) (./Relatorio.out)
 \@outlinefile=\write3
 \openout3 = `Relatorio.out'.
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -467,7 +485,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <./imagens//Esquema-Floresta.png, id=35, 1252.68pt x 686.565pt>
 File: ./imagens//Esquema-Floresta.png Graphic file (type png)
 <use ./imagens//Esquema-Floresta.png>
-Package pdftex.def Info: ./imagens//Esquema-Floresta.png  used on input line 61
+Package pdftex.def Info: ./imagens//Esquema-Floresta.png  used on input line 62
 .
 (pdftex.def)             Requested size: 375.8069pt x 205.97108pt.
 
@@ -478,26 +496,129 @@ resta.png>] [3]
 <./imagens//MaxV-ManyK.png, id=83, 1587.9325pt x 1154.3125pt>
 File: ./imagens//MaxV-ManyK.png Graphic file (type png)
 <use ./imagens//MaxV-ManyK.png>
-Package pdftex.def Info: ./imagens//MaxV-ManyK.png  used on input line 148.
+Package pdftex.def Info: ./imagens//MaxV-ManyK.png  used on input line 149.
 (pdftex.def)             Requested size: 317.58087pt x 230.85841pt.
 <./imagens//MaxV-ManyL.png, id=84, 1562.83875pt x 1140.26pt>
 File: ./imagens//MaxV-ManyL.png Graphic file (type png)
 <use ./imagens//MaxV-ManyL.png>
-Package pdftex.def Info: ./imagens//MaxV-ManyL.png  used on input line 155.
+Package pdftex.def Info: ./imagens//MaxV-ManyL.png  used on input line 156.
 (pdftex.def)             Requested size: 312.56221pt x 228.04796pt.
  [4 <./imagens/MaxV-manyK.png> <./imagens/MaxV-manyL.png>]
-[5] [6] (./Relatorio.aux)
+[5]
+<./imagens//L4-alpha0-beta0-D1.png, id=117, 1246.6575pt x 471.7625pt>
+File: ./imagens//L4-alpha0-beta0-D1.png Graphic file (type png)
+<use ./imagens//L4-alpha0-beta0-D1.png>
+Package pdftex.def Info: ./imagens//L4-alpha0-beta0-D1.png  used on input line 
+233.
+(pdftex.def)             Requested size: 436.33667pt x 165.11934pt.
+<./imagens//L4-alpha1-beta1-D1.png, id=118, 1247.66125pt x 470.75874pt>
+File: ./imagens//L4-alpha1-beta1-D1.png Graphic file (type png)
+<use ./imagens//L4-alpha1-beta1-D1.png>
+Package pdftex.def Info: ./imagens//L4-alpha1-beta1-D1.png  used on input line 
+240.
+(pdftex.def)             Requested size: 436.68797pt x 164.76802pt.
+<./imagens//L4-alpha1-beta5-D2.png, id=119, 1241.63875pt x 469.755pt>
+File: ./imagens//L4-alpha1-beta5-D2.png Graphic file (type png)
+<use ./imagens//L4-alpha1-beta5-D2.png>
+Package pdftex.def Info: ./imagens//L4-alpha1-beta5-D2.png  used on input line 
+247.
+(pdftex.def)             Requested size: 434.58008pt x 164.41672pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./imagens//L8-alpha0-beta0-D1.png, id=120, 1248.665pt x 475.7775pt>
+File: ./imagens//L8-alpha0-beta0-D1.png Graphic file (type png)
+<use ./imagens//L8-alpha0-beta0-D1.png>
+Package pdftex.def Info: ./imagens//L8-alpha0-beta0-D1.png  used on input line 
+254.
+(pdftex.def)             Requested size: 437.03929pt x 166.52461pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./imagens//L8-alpha1-beta1-D1.png, id=121, 1242.6425pt x 470.75874pt>
+File: ./imagens//L8-alpha1-beta1-D1.png Graphic file (type png)
+<use ./imagens//L8-alpha1-beta1-D1.png>
+Package pdftex.def Info: ./imagens//L8-alpha1-beta1-D1.png  used on input line 
+261.
+(pdftex.def)             Requested size: 434.9314pt x 164.76802pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./imagens//L8-alpha1-beta5-D2.png, id=122, 1241.63875pt x 470.75874pt>
+File: ./imagens//L8-alpha1-beta5-D2.png Graphic file (type png)
+<use ./imagens//L8-alpha1-beta5-D2.png>
+Package pdftex.def Info: ./imagens//L8-alpha1-beta5-D2.png  used on input line 
+268.
+(pdftex.def)             Requested size: 434.58008pt x 164.76802pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./imagens//Max-alpha0-beta0-D1.png, id=123, 586.19pt x 451.6875pt>
+File: ./imagens//Max-alpha0-beta0-D1.png Graphic file (type png)
+<use ./imagens//Max-alpha0-beta0-D1.png>
+Package pdftex.def Info: ./imagens//Max-alpha0-beta0-D1.png  used on input line
+ 275.
+(pdftex.def)             Requested size: 205.16957pt x 158.09299pt.
+<./imagens//TamanhoMax-alpha1-beta1-D1.png, id=124, 590.205pt x 451.6875pt>
+File: ./imagens//TamanhoMax-alpha1-beta1-D1.png Graphic file (type png)
+<use ./imagens//TamanhoMax-alpha1-beta1-D1.png>
+Package pdftex.def Info: ./imagens//TamanhoMax-alpha1-beta1-D1.png  used on inp
+ut line 277.
+(pdftex.def)             Requested size: 206.57484pt x 158.09299pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./imagens//TamanhoMax-alpha1-beta5-D2.png, id=125, 592.2125pt x 457.71pt>
+File: ./imagens//TamanhoMax-alpha1-beta5-D2.png Graphic file (type png)
+<use ./imagens//TamanhoMax-alpha1-beta5-D2.png>
+Package pdftex.def Info: ./imagens//TamanhoMax-alpha1-beta5-D2.png  used on inp
+ut line 284.
+(pdftex.def)             Requested size: 207.27747pt x 160.2009pt.
+<./imagens//TamanhoMax-alpha1-beta5-D10.png, id=126, 611.28375pt x 456.70625pt>
+
+File: ./imagens//TamanhoMax-alpha1-beta5-D10.png Graphic file (type png)
+<use ./imagens//TamanhoMax-alpha1-beta5-D10.png>
+Package pdftex.def Info: ./imagens//TamanhoMax-alpha1-beta5-D10.png  used on in
+put line 286.
+(pdftex.def)             Requested size: 213.95251pt x 159.84958pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./imagens//TamanhoMax-alpha1-beta1000-D2.png, id=127, 622.325pt x 464.73625pt>
+
+File: ./imagens//TamanhoMax-alpha1-beta1000-D2.png Graphic file (type png)
+<use ./imagens//TamanhoMax-alpha1-beta1000-D2.png>
+Package pdftex.def Info: ./imagens//TamanhoMax-alpha1-beta1000-D2.png  used on 
+input line 293.
+(pdftex.def)             Requested size: 217.817pt x 162.66011pt.
+<./imagens//TamanhoMax-alpha5-beta5-D2.png, id=128, 580.1675pt x 458.71375pt>
+File: ./imagens//TamanhoMax-alpha5-beta5-D2.png Graphic file (type png)
+<use ./imagens//TamanhoMax-alpha5-beta5-D2.png>
+Package pdftex.def Info: ./imagens//TamanhoMax-alpha5-beta5-D2.png  used on inp
+ut line 295.
+(pdftex.def)             Requested size: 203.06166pt x 160.55222pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <./imagens//L4-alpha0-beta0-D1.png> <./imagens//L4-alpha1-beta1-D1.png>]
+[7 <./imagens//L4-alpha1-beta5-D2.png> <./imagens//L8-alpha0-beta0-D1.png> <./i
+magens//L8-alpha1-beta1-D1.png>] [8 <./imagens//L8-alpha1-beta5-D2.png> <./imag
+ens//Max-alpha0-beta0-D1.png> <./imagens//TamanhoMax-alpha1-beta1-D1.png> <./im
+agens//TamanhoMax-alpha1-beta5-D2.png> <./imagens//TamanhoMax-alpha1-beta5-D10.
+png>] [9 <./imagens//TamanhoMax-alpha1-beta1000-D2.png> <./imagens//TamanhoMax-
+alpha5-beta5-D2.png>] (./Relatorio.aux)
 Package rerunfilecheck Info: File `Relatorio.out' has not changed.
 (rerunfilecheck)             Checksum: 4ECDEFAD3282594B6351AC76C8DA367B;881.
  ) 
 Here is how much of TeX's memory you used:
- 11845 strings out of 478287
- 186567 string characters out of 5849290
- 490188 words of memory out of 5000000
- 29835 multiletter control sequences out of 15000+600000
+ 12164 strings out of 478287
+ 194800 string characters out of 5849290
+ 491245 words of memory out of 5000000
+ 30132 multiletter control sequences out of 15000+600000
  478113 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,9n,63p,896b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,10n,79p,896b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
@@ -509,15 +630,16 @@ nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfrm1000.pfb>
-Output written on Relatorio.pdf (6 pages, 579627 bytes).
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+frm1000.pfb>
+Output written on Relatorio.pdf (9 pages, 1297659 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
- 58 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 259 PDF objects out of 1000 (max. 8388607)
+ 197 compressed objects within 2 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
