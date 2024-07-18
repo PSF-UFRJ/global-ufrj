@@ -86,8 +86,19 @@
 	\begin{itemize}
 		\item \textbf{u(x,t)}: a população presente na posição espacial e no tempo, na mancha de floresta ou em uma área florestada.
 		\item \textbf{D}: taxa de difusividade da população - unidade: \textbf{comprimento\textsuperscript{2}/tempo}.
-		\item alalal
+		\item \textbf{a}: Taxa de cresimento populacional da espécie - unidade: \textbf{1/tempo}
+		\item \textbf{b}: Se \textbf{1/C} é a capacidade de carregamento de uma população para uma mancha ou região de floresta, então $C=\frac{b}{a}$, de forma que \textbf{b} indica as condições que atrapalhem o crescimento populacional, como geometria da região de mancha, competição por comida, entre outras.
+		\item \textbf{l}: Comprimento (não adimensionalizado) da mancha ou região florestada
 	\end{itemize}
+	
+	\paragraph{}
+	Para facilitar a análise, as seguintes transformações são feitas, para se adimensionalizar a equação e, então, avaliar as suas propriedades:
+	
+	$$ x = x' \sqrt{\frac{D}{a}} $$
+	$$ \partial_x = \partial_{x'} \sqrt{\frac{a}{D}} $$
+	
+	\paragraph{}
+	Depois, retornando o nome da variável de distância de \textbf{x'} para \textbf{x} e de tempo de \textbf{t'} para \textbf{t}, temos:
 	
 	\subsection{Caso 2: Problema para duas populações}
 	\paragraph{}

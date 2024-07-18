@@ -10,5 +10,7 @@
 \contentsline {paragraph}{}{2}{section*.9}%
 \contentsline {paragraph}{}{2}{section*.10}%
 \contentsline {paragraph}{}{2}{section*.11}%
-\contentsline {subsection}{\numberline {2.2}Caso 2: Problema para duas populações}{2}{subsection.2.2}%
-\contentsline {paragraph}{}{2}{section*.12}%
+\contentsline {paragraph}{}{3}{section*.12}%
+\contentsline {paragraph}{}{3}{section*.13}%
+\contentsline {subsection}{\numberline {2.2}Caso 2: Problema para duas populações}{3}{subsection.2.2}%
+\contentsline {paragraph}{}{3}{section*.14}%
