@@ -3,7 +3,7 @@
 \contentsline {paragraph}{}{1}{section*.3}%
 \contentsline {paragraph}{}{1}{section*.4}%
 \contentsline {paragraph}{}{1}{section*.5}%
-\contentsline {paragraph}{}{1}{section*.6}%
+\contentsline {paragraph}{}{2}{section*.6}%
 \contentsline {section}{\numberline {2}Modelagem}{2}{section.2}%
 \contentsline {paragraph}{}{2}{section*.8}%
 \contentsline {subsection}{\numberline {2.1}Caso 1: Uma única população}{2}{subsection.2.1}%
@@ -18,5 +18,19 @@
 \contentsline {paragraph}{}{3}{section*.17}%
 \contentsline {paragraph}{}{4}{section*.18}%
 \contentsline {paragraph}{}{4}{section*.19}%
-\contentsline {subsection}{\numberline {2.2}Caso 2: Duas populações}{4}{subsection.2.2}%
-\contentsline {paragraph}{}{4}{section*.20}%
+\contentsline {paragraph}{}{4}{section*.22}%
+\contentsline {subsection}{\numberline {2.2}Caso 2: Duas populações}{5}{subsection.2.2}%
+\contentsline {paragraph}{}{5}{section*.23}%
+\contentsline {paragraph}{}{5}{section*.24}%
+\contentsline {paragraph}{}{5}{section*.25}%
+\contentsline {paragraph}{}{5}{section*.26}%
+\contentsline {paragraph}{}{5}{section*.27}%
+\contentsline {paragraph}{}{5}{section*.28}%
+\contentsline {paragraph}{}{5}{section*.29}%
+\contentsline {section}{\numberline {3}Simulações}{5}{section.3}%
+\contentsline {paragraph}{}{5}{section*.30}%
+\contentsline {subsection}{\numberline {3.1}Análise de uma população}{6}{subsection.3.1}%
+\contentsline {paragraph}{}{6}{section*.31}%
+\contentsline {paragraph}{}{6}{section*.32}%
+\contentsline {paragraph}{}{6}{section*.33}%
+\contentsline {paragraph}{}{6}{section*.34}%

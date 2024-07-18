@@ -141,10 +141,90 @@
 	Onde os índices i/o representam as regiões interna/externa respectivamente.
 	
 	\paragraph{}
-	Resolvendo as equações para vários \textbf{k} e \textbf{L} temos os resultados apresentados nas figuras (...) e (...).
+	Resolvendo as equações para vários \textbf{k} e \textbf{L} temos os resultados apresentados nas figuras \ref{fig:maxvmanyk} e \ref{fig:maxvmanyl}.
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.2]{MaxV-ManyK}
+		\caption{Valor máximo de $\phi$ X L (vários k).}
+		\label{fig:maxvmanyk}
+	\end{figure}
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.2]{MaxV-ManyL}
+		\caption{Valor máximo de $\phi$ X log k (vários L).}
+		\label{fig:maxvmanyl}
+	\end{figure}
+	
+	\paragraph{}
+	A partir da análise do comportamento de \textbf{k} e de \textbf{L}, podemos concluir que para valores menores de \textbf{k}, pode ser que não exista um tamanho necessário para a sobrevivência da espécie, enquanto alterações no valor de \textbf{k}, quando \textbf{k} pequeno, impactam mais do que se a mesma alteração fosse feita para valores maiores de \textbf{k}. Além disso, para qualquer valor de \textbf{k}, se \textbf{L} for maior ou igual a $\pi$, a população vai sobreviver. Porém, se \textbf{L} for menor, a tendência é a população se extinguir na região. Ou seja \textbf{L\textsubscript{c}} (tamanho crítico) é sempre menor ou igual a $\pi$. Por fim, quanto maior for a taxa de crescimento, menor o tamanho necessário à mancha florestada para a sobrevivência da espécie. O oposto ocorre para o índice de difusividade.
 	
 	\subsection{Caso 2: Duas populações}
+	
 	\paragraph{}
-	lalalalala
-		
+	O modelo para duas espécies em competição usa duas EDP FKPP integradas uma à outra, através das seguintes equações:
+	
+	$$ \frac{\partial u_1(x,t)}{\partial t} = u_1 \left[\alpha_1 - \beta_1 u_1  - \gamma_{12} u_2 \right] + D_1 \frac{\partial^2 u_1}{\partial x^2} $$
+	
+	$$ \frac{\partial u_2(x,t)}{\partial t} = u_2 \left[\alpha_2 - \beta_2 u_2  - \gamma_{21} u_1 \right] + D_2 \frac{\partial^2 u_2}{\partial x^2} $$
+	
+	\paragraph{}
+	Onde as váriáveis \textbf{u\textsubscript{1}} e \textbf{u\textsubscript{2}} representam as populações e os valores de $\alpha_1$ e $\alpha_2$ representam cooperação internas dessas espécies, $\beta_1$ e $\beta_2$ representam competição interna e $\gamma_{12}$ e $\gamma_{21}$ representam a competição entre as espécies.
+	
+	\paragraph{}
+	Com as seguintes conclusões esperadas:
+	
+	\paragraph{}
+	\begin{enumerate}
+		\item Se $L$ for muito pequeno, ambas populações desaparecem.
+		\item Se $L$ for grande o suficiente, $\gamma_1 < 1$ e $\gamma_2 < 1$, populações coexistem.
+		\item Se $L$ for grande o suficiente, $\gamma_1 < 1$ e $\gamma_2 > 1$, eliminação da espécie 2.
+		\item Se $L$ for grande o suficiente, $\gamma_1 > 1$ e $\gamma_2 > 1$, eliminação da espécie 1.
+		\item Se $L$ for grande o suficiente, $\gamma_1 > 1$ e $\gamma_2 < 1$, dependendo da condição inicial, ou 1 ou 2 são eliminados.
+	\end{enumerate}
+
+	\paragraph{}
+	Mas, em espaço limitado, podemos fazer um ajuste das equações e analisar a área, assumindo:
+	\begin{enumerate}
+		\item $D_1 = 1$
+		\item $D_2 = \kappa$
+		\item $\alpha_1 = \beta_1 = 1$
+		\item $\gamma_{12} = \gamma_1$
+		\item $\alpha_2 = \beta_2 = \alpha$
+		\item $\gamma_{21} = \alpha \gamma_2$
+	\end{enumerate}
+	 
+	 \paragraph{}
+	 O que implica em:
+	 
+	 $$ \frac{\partial u_1(x,t)}{\partial t} = u_1 \left[1 - u_1  - \gamma_1 u_2 \right] +  \frac{\partial^2 u_1}{\partial x^2}$$
+	 $$ \frac{\partial u_2(x,t)}{\partial t} = u_2 \left[\alpha - \alpha u_2  - \alpha \gamma_2 u_1 \right] + \kappa \frac{\partial^2 u_2}{\partial x^2} $$
+	 
+	 \paragraph{}
+	 A análise do comportamento dessas populações e do \textbf{L} é apresentada posteriormente, na apresentação dos resultados de simulação.
+	 
+	 \section{Simulações}
+	 
+	 \paragraph{}
+	 Nessa seção serão apresentadas as simulações numéricas da EDP FKPP, para os problemas analisados, variando-se uma série de parâmetros, prinicipalmente no tocante ao tamanho da área das manchas de floresta.
+	 
+	 \subsection{Análise de uma população}
+	 \paragraph{}
+	 Foi assumida a EDP de reação e difusão, com o espaço unidimensional, para uma única espécie:
+	 $$ \frac{\partial u(x,t)}{\partial t} = \alpha u - \beta u^2 + D \frac{\partial^2 u}{\partial x^2}  $$
+	 
+	 \paragraph{}
+	 Usando o método de diferenças finitas para resolver essa EDP em um espaço limitado com condições de contorno de Dirichlet.
+	 
+	 $$u(x=0,L) = 0 $$
+	 
+	 \paragraph{}
+	 Discretizando a EDP via diferenças finitas temos:
+	 
+	 $$ \frac{\partial^2 u(x,t)}{\partial x^2} \approx \frac{u(x-dx,t) - 2u(x,t) + u(x+dx,t)}{dx^2}$$
+	 
+	 \paragraph{}
+	 Todos os resultados são apresentados nas figuras (...), (...), abaixo. Os parâmetros e o código fonte para se chegar nesses resultados estão no arquivo \textit{ipynb} (Python Notebook), \textit{Reação-Difusão Modelagem - uma população.ipynb}, em anexo.
+	 
 \end{document}
