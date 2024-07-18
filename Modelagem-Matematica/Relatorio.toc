@@ -6,11 +6,17 @@
 \contentsline {paragraph}{}{1}{section*.6}%
 \contentsline {section}{\numberline {2}Modelagem}{2}{section.2}%
 \contentsline {paragraph}{}{2}{section*.8}%
-\contentsline {subsection}{\numberline {2.1}Caso 1: Problema para uma população}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}Caso 1: Uma única população}{2}{subsection.2.1}%
 \contentsline {paragraph}{}{2}{section*.9}%
 \contentsline {paragraph}{}{2}{section*.10}%
 \contentsline {paragraph}{}{2}{section*.11}%
 \contentsline {paragraph}{}{3}{section*.12}%
 \contentsline {paragraph}{}{3}{section*.13}%
-\contentsline {subsection}{\numberline {2.2}Caso 2: Problema para duas populações}{3}{subsection.2.2}%
 \contentsline {paragraph}{}{3}{section*.14}%
+\contentsline {paragraph}{}{3}{section*.15}%
+\contentsline {paragraph}{}{3}{section*.16}%
+\contentsline {paragraph}{}{3}{section*.17}%
+\contentsline {paragraph}{}{4}{section*.18}%
+\contentsline {paragraph}{}{4}{section*.19}%
+\contentsline {subsection}{\numberline {2.2}Caso 2: Duas populações}{4}{subsection.2.2}%
+\contentsline {paragraph}{}{4}{section*.20}%

@@ -68,7 +68,7 @@
 	\paragraph{}
 	Agora vamos apresentar os dois modelos avaliados, o modelo de uma população e o modelo de duas populações. Para ambos os casos são usados variantes da EDP FKPP, apresentadas tais variantes caso a caso.
 	
-	\subsection{Caso 1: Problema para uma população}
+	\subsection{Caso 1: Uma única população}
 	
 	\paragraph{}
 	Para o caso de uma população, o modelo considerado foi FKPP com um termo difusivo (termo de segunda ordem) e os termos reativos, com cooperação (termo linear) e com competição (termo quadrático), sobre uma população $u$:
@@ -78,7 +78,7 @@
 	\paragraph{}
 	Com as condições de contorno de Dirichlet:
 	
-	$$u(x=0,L) = 0 $$
+	$$u(x=0,l) = 0 $$
 	
 	\paragraph{}
 	Sendo:
@@ -96,11 +96,54 @@
 	
 	$$ x = x' \sqrt{\frac{D}{a}} $$
 	$$ \partial_x = \partial_{x'} \sqrt{\frac{a}{D}} $$
+	$$l = L \sqrt{\frac{D}{a}}$$
+	$$t = t' \frac{1}{a}$$
+	$$\partial_t = \partial_{t'}a$$
 	
 	\paragraph{}
-	Depois, retornando o nome da variável de distância de \textbf{x'} para \textbf{x} e de tempo de \textbf{t'} para \textbf{t}, temos:
+	Depois, retornando o nome da variável de distância de \textbf{x'} para \textbf{x} e de tempo de \textbf{t'} para \textbf{t}, temos a nova equação:
 	
-	\subsection{Caso 2: Problema para duas populações}
+	$$ \frac{\partial u(x,t)}{\partial t} =  \frac{\partial^2 u}{\partial x^2} + u(x,t) - C u^2(x,t)   $$
+	
+	$$ C(x) =  \begin{cases}
+		C_1, & \text{se } |x| < L/2 \\
+		C_0, & \text{se } |x| > L/2
+	\end{cases}$$
+	
+	\paragraph{}
+	Onde $C_1$ e $C_0$ são a capacidade de carregamento da região interna e externa, respectivamente, de forma que espera-se que a região interna assuma um regime estacionário enquanto a população externa vá assintoticamente para $1/C_0$
+	
+	\paragraph{}
+	Fazemos a seguinte transformação para auxiliar na resolução da EDP:
+	
+	$$ u = \frac{3}{2} \frac{\phi}{C_1}, $$
+	
+	$$ \frac{\partial \phi}{\partial t} = \frac{\partial^2\phi }{\partial x^2} + \phi - \frac{3}{2} k*(x)\phi^2 $$
+	
+	$$ k(x) =  \begin{cases}
+		k = \frac{C_0}{C_1}, & \text{se } |x| > L/2 \\
+		1, & \text{se } |x| < L/2
+	\end{cases}$$
+	
+	\paragraph{}
+	É importante ressaltar que \textbf{k} pode ser interpretado como um indicador do nível de "isolamento" da região interna, como o quão difícil é sair da região ideal ou o quanto a região interna é mais atrativa do que a externa.
+	
+	\paragraph{}
+	Como $\phi$ é uma função contínua e simétrica, e $\frac{2}{3}k$ é uma solução para a parte externa, temos as seguintes condições:
+	
+	$$\phi_{xx} + \phi - \frac{3}{2}k\phi^2 = 0, \quad x < L/2,$$
+	$$\phi_{xx} + \phi - \frac{3}{2}k\phi^2 = 0, \quad 0 > x > -L/2,$$
+	$$\phi^o\left(-\frac{L}{2}, \cdot \right) = \phi^i\left(-\frac{L}{2}, \cdot \right),$$
+	$$\phi^o_x\left(-\frac{L}{2}, \cdot \right) = \phi^i_x\left(-\frac{L}{2}, \cdot \right),$$
+	$$\phi^o(- \infty, \cdot) = \frac{2}{3k}.$$
+	
+	\paragraph{}
+	Onde os índices i/o representam as regiões interna/externa respectivamente.
+	
+	\paragraph{}
+	Resolvendo as equações para vários \textbf{k} e \textbf{L} temos os resultados apresentados nas figuras (...) e (...).
+	
+	\subsection{Caso 2: Duas populações}
 	\paragraph{}
 	lalalalala
 		
