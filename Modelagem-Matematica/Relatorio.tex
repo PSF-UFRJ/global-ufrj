@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{natbib}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{textcomp}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage[singlelinecheck=false]{caption}
+
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=30mm,
+	top=30mm,
+	bottom=20mm,
+	right=20mm
+}
+\title{
+	Relatório - Modelagem Matemática\\
+	Estudo de População de Aves na Amazônia \\
+	\large Usando o Modelo de Reação-Difusçao para avaliar sobrevida de populações em manchas de floresta em áreas desmatadas.
+}
+\date{2024-07-20}
+\author{Paulo Roberto Rodrigues da Silva Filho\\Pedro Paulo Dantas Silva Martins\\Vicente Alves da Silva Sirufo}
+
+\newcommand\R{\mathbb{R}}
+
+\begin{document}
+	\renewcommand{\figurename}{Figura}
+	\renewcommand{\tablename}{Tabela}
+	\renewcommand{\cellalign}{tl}
+	\renewcommand{\theadalign}{tl}
+	
+	\graphicspath{ {./imagens/} }
+	\maketitle
+	\tableofcontents
+	
+	\section{Introdução}
+	
+	\paragraph{}
+	Em função do processo de desmatamento da Amazônia, percebeu-se que, dentro das regiões desmatadas, formam-se manchas florestadas isoladas. Tais manchas podem ou não ser adequadas para a sustentação de populações animais. O modelo utilizado para se avaliar a capacidade de tais manchas sustentarem populações é o Modelo de Reação/Difusão, regido pela Equação Diferencial Parcial (EDP) FKPP (Modelo Fischer-Kolmogorov-Petrovsky-Piskunov). Foi avaliada a capacidade de sustentação de população de uma única espécie e, também, de duas espécies em competição.
+	
+	\paragraph{}
+	Para entender o problema, vamos, primeiro, apresentar um diagrama, representando a floresta e áreas desmatadas, conforme pode ser visto na Figura \ref{fig:efloresta}. Conforme essa figura, temos uma grande área de floresta e uma área desmatada que possui manchas de floresta. A área desmatada pode suportar uma população mínima dos animais em estudo, ou suportar uma população temporária de forma que permita a migração dessas populações entre a área de floresta virgem e as manchas na área desmatada.
+	
+	\paragraph{}
+	Uma vez dada essa representação de ambiente, padrão, podemos utilizar o Modelo de Reação-Difusão, assumindo que, entrando uma determinada população em uma mancha de floresta - ou estando essa população lá isolada, antes do processo de desmatamento - há condições de a população se reproduzir dentro dessa área, estando sujeita a restrições do meio, cooperação e competição intra-específica.
+	
+	\paragraph{}
+	Já no caso de duas populações concorrendo na mesma região, devemos também assumir que a região desmatada tenha capacidade de suportar uma quantidade muito baixa dessas populações, de forma que a hipótese da difusão faça sentido. Fazemos, então, uma análise de ambas as populações em conjunto, em competição.
+	
+	\paragraph{}
+	Tanto no caso da população isolada, quanto na de duas populações, a geometria das manchas (tamanho) e características intrínsecas delas permitem definir uma capacidade de carregamento das populações, que afetam as dinâmicas populacionais. A identificação de um tamanho mínimo de mancha e o isolamento dessa mancha em relação à área florestada, ou a outras manchas também são características a relevantes para o estudo do problema.
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.3]{Esquema-Floresta}
+		\caption{Representação de área florestada e de manchas de floresta. A área florestada pode ser imaginada como uma mancha de floresta de tamanho infinito, ou, apenas, uma área de tamanho grande o suficiente para ser considerada infinita.}
+		\label{fig:efloresta}
+	\end{figure}
+	
+	\section{Modelagem}
+	
+	\paragraph{}
+	Agora vamos apresentar os dois modelos avaliados, o modelo de uma população e o modelo de duas populações. Para ambos os casos são usados variantes da EDP FKPP, apresentadas tais variantes caso a caso.
+	
+	\subsection{Caso 1: Problema para uma população}
+	
+	\paragraph{}
+	Para o caso de uma população, o modelo considerado foi FKPP com um termo difusivo (termo de segunda ordem) e os termos reativos, com cooperação (termo linear) e com competição (termo quadrático), sobre uma população $u$:
+	
+	$$ \frac{\partial u(x,t)}{\partial t} = \alpha u - \beta u^2 + D \frac{\partial^2 u}{\partial x^2}  $$
+	
+	\paragraph{}
+	Com as condições de contorno de Dirichlet:
+	
+	$$u(x=0,L) = 0 $$
+	
+	\paragraph{}
+	Sendo:
+	
+	\begin{itemize}
+		\item \textbf{u(x,t)}: a população presente na posição espacial e no tempo, na mancha de floresta ou em uma área florestada.
+		\item \textbf{D}: taxa de difusividade da população - unidade: \textbf{comprimento\textsuperscript{2}/tempo}.
+		\item alalal
+	\end{itemize}
+	
+	\subsection{Caso 2: Problema para duas populações}
+	\paragraph{}
+	lalalalala
+		
+\end{document}
