@@ -34,3 +34,4 @@
 \contentsline {paragraph}{}{6}{section*.32}%
 \contentsline {paragraph}{}{6}{section*.33}%
 \contentsline {paragraph}{}{6}{section*.34}%
+\contentsline {subsection}{\numberline {3.2}Análise de duas populações em competição}{6}{subsection.3.2}%
