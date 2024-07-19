@@ -227,93 +227,175 @@
 	 $$ \frac{\partial^2 u(x,t)}{\partial x^2} \approx \frac{u(x-dx,t) - 2u(x,t) + u(x+dx,t)}{dx^2}$$
 	 
 	 \paragraph{}
-	 Todos os resultados são apresentados nas figuras (...), (...), abaixo. Os parâmetros e o código fonte para se chegar nesses resultados estão no arquivo \textit{ipynb} (Python Notebook), \textit{Reação-Difusão Modelagem - uma população.ipynb}, em anexo.
+	 Todos os resultados são apresentados nas figuras \ref{fig:L4-alpha0-beta0-D1}, \ref{fig:L4-alpha1-beta1-D1}, \ref{fig:L4-alpha1-beta5-D2}, \ref{fig:L8-alpha0-beta0-D1}, \ref{fig:L8-alpha1-beta1-D1}, \ref{fig:L8-alpha1-beta5-D2}, \ref{fig:Max-alpha0-beta0-D1}, \ref{fig:TamanhoMax-alpha1-beta5-D2} e \ref{fig:TamanhoMax-alpha1-beta1000-D2}. Os parâmetros e o código fonte para se chegar nesses resultados estão no arquivo \textit{ipynb} (Python Notebook), \textit{Reação-Difusão Modelagem - uma população.ipynb}, em anexo.
 	 
 	 \begin{figure}[h]
 	 	\centering
 	 	\includegraphics[scale=0.35]{L4-alpha0-beta0-D1}
-	 	\caption{...}
+	 	\caption{População na qual apenas o índice de difusão é atribuído, $D=1$, enquanto $\alpha = \beta = 0$. A população dentro da região vai a zero, toda ela escoando por difusão para fora da mancha. Aqui, $L=4$.}
 	 	\label{fig:L4-alpha0-beta0-D1}
 	 \end{figure}
  
  	\begin{figure}[h]
  		\centering
  		\includegraphics[scale=0.35]{L4-alpha1-beta1-D1}
- 		\caption{...}
+ 		\caption{População com índice de difusão atribuído, assim como os índices de competição e colaboração interna: $D=1$, $\alpha=1$, $\beta=1$. Aqui, $L=4$.}
  		\label{fig:L4-alpha1-beta1-D1}
  	\end{figure}
  	
  	\begin{figure}[h]
  		\centering
  		\includegraphics[scale=0.35]{L4-alpha1-beta5-D2}
- 		\caption{...}
+ 		\caption{População com índice de difusão atribuído, assim como os índices de competição e colaboração interna: $D=1$, $\alpha=1$, $\beta=5$. Índice de competição superior ao índice de colaboração, com resultados na redução da população sustentada pela mancha populacional. Aqui, $L=4$.}
  		\label{fig:L4-alpha1-beta5-D2}
  	\end{figure}
- 
- 
  
  	\begin{figure}[h]
  		\centering
  		\includegraphics[scale=0.35]{L8-alpha0-beta0-D1}
- 		\caption{...}
+ 		\caption{Apenas com o índice de difusão atribuído, mesmo aumentando a área para $L=8$, e atribuindo $\alpha = \beta = 0$, $D = 1$, a população escoa e desaparece do mesmo jeito, apenas demora mais tempo para chegar a zero.}
  		\label{fig:L8-alpha0-beta0-D1}
  	\end{figure}
  
  	\begin{figure}[h]
  		\centering
  		\includegraphics[scale=0.35]{L8-alpha1-beta1-D1}
- 		\caption{...}
+ 		\caption{População com índice de difusão atribuído, assim como os índices de competição e colaboração interna: $D=1$, $\alpha=1$, $\beta=1$. Aqui, $L=8$. Em uma área maior, fica claro que é possível sustentar uma população maior.}
  		\label{fig:L8-alpha1-beta1-D1}
  	\end{figure}
  
  	\begin{figure}[h]
  		\centering
  		\includegraphics[scale=0.35]{L8-alpha1-beta5-D2}
- 		\caption{...}
+ 		\caption{População com índice de difusão atribuído, assim como os índices de competição e colaboração interna: $D=1$, $\alpha=1$, $\beta=5$. Aqui, $L=8$, permitindo sustentar uma população razoável, mesmo com alto índice de competição interna.}
  		\label{fig:L8-alpha1-beta5-D2}
  	\end{figure}
  
  	\begin{figure}[h]
  		\centering
- 		\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{Max-alpha0-beta0-D1}}}
+ 		\subfloat[\centering Apenas difusão]{{\includegraphics[scale=0.35]{Max-alpha0-beta0-D1}}}
  		\qquad
- 		\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{TamanhoMax-alpha1-beta1-D1}}}
- 		\caption{...}
+ 		\subfloat[\centering Difusão, colaboração e competição]{{\includegraphics[scale=0.35]{TamanhoMax-alpha1-beta1-D1}}}
+ 		\caption{Avaliação da viabilidade de manutenção de população dependendo to tamanho do espaço da mancha. O caso (a), apenas difusão, não permite sustentar população alguma, independentemente do tamanho da área de mancha. Os tamanhos que apresentam alguma população, a partir de $L \geq 9$, significa apenas que, na simulação, não houve tempo suficiente para toda a população escoar. No caso (b), com competição e colaboração internas, a partir do espaço de suporte teórico, $L=\pi$, temos o aumento da população sustentável de forma consistente, até chegar ao máximo de $u = 1$, no longo prazo.}
  		\label{fig:Max-alpha0-beta0-D1}
  	\end{figure}
  
  	\begin{figure}[h]
  		\centering
- 		\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{TamanhoMax-alpha1-beta5-D2}}}
+ 		\subfloat[\centering Ampliando fortemente fator de competição e ampliando fator de difusão.]{{\includegraphics[scale=0.35]{TamanhoMax-alpha1-beta5-D2}}}
  		\qquad
- 		\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{TamanhoMax-alpha1-beta5-D10}}}
- 		\caption{...}
+ 		\subfloat[\centering Ampliando fortemente o fator de competição e ainda mais fortemente o fator de difusão]{{\includegraphics[scale=0.35]{TamanhoMax-alpha1-beta5-D10}}}
+ 		\caption{Quando ampliamos fortemente o fator de competição, para $\beta=5$, e o de difusão, para $D=2$, a partir do tamanho crítico teórico, uma população já começa a ser sustentável, mas cresce mais lentamente para uma população máxima, mas claramente inferior a 1. Quando ainda aumentamos mais o fator de difusão, $D=10$, a população ainda começa a ser sustentável a partir do limite crítico, e ainda cresce mais lentamente a partir daí, mas tende, claramente, para uma população máxima ainda mais reduzida.}
  		\label{fig:TamanhoMax-alpha1-beta5-D2}
  	\end{figure}
  
  	\begin{figure}[h]
  		\centering
- 		\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{TamanhoMax-alpha1-beta1000-D2}}}
+ 		\subfloat[\centering Grande índice de Competição]{{\includegraphics[scale=0.35]{TamanhoMax-alpha1-beta1000-D2}}}
  		\qquad
- 		\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{TamanhoMax-alpha5-beta5-D2}}}
- 		\caption{...}
+ 		\subfloat[\centering Competição mais restrita, idêntica à colaboração]{{\includegraphics[scale=0.35]{TamanhoMax-alpha5-beta5-D2}}}
+ 		\caption{No caso (a), com a Difusividade controlada, $D=2$, Mas com uma grande competição interna, mil vezes superior à colaboração dentro da população, $\alpha=1$, $\beta=1000$, temos, ainda, uma população viável, mas ela é minúscula, seja de 1\% da inicial. No caso (b), temos um índice de competição maior, mas igual ao de colaboração, $\alpha = \beta = 5$, com a difusividade ainda controlada. Nesse caso, a população, após o Tamanho Crítico, aumentando esse espaço, chega ao máximo possível de $u = 1$, no longo prazo.}
  		\label{fig:TamanhoMax-alpha1-beta1000-D2}
  	\end{figure}
 
 	\subsection{Análise de duas populações em competição}
 	
-	\begin{comment}
-		Modelo para inserção de imagens: 
-		
-		\begin{figure}[h]
-			\centering
-			\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{...}}}
-			\qquad
-			\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{...}}}
-			\caption{...}
-			\label{fig:...}
-		\end{figure}	
-	\end{comment}
+	\paragraph{}
+	Para a análise de duas populações, a EDP FKPP assume a forma vetorial. A equação vetorial, com duas populações de aves, segue, então, a as seguintes equações diferenciais:
+	
+	$$ \left[ \begin{array}{c}
+		\frac{\partial u_1(x,t)}{\partial t} \\
+		\frac{\partial u_2(x,t)}{\partial t} \end{array} \right]
+	=
+	\left[ \begin{array}{cc}
+		u_1 \left[\alpha_1 - \beta_1 u_1  - \gamma_{12} u_2 \right] + D_1 \frac{\partial^2 u_1}{\partial x^2} \\
+		u_2 \left[\alpha_2 - \beta_2 u_2  - \gamma_{21} u_1 \right] + D_2 \frac{\partial^2 u_2}{\partial x^2} \end{array} \right]$$
+	
+	\paragraph{}
+	Como no método para uma única população, vamos usar o método das diferenças finitas para resolver essa EDP em um espaço limitado com condições de contorno de Dirichlet.
+	
+	$$u_i(x=0,L) = 0 $$
+	
+	\paragraph{}
+	Para as diferenças finitas, podemos tomar:
+	
+	$$ \frac{\partial^2 u_i(x,t)}{\partial x^2} \approx \frac{u_i(x-dx,t) - 2u_i(x,t) + u_i(x+dx,t)}{dx^2}$$
+	
+	\paragraph{}
+	Para resolver o sistema de Equações Diferenciais Parciais numericamente, podemos reduzi-la a um sistema de EDOs, com a aproximação para Laplaciano, conforme dado acima, e resolvendo em uma unica malha, em um eixo os valores de $u_i(x)$, representados como uma matriz em blocos $\left[\frac{\partial u_1(x,t)}{\partial t} \frac{\partial u_1(x,t)}{\partial t}\right]^T$ no lado esquerdo da igualdade que representa o sistema de EDOs.
+
+	\paragraph{}	
+	Para populações em competição, temos as seguintes condições:
+	
+	\begin{enumerate}
+		\item $\gamma_1 \ne 0$
+		\item $\gamma_2 \ne 0$
+		\item $\alpha \ne 0$ e $\alpha \ne 1$
+	\end{enumerate}
+
+	\paragraph{}
+	O que implica que em:
+	
+	$$\left[ \begin{array}{c}
+		\frac{\partial u_1(x,t)}{\partial t} \\
+		\frac{\partial u_2(x,t)}{\partial t} \end{array} \right]
+	=
+	\left[ \begin{array}{cc}
+		u_1 \left[\alpha_1 - \beta_1 u_1  - \gamma_{12} u_2 \right] + D_1 \frac{\partial^2 u_1}{\partial x^2} \\
+		u_2 \left[\alpha_2 - \beta_2 u_2  - \gamma_{21} u_1 \right] + D_2 \frac{\partial^2 u_2}{\partial x^2} \end{array} \right]$$
+	
+	\paragraph{}
+	Temos:
+	
+	\begin{enumerate}
+		\item $D_1 = 1$
+		\item $D_2 = \kappa$
+		\item $\alpha_1 = \beta_1 = 1$
+		\item $\gamma_{12} = \gamma_1$
+		\item $\alpha_2 = \beta_2 = \alpha$
+		\item $\gamma_{21} = \alpha \gamma_2$
+	\end{enumerate}
+	
+	\paragraph{}
+	O que implica em:
+	
+	$$\left[ \begin{array}{c}
+		\frac{\partial u_1(x,t)}{\partial t} \\
+		\frac{\partial u_2(x,t)}{\partial t} \end{array} \right]
+	=
+	\left[ \begin{array}{cc}
+		u_1 \left[1 - u_1  - \gamma_1 u_2 \right] +  \frac{\partial^2 u_1}{\partial x^2} \\
+		u_2 \left[\alpha - \alpha u_2  - \alpha \gamma_2 u_1 \right] + \kappa \frac{\partial^2 u_2}{\partial x^2} \end{array} \right]$$
+	
+	\paragraph{}
+	Que, por sua vez, implica em:
+	
+	$$\left[ \begin{array}{c}
+		\frac{\partial u_1(x,t)}{\partial t} \\
+		\frac{\partial u_2(x,t)}{\partial t} \end{array} \right]
+	=
+	\left[ \begin{array}{cc}
+		u_1 \left[1 - u_1  - \gamma_1 u_2 \right] +  \frac{\partial^2 u_1}{\partial x^2} \\
+		\alpha u_2 \left[1 - u_2  - \gamma_2 u_1 \right] + \kappa \frac{\partial^2 u_2}{\partial x^2} \end{array} \right]$$
+	
+	\paragraph{}
+	Que é a versão adimensionalizada do problema, com o $\gamma_1$ e $\gamma_2$ devidamente isolados, de forma a analisar a competição entre as populações.
+	
+	\paragraph{}
+	Existem algumas condições importante de $\gamma_1$, $\gamma_2$ e $L$ que vamos avaliar:
+	
+	\begin{itemize}
+		\item Se $L$ for muito pequeno, ambas populações desaparecem.
+		\item Se $L$ for grande o suficiente, $\gamma_1 < 1$ e $\gamma_2 < 1$, populações coexistem.
+		\item Se  $L$ for grande o suficiente, $\gamma_1 < 1$ e $\gamma_2 > 1$, eliminação da espécie 2.
+		\item Se   $L$ for grande o suficiente, $\gamma_1 > 1$ e $\gamma_2 > 1$, eliminação de qualquer das populações, dadas condições iniciais específicas.	
+	\end{itemize}
+
+	\paragraph{}
+	Se a região for limitada, é testada aqui a condição na qual a primeira população é dominante, com $\gamma_1 < 1$ e $\gamma_2 > 1$, $\kappa = \alpha = 1$. Em todos os casos apresentados, os valores de $\alpha$ e $\kappa$ não são alterados. Apenas variam-se os valores dos $\gamma_1$ e $\gamma_2$.
+	
+	\paragraph{}
+	Todos os resultados das simulações podem ser vistas nas Figuras \ref{fig:Two-P-00-Diffusion-Time}, \ref{fig:Two-P-02-Diffusion-Space}, \ref{fig:Two-P-04-Competition-Time}, \ref{fig:Two-P-06-Competition-Space}, \ref{fig:Two-P-08-Coexistence-Time}, \ref{fig:Two-P-10-Coexistence-Space}, \ref{fig:Two-P-12-Elimination-Diffusion-Time}, \ref{fig:Two-P-14-Elimination-Diffusion-Space}, \ref{fig:Two-P-16-Elimination-Area-Time}, \ref{fig:Two-P-18-Elimination-Area-Space}, \ref{fig:Two-P-20-Population-Competition-Area-Time-Both} e \ref{fig:Two-P-21-Population-Competition-Time}.
 	
 	\begin{figure}[h]
 		\centering

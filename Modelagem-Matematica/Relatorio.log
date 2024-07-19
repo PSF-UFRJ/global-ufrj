@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.2)  19 JUL 2024 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.2)  19 JUL 2024 16:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -509,19 +509,19 @@ Package pdftex.def Info: ./imagens//MaxV-ManyL.png  used on input line 157.
 (pdftex.def)             Requested size: 312.56221pt x 228.04796pt.
  [4 <./imagens/MaxV-manyK.png> <./imagens/MaxV-manyL.png>]
 [5]
-<./imagens//L4-alpha0-beta0-D1.png, id=122, 1246.6575pt x 471.7625pt>
+<./imagens//L4-alpha0-beta0-D1.png, id=131, 1246.6575pt x 471.7625pt>
 File: ./imagens//L4-alpha0-beta0-D1.png Graphic file (type png)
 <use ./imagens//L4-alpha0-beta0-D1.png>
 Package pdftex.def Info: ./imagens//L4-alpha0-beta0-D1.png  used on input line 
 234.
 (pdftex.def)             Requested size: 436.33667pt x 165.11934pt.
-<./imagens//L4-alpha1-beta1-D1.png, id=123, 1247.66125pt x 470.75874pt>
+<./imagens//L4-alpha1-beta1-D1.png, id=132, 1247.66125pt x 470.75874pt>
 File: ./imagens//L4-alpha1-beta1-D1.png Graphic file (type png)
 <use ./imagens//L4-alpha1-beta1-D1.png>
 Package pdftex.def Info: ./imagens//L4-alpha1-beta1-D1.png  used on input line 
 241.
 (pdftex.def)             Requested size: 436.68797pt x 164.76802pt.
-<./imagens//L4-alpha1-beta5-D2.png, id=124, 1241.63875pt x 469.755pt>
+<./imagens//L4-alpha1-beta5-D2.png, id=133, 1241.63875pt x 469.755pt>
 File: ./imagens//L4-alpha1-beta5-D2.png Graphic file (type png)
 <use ./imagens//L4-alpha1-beta5-D2.png>
 Package pdftex.def Info: ./imagens//L4-alpha1-beta5-D2.png  used on input line 
@@ -531,307 +531,307 @@ Package pdftex.def Info: ./imagens//L4-alpha1-beta5-D2.png  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//L8-alpha0-beta0-D1.png, id=125, 1248.665pt x 475.7775pt>
+<./imagens//L8-alpha0-beta0-D1.png, id=134, 1248.665pt x 475.7775pt>
 File: ./imagens//L8-alpha0-beta0-D1.png Graphic file (type png)
 <use ./imagens//L8-alpha0-beta0-D1.png>
 Package pdftex.def Info: ./imagens//L8-alpha0-beta0-D1.png  used on input line 
-257.
+255.
 (pdftex.def)             Requested size: 437.03929pt x 166.52461pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//L8-alpha1-beta1-D1.png, id=126, 1242.6425pt x 470.75874pt>
+<./imagens//L8-alpha1-beta1-D1.png, id=135, 1242.6425pt x 470.75874pt>
 File: ./imagens//L8-alpha1-beta1-D1.png Graphic file (type png)
 <use ./imagens//L8-alpha1-beta1-D1.png>
 Package pdftex.def Info: ./imagens//L8-alpha1-beta1-D1.png  used on input line 
-264.
+262.
 (pdftex.def)             Requested size: 434.9314pt x 164.76802pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//L8-alpha1-beta5-D2.png, id=127, 1241.63875pt x 470.75874pt>
+<./imagens//L8-alpha1-beta5-D2.png, id=136, 1241.63875pt x 470.75874pt>
 File: ./imagens//L8-alpha1-beta5-D2.png Graphic file (type png)
 <use ./imagens//L8-alpha1-beta5-D2.png>
 Package pdftex.def Info: ./imagens//L8-alpha1-beta5-D2.png  used on input line 
-271.
+269.
 (pdftex.def)             Requested size: 434.58008pt x 164.76802pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//Max-alpha0-beta0-D1.png, id=128, 586.19pt x 451.6875pt>
+<./imagens//Max-alpha0-beta0-D1.png, id=137, 586.19pt x 451.6875pt>
 File: ./imagens//Max-alpha0-beta0-D1.png Graphic file (type png)
 <use ./imagens//Max-alpha0-beta0-D1.png>
 Package pdftex.def Info: ./imagens//Max-alpha0-beta0-D1.png  used on input line
- 278.
+ 276.
 (pdftex.def)             Requested size: 205.16957pt x 158.09299pt.
-<./imagens//TamanhoMax-alpha1-beta1-D1.png, id=129, 590.205pt x 451.6875pt>
+<./imagens//TamanhoMax-alpha1-beta1-D1.png, id=138, 590.205pt x 451.6875pt>
 File: ./imagens//TamanhoMax-alpha1-beta1-D1.png Graphic file (type png)
 <use ./imagens//TamanhoMax-alpha1-beta1-D1.png>
 Package pdftex.def Info: ./imagens//TamanhoMax-alpha1-beta1-D1.png  used on inp
-ut line 280.
+ut line 278.
 (pdftex.def)             Requested size: 206.57484pt x 158.09299pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//TamanhoMax-alpha1-beta5-D2.png, id=130, 592.2125pt x 457.71pt>
+<./imagens//TamanhoMax-alpha1-beta5-D2.png, id=139, 592.2125pt x 457.71pt>
 File: ./imagens//TamanhoMax-alpha1-beta5-D2.png Graphic file (type png)
 <use ./imagens//TamanhoMax-alpha1-beta5-D2.png>
 Package pdftex.def Info: ./imagens//TamanhoMax-alpha1-beta5-D2.png  used on inp
-ut line 287.
+ut line 285.
 (pdftex.def)             Requested size: 207.27747pt x 160.2009pt.
-<./imagens//TamanhoMax-alpha1-beta5-D10.png, id=131, 611.28375pt x 456.70625pt>
+<./imagens//TamanhoMax-alpha1-beta5-D10.png, id=140, 611.28375pt x 456.70625pt>
 
 File: ./imagens//TamanhoMax-alpha1-beta5-D10.png Graphic file (type png)
 <use ./imagens//TamanhoMax-alpha1-beta5-D10.png>
 Package pdftex.def Info: ./imagens//TamanhoMax-alpha1-beta5-D10.png  used on in
-put line 289.
+put line 287.
 (pdftex.def)             Requested size: 213.95251pt x 159.84958pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//TamanhoMax-alpha1-beta1000-D2.png, id=132, 622.325pt x 464.73625pt>
+<./imagens//TamanhoMax-alpha1-beta1000-D2.png, id=141, 622.325pt x 464.73625pt>
 
 File: ./imagens//TamanhoMax-alpha1-beta1000-D2.png Graphic file (type png)
 <use ./imagens//TamanhoMax-alpha1-beta1000-D2.png>
 Package pdftex.def Info: ./imagens//TamanhoMax-alpha1-beta1000-D2.png  used on 
-input line 296.
+input line 294.
 (pdftex.def)             Requested size: 217.817pt x 162.66011pt.
-<./imagens//TamanhoMax-alpha5-beta5-D2.png, id=133, 580.1675pt x 458.71375pt>
+<./imagens//TamanhoMax-alpha5-beta5-D2.png, id=142, 580.1675pt x 458.71375pt>
 File: ./imagens//TamanhoMax-alpha5-beta5-D2.png Graphic file (type png)
 <use ./imagens//TamanhoMax-alpha5-beta5-D2.png>
 Package pdftex.def Info: ./imagens//TamanhoMax-alpha5-beta5-D2.png  used on inp
-ut line 298.
+ut line 296.
 (pdftex.def)             Requested size: 203.06166pt x 160.55222pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Excluding 'comment' comment.
-<./imagens//Two-P-00-Diffusion-Time-1.png, id=134, 611.4042pt x 435.0654pt>
+[6 <./imagens//L4-alpha0-beta0-D1.png> <./imagens//L4-alpha1-beta1-D1.png>]
+[7 <./imagens//L4-alpha1-beta5-D2.png> <./imagens//L8-alpha0-beta0-D1.png>]
+[8 <./imagens//L8-alpha1-beta1-D1.png> <./imagens//L8-alpha1-beta5-D2.png>]
+<./imagens//Two-P-00-Diffusion-Time-1.png, id=195, 611.4042pt x 435.0654pt>
 File: ./imagens//Two-P-00-Diffusion-Time-1.png Graphic file (type png)
 <use ./imagens//Two-P-00-Diffusion-Time-1.png>
 Package pdftex.def Info: ./imagens//Two-P-00-Diffusion-Time-1.png  used on inpu
-t line 320.
+t line 402.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
-<./imagens//Two-P-01-Diffusion-Time-2.png, id=136, 611.4042pt x 435.0654pt>
+<./imagens//Two-P-01-Diffusion-Time-2.png, id=197, 611.4042pt x 435.0654pt>
 File: ./imagens//Two-P-01-Diffusion-Time-2.png Graphic file (type png)
 <use ./imagens//Two-P-01-Diffusion-Time-2.png>
 Package pdftex.def Info: ./imagens//Two-P-01-Diffusion-Time-2.png  used on inpu
-t line 322.
+t line 404.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
 
+[9 <./imagens//Max-alpha0-beta0-D1.png> <./imagens//TamanhoMax-alpha1-beta1-D1.
+png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//Two-P-02-Diffusion-Space-1.png, id=137, 611.4042pt x 435.0654pt>
+<./imagens//Two-P-02-Diffusion-Space-1.png, id=214, 611.4042pt x 435.0654pt>
 File: ./imagens//Two-P-02-Diffusion-Space-1.png Graphic file (type png)
 <use ./imagens//Two-P-02-Diffusion-Space-1.png>
 Package pdftex.def Info: ./imagens//Two-P-02-Diffusion-Space-1.png  used on inp
-ut line 329.
+ut line 411.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
-<./imagens//Two-P-03-Diffusion-Space-2.png, id=138, 611.4042pt x 435.0654pt>
+<./imagens//Two-P-03-Diffusion-Space-2.png, id=215, 611.4042pt x 435.0654pt>
 File: ./imagens//Two-P-03-Diffusion-Space-2.png Graphic file (type png)
 <use ./imagens//Two-P-03-Diffusion-Space-2.png>
 Package pdftex.def Info: ./imagens//Two-P-03-Diffusion-Space-2.png  used on inp
-ut line 331.
+ut line 413.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//Two-P-04-Competition-Time-1.png, id=139, 611.4042pt x 435.0654pt>
+<./imagens//Two-P-04-Competition-Time-1.png, id=216, 611.4042pt x 435.0654pt>
 File: ./imagens//Two-P-04-Competition-Time-1.png Graphic file (type png)
 <use ./imagens//Two-P-04-Competition-Time-1.png>
 Package pdftex.def Info: ./imagens//Two-P-04-Competition-Time-1.png  used on in
-put line 338.
+put line 420.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
-<./imagens//Two-P-05-Competition-Time-2.png, id=140, 611.4042pt x 435.0654pt>
+<./imagens//Two-P-05-Competition-Time-2.png, id=217, 611.4042pt x 435.0654pt>
 File: ./imagens//Two-P-05-Competition-Time-2.png Graphic file (type png)
 <use ./imagens//Two-P-05-Competition-Time-2.png>
 Package pdftex.def Info: ./imagens//Two-P-05-Competition-Time-2.png  used on in
-put line 340.
+put line 422.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//Two-P-06-Competition-Space-1.png, id=141, 611.4042pt x 435.0654pt>
+<./imagens//Two-P-06-Competition-Space-1.png, id=218, 611.4042pt x 435.0654pt>
 File: ./imagens//Two-P-06-Competition-Space-1.png Graphic file (type png)
 <use ./imagens//Two-P-06-Competition-Space-1.png>
 Package pdftex.def Info: ./imagens//Two-P-06-Competition-Space-1.png  used on i
-nput line 347.
+nput line 429.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
-<./imagens//Two-P-07-Competition-Space-2.png, id=142, 611.4042pt x 435.0654pt>
+<./imagens//Two-P-07-Competition-Space-2.png, id=219, 611.4042pt x 435.0654pt>
 File: ./imagens//Two-P-07-Competition-Space-2.png Graphic file (type png)
 <use ./imagens//Two-P-07-Competition-Space-2.png>
 Package pdftex.def Info: ./imagens//Two-P-07-Competition-Space-2.png  used on i
-nput line 349.
+nput line 431.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//Two-P-08-Coexistence-Time-1.png, id=143, 611.4042pt x 435.0654pt>
+<./imagens//Two-P-08-Coexistence-Time-1.png, id=220, 611.4042pt x 435.0654pt>
 File: ./imagens//Two-P-08-Coexistence-Time-1.png Graphic file (type png)
 <use ./imagens//Two-P-08-Coexistence-Time-1.png>
 Package pdftex.def Info: ./imagens//Two-P-08-Coexistence-Time-1.png  used on in
-put line 356.
+put line 438.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
-<./imagens//Two-P-09-Coexistence-Time-2.png, id=144, 611.4042pt x 435.0654pt>
+<./imagens//Two-P-09-Coexistence-Time-2.png, id=221, 611.4042pt x 435.0654pt>
 File: ./imagens//Two-P-09-Coexistence-Time-2.png Graphic file (type png)
 <use ./imagens//Two-P-09-Coexistence-Time-2.png>
 Package pdftex.def Info: ./imagens//Two-P-09-Coexistence-Time-2.png  used on in
-put line 358.
+put line 440.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//Two-P-10-Coexistence-Space-1.png, id=145, 611.4042pt x 435.0654pt>
+<./imagens//Two-P-10-Coexistence-Space-1.png, id=222, 611.4042pt x 435.0654pt>
 File: ./imagens//Two-P-10-Coexistence-Space-1.png Graphic file (type png)
 <use ./imagens//Two-P-10-Coexistence-Space-1.png>
 Package pdftex.def Info: ./imagens//Two-P-10-Coexistence-Space-1.png  used on i
-nput line 365.
+nput line 447.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
-<./imagens//Two-P-11-Coexistence-Space-2.png, id=146, 611.4042pt x 435.0654pt>
+<./imagens//Two-P-11-Coexistence-Space-2.png, id=223, 611.4042pt x 435.0654pt>
 File: ./imagens//Two-P-11-Coexistence-Space-2.png Graphic file (type png)
 <use ./imagens//Two-P-11-Coexistence-Space-2.png>
 Package pdftex.def Info: ./imagens//Two-P-11-Coexistence-Space-2.png  used on i
-nput line 367.
+nput line 449.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//Two-P-12-Elimination-Diffusion-Time-1.png, id=147, 611.4042pt x 435
+<./imagens//Two-P-12-Elimination-Diffusion-Time-1.png, id=224, 611.4042pt x 435
 .0654pt>
 File: ./imagens//Two-P-12-Elimination-Diffusion-Time-1.png Graphic file (type p
 ng)
 <use ./imagens//Two-P-12-Elimination-Diffusion-Time-1.png>
 Package pdftex.def Info: ./imagens//Two-P-12-Elimination-Diffusion-Time-1.png  
-used on input line 374.
+used on input line 456.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
-<./imagens//Two-P-13-Elimination-Diffusion-Time-2.png, id=148, 611.4042pt x 435
+<./imagens//Two-P-13-Elimination-Diffusion-Time-2.png, id=225, 611.4042pt x 435
 .0654pt>
 File: ./imagens//Two-P-13-Elimination-Diffusion-Time-2.png Graphic file (type p
 ng)
 <use ./imagens//Two-P-13-Elimination-Diffusion-Time-2.png>
 Package pdftex.def Info: ./imagens//Two-P-13-Elimination-Diffusion-Time-2.png  
-used on input line 376.
+used on input line 458.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//Two-P-14-Elimination-Diffusion-Space-1.png, id=149, 611.4042pt x 43
+<./imagens//Two-P-14-Elimination-Diffusion-Space-1.png, id=226, 611.4042pt x 43
 5.0654pt>
 File: ./imagens//Two-P-14-Elimination-Diffusion-Space-1.png Graphic file (type 
 png)
 <use ./imagens//Two-P-14-Elimination-Diffusion-Space-1.png>
 Package pdftex.def Info: ./imagens//Two-P-14-Elimination-Diffusion-Space-1.png 
- used on input line 383.
+ used on input line 465.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
-<./imagens//Two-P-15-Elimination-Diffusion-Space-2.png, id=150, 611.4042pt x 43
+<./imagens//Two-P-15-Elimination-Diffusion-Space-2.png, id=227, 611.4042pt x 43
 5.0654pt>
 File: ./imagens//Two-P-15-Elimination-Diffusion-Space-2.png Graphic file (type 
 png)
 <use ./imagens//Two-P-15-Elimination-Diffusion-Space-2.png>
 Package pdftex.def Info: ./imagens//Two-P-15-Elimination-Diffusion-Space-2.png 
- used on input line 385.
+ used on input line 467.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//Two-P-16-Elimination-Area-Time-1.png, id=151, 611.4042pt x 435.0654
+<./imagens//Two-P-16-Elimination-Area-Time-1.png, id=228, 611.4042pt x 435.0654
 pt>
 File: ./imagens//Two-P-16-Elimination-Area-Time-1.png Graphic file (type png)
 <use ./imagens//Two-P-16-Elimination-Area-Time-1.png>
 Package pdftex.def Info: ./imagens//Two-P-16-Elimination-Area-Time-1.png  used 
-on input line 392.
+on input line 474.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
-<./imagens//Two-P-17-Elimination-Area-Time-2.png, id=152, 611.4042pt x 435.0654
+<./imagens//Two-P-17-Elimination-Area-Time-2.png, id=229, 611.4042pt x 435.0654
 pt>
 File: ./imagens//Two-P-17-Elimination-Area-Time-2.png Graphic file (type png)
 <use ./imagens//Two-P-17-Elimination-Area-Time-2.png>
 Package pdftex.def Info: ./imagens//Two-P-17-Elimination-Area-Time-2.png  used 
-on input line 394.
+on input line 476.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//Two-P-18-Elimination-Area-Space-1.png, id=153, 611.4042pt x 435.065
+<./imagens//Two-P-18-Elimination-Area-Space-1.png, id=230, 611.4042pt x 435.065
 4pt>
 File: ./imagens//Two-P-18-Elimination-Area-Space-1.png Graphic file (type png)
 <use ./imagens//Two-P-18-Elimination-Area-Space-1.png>
 Package pdftex.def Info: ./imagens//Two-P-18-Elimination-Area-Space-1.png  used
- on input line 401.
+ on input line 483.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
-<./imagens//Two-P-19-Elimination-Area-Space-2.png, id=154, 611.4042pt x 435.065
+<./imagens//Two-P-19-Elimination-Area-Space-2.png, id=231, 611.4042pt x 435.065
 4pt>
 File: ./imagens//Two-P-19-Elimination-Area-Space-2.png Graphic file (type png)
 <use ./imagens//Two-P-19-Elimination-Area-Space-2.png>
 Package pdftex.def Info: ./imagens//Two-P-19-Elimination-Area-Space-2.png  used
- on input line 403.
+ on input line 485.
 (pdftex.def)             Requested size: 213.99467pt x 152.27516pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//Two-P-20-Population-Competition-Area-Time-Both.png, id=155, 596.950
+<./imagens//Two-P-20-Population-Competition-Area-Time-Both.png, id=232, 596.950
 2pt x 420.6114pt>
 File: ./imagens//Two-P-20-Population-Competition-Area-Time-Both.png Graphic fil
 e (type png)
 <use ./imagens//Two-P-20-Population-Competition-Area-Time-Both.png>
 Package pdftex.def Info: ./imagens//Two-P-20-Population-Competition-Area-Time-B
-oth.png  used on input line 410.
+oth.png  used on input line 492.
 (pdftex.def)             Requested size: 268.6251pt x 189.27338pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./imagens//Two-P-21-Population-Competition-Time-1.png, id=156, 596.9502pt x 42
+<./imagens//Two-P-21-Population-Competition-Time-1.png, id=233, 596.9502pt x 42
 0.6114pt>
 File: ./imagens//Two-P-21-Population-Competition-Time-1.png Graphic file (type 
 png)
 <use ./imagens//Two-P-21-Population-Competition-Time-1.png>
 Package pdftex.def Info: ./imagens//Two-P-21-Population-Competition-Time-1.png 
- used on input line 417.
+ used on input line 499.
 (pdftex.def)             Requested size: 208.9357pt x 147.21619pt.
-<./imagens//Two-P-22-Population-Competition-Time-2.png, id=157, 603.4545pt x 42
+<./imagens//Two-P-22-Population-Competition-Time-2.png, id=234, 603.4545pt x 42
 0.6114pt>
 File: ./imagens//Two-P-22-Population-Competition-Time-2.png Graphic file (type 
 png)
 <use ./imagens//Two-P-22-Population-Competition-Time-2.png>
 Package pdftex.def Info: ./imagens//Two-P-22-Population-Competition-Time-2.png 
- used on input line 419.
+ used on input line 501.
 (pdftex.def)             Requested size: 211.21223pt x 147.21619pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6 <./imagens//L4-alpha0-beta0-D1.png> <./imagens//L4-alpha1-beta1-D1.png>]
-[7 <./imagens//L4-alpha1-beta5-D2.png> <./imagens//L8-alpha0-beta0-D1.png> <./i
-magens//L8-alpha1-beta1-D1.png>] [8 <./imagens//L8-alpha1-beta5-D2.png> <./imag
-ens//Max-alpha0-beta0-D1.png> <./imagens//TamanhoMax-alpha1-beta1-D1.png> <./im
-agens//TamanhoMax-alpha1-beta5-D2.png> <./imagens//TamanhoMax-alpha1-beta5-D10.
-png>] [9 <./imagens//TamanhoMax-alpha1-beta1000-D2.png> <./imagens//TamanhoMax-
-alpha5-beta5-D2.png> <./imagens//Two-P-00-Diffusion-Time-1.png> <./imagens//Two
--P-01-Diffusion-Time-2.png> <./imagens//Two-P-02-Diffusion-Space-1.png> <./imag
-ens//Two-P-03-Diffusion-Space-2.png>] [10 <./imagens//Two-P-04-Competition-Time
--1.png> <./imagens//Two-P-05-Competition-Time-2.png> <./imagens//Two-P-06-Compe
-tition-Space-1.png> <./imagens//Two-P-07-Competition-Space-2.png> <./imagens//T
-wo-P-08-Coexistence-Time-1.png> <./imagens//Two-P-09-Coexistence-Time-2.png>]
-[11 <./imagens//Two-P-10-Coexistence-Space-1.png> <./imagens//Two-P-11-Coexiste
-nce-Space-2.png> <./imagens//Two-P-12-Elimination-Diffusion-Time-1.png> <./imag
-ens//Two-P-13-Elimination-Diffusion-Time-2.png> <./imagens//Two-P-14-Eliminatio
-n-Diffusion-Space-1.png> <./imagens//Two-P-15-Elimination-Diffusion-Space-2.png
->] [12 <./imagens//Two-P-16-Elimination-Area-Time-1.png> <./imagens//Two-P-17-E
-limination-Area-Time-2.png> <./imagens//Two-P-18-Elimination-Area-Space-1.png> 
-<./imagens//Two-P-19-Elimination-Area-Space-2.png> <./imagens//Two-P-20-Populat
-ion-Competition-Area-Time-Both.png>] [13 <./imagens//Two-P-21-Population-Compet
-ition-Time-1.png> <./imagens//Two-P-22-Population-Competition-Time-2.png>]
-(./Relatorio.aux)
+[10 <./imagens//TamanhoMax-alpha1-beta5-D2.png> <./imagens//TamanhoMax-alpha1-b
+eta5-D10.png>] [11 <./imagens//TamanhoMax-alpha1-beta1000-D2.png> <./imagens//T
+amanhoMax-alpha5-beta5-D2.png> <./imagens//Two-P-00-Diffusion-Time-1.png> <./im
+agens//Two-P-01-Diffusion-Time-2.png> <./imagens//Two-P-02-Diffusion-Space-1.pn
+g> <./imagens//Two-P-03-Diffusion-Space-2.png>] [12 <./imagens//Two-P-04-Compet
+ition-Time-1.png> <./imagens//Two-P-05-Competition-Time-2.png> <./imagens//Two-
+P-06-Competition-Space-1.png> <./imagens//Two-P-07-Competition-Space-2.png> <./
+imagens//Two-P-08-Coexistence-Time-1.png> <./imagens//Two-P-09-Coexistence-Time
+-2.png>] [13 <./imagens//Two-P-10-Coexistence-Space-1.png> <./imagens//Two-P-11
+-Coexistence-Space-2.png> <./imagens//Two-P-12-Elimination-Diffusion-Time-1.png
+> <./imagens//Two-P-13-Elimination-Diffusion-Time-2.png> <./imagens//Two-P-14-E
+limination-Diffusion-Space-1.png> <./imagens//Two-P-15-Elimination-Diffusion-Sp
+ace-2.png>] [14 <./imagens//Two-P-16-Elimination-Area-Time-1.png> <./imagens//T
+wo-P-17-Elimination-Area-Time-2.png> <./imagens//Two-P-18-Elimination-Area-Spac
+e-1.png> <./imagens//Two-P-19-Elimination-Area-Space-2.png> <./imagens//Two-P-2
+0-Population-Competition-Area-Time-Both.png>] [15 <./imagens//Two-P-21-Populati
+on-Competition-Time-1.png> <./imagens//Two-P-22-Population-Competition-Time-2.p
+ng>] (./Relatorio.aux)
 Package rerunfilecheck Info: File `Relatorio.out' has not changed.
 (rerunfilecheck)             Checksum: B665DE8BCE1DF4A1A7B23CD2DFC17CD5;1168.
  ) 
 Here is how much of TeX's memory you used:
- 12523 strings out of 478287
- 208847 string characters out of 5849290
- 496597 words of memory out of 5000000
+ 12547 strings out of 478287
+ 209065 string characters out of 5849290
+ 499524 words of memory out of 5000000
  30448 multiletter control sequences out of 15000+600000
  478113 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,10n,79p,896b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,10n,79p,896b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
@@ -849,10 +849,10 @@ ist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
 frm1000.pfb>
-Output written on Relatorio.pdf (13 pages, 3545404 bytes).
+Output written on Relatorio.pdf (15 pages, 3561853 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 115 named destinations out of 1000 (max. 500000)
+ 427 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 139 named destinations out of 1000 (max. 500000)
  247 words of extra memory for PDF output out of 10000 (max. 10000000)
 
