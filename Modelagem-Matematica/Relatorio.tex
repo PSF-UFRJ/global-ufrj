@@ -392,7 +392,7 @@
 	\end{itemize}
 
 	\paragraph{}
-	Se a região for limitada, é testada aqui a condição na qual a primeira população é dominante, com $\gamma_1 < 1$ e $\gamma_2 > 1$, $\kappa = \alpha = 1$. Em todos os casos apresentados, os valores de $\alpha$ e $\kappa$ não são alterados. Apenas variam-se os valores dos $\gamma_1$ e $\gamma_2$.
+	Se a região for limitada, é testada aqui a condição na qual a primeira população é dominante, com $\gamma_1 < 1$ e $\gamma_2 > 1$, $\kappa = \alpha = 1$. Em todos os casos apresentados, os valores de $\alpha$ e $\kappa$ não são alterados, exceto se explicitamente declarados. Apenas variam-se os valores dos $\gamma_1$ e $\gamma_2$.
 	
 	\paragraph{}
 	Todos os resultados das simulações podem ser vistas nas Figuras \ref{fig:Two-P-00-Diffusion-Time}, \ref{fig:Two-P-02-Diffusion-Space}, \ref{fig:Two-P-04-Competition-Time}, \ref{fig:Two-P-06-Competition-Space}, \ref{fig:Two-P-08-Coexistence-Time}, \ref{fig:Two-P-10-Coexistence-Space}, \ref{fig:Two-P-12-Elimination-Diffusion-Time}, \ref{fig:Two-P-14-Elimination-Diffusion-Space}, \ref{fig:Two-P-16-Elimination-Area-Time}, \ref{fig:Two-P-18-Elimination-Area-Space}, \ref{fig:Two-P-20-Population-Competition-Area-Time-Both} e \ref{fig:Two-P-21-Population-Competition-Time}.
@@ -402,7 +402,7 @@
 		\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{Two-P-00-Diffusion-Time-1}}}
 		\qquad
 		\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{Two-P-01-Diffusion-Time-2}}}
-		\caption{...}
+		\caption{Primeiro caso de duas populações. $L=4$, e é atribuído, apenas, os índices de difusão das duas populações, $D_1 = D_2 = 1$, $\gamma_1 = \gamma_2 = 0$. As duas populações não interagem entre si e ambas escoam até chegar a zero, na mancha florestada. Não é colocada leganda da posição das populações no gráfico, mas as populações mais baixas estão mais próximas dos cantos da mancha, enquanto as populações mais altas estão mais próximas ao centro. Esse padrão se repete em todos os gráficos temporais dos casos de duas populações.}
 		\label{fig:Two-P-00-Diffusion-Time}
 	\end{figure}	
 
@@ -411,95 +411,103 @@
 		\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{Two-P-02-Diffusion-Space-1}}}
 		\qquad
 		\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{Two-P-03-Diffusion-Space-2}}}
-		\caption{...}
+		\caption{Gráfico espacial para o primeiro caso de duas populações. $L=4$, $D_1 = D_2 = 1$, $\gamma_1 = \gamma_2 = 0$. Apesar de haver uma manutenção maior da população no centro, em toda a região, no longo prazo, ela vai a zero.}
 		\label{fig:Two-P-02-Diffusion-Space}
 	\end{figure}	
 	
 	\begin{figure}[h]
 		\centering
-		\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{Two-P-04-Competition-Time-1}}}
+		\subfloat[\centering Primeira População]{{\includegraphics[scale=0.35]{Two-P-04-Competition-Time-1}}}
 		\qquad
-		\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{Two-P-05-Competition-Time-2}}}
-		\caption{...}
+		\subfloat[\centering Segunda População]{{\includegraphics[scale=0.35]{Two-P-05-Competition-Time-2}}}
+		\caption{Primeiro caso de competição, com eliminação da primeira população. Nesse caso, $L = 4$, $D_1 = D_2 = 1$,  $\gamma_1 = 0.5$, $\gamma_2 = 1.5$. A segunda população é fortemente afetada pela primeira - e é eliminada.}
 		\label{fig:Two-P-04-Competition-Time}
 	\end{figure}	
 	
 	\begin{figure}[h]
 		\centering
-		\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{Two-P-06-Competition-Space-1}}}
+		\subfloat[\centering Primeira População]{{\includegraphics[scale=0.35]{Two-P-06-Competition-Space-1}}}
 		\qquad
-		\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{Two-P-07-Competition-Space-2}}}
-		\caption{...}
+		\subfloat[\centering Segunda População]{{\includegraphics[scale=0.35]{Two-P-07-Competition-Space-2}}}
+		\caption{Diagrama espacial do caso da Figura \ref{fig:Two-P-04-Competition-Time}.}
 		\label{fig:Two-P-06-Competition-Space}
 	\end{figure}	
 	
 	\begin{figure}[h]
 		\centering
-		\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{Two-P-08-Coexistence-Time-1}}}
+		\subfloat[\centering Primeira População]{{\includegraphics[scale=0.35]{Two-P-08-Coexistence-Time-1}}}
 		\qquad
-		\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{Two-P-09-Coexistence-Time-2}}}
-		\caption{...}
+		\subfloat[\centering Segunda População]{{\includegraphics[scale=0.35]{Two-P-09-Coexistence-Time-2}}}
+		\caption{Primeiro caso de coexistência entre as populações. Como $\gamma_1 = \gamma_2 = 0.5$, não há colaboração entre as populações, mas elas são relativamente insensíveis uma à outra no tocante à competição. Com $L = 4$, já é possível uma coexistència.}
 		\label{fig:Two-P-08-Coexistence-Time}
 	\end{figure}	
 	
 	\begin{figure}[h]
 		\centering
-		\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{Two-P-10-Coexistence-Space-1}}}
+		\subfloat[\centering Primeira População]{{\includegraphics[scale=0.35]{Two-P-10-Coexistence-Space-1}}}
 		\qquad
-		\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{Two-P-11-Coexistence-Space-2}}}
-		\caption{...}
+		\subfloat[\centering Segunda População]{{\includegraphics[scale=0.35]{Two-P-11-Coexistence-Space-2}}}
+		\caption{Diagrama espacial do caso da Figura \ref{fig:Two-P-08-Coexistence-Time}}
 		\label{fig:Two-P-10-Coexistence-Space}
 	\end{figure}	
 	
 	\begin{figure}[h]
 		\centering
-		\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{Two-P-12-Elimination-Diffusion-Time-1}}}
+		\subfloat[\centering Primeira População]{{\includegraphics[scale=0.35]{Two-P-12-Elimination-Diffusion-Time-1}}}
 		\qquad
-		\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{Two-P-13-Elimination-Diffusion-Time-2}}}
-		\caption{...}
+		\subfloat[\centering Segunda População]{{\includegraphics[scale=0.35]{Two-P-13-Elimination-Diffusion-Time-2}}}
+		\caption{Caso especial, no qual os valores de $\gamma_1 = \gamma_2 = 2$, mas $\kappa = 0.5$, indicando que a População 2 tem menos interesse em sair da região da mancha, pois tem índice de difusividade igual à metade do índice de difusividade da População 1. $L=4$. Há um claro padrão de competição forte, no início da colonização, mas a População 1 é expulsa, e a População 2 se recupera e então se estabelece, no longo prazo, não restando membros da primeira população.}
 		\label{fig:Two-P-12-Elimination-Diffusion-Time}
 	\end{figure}	
 	
 	\begin{figure}[h]
 		\centering
-		\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{Two-P-14-Elimination-Diffusion-Space-1}}}
+		\subfloat[\centering Primeira População]{{\includegraphics[scale=0.35]{Two-P-14-Elimination-Diffusion-Space-1}}}
 		\qquad
-		\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{Two-P-15-Elimination-Diffusion-Space-2}}}
-		\caption{...}
+		\subfloat[\centering Segunda População]{{\includegraphics[scale=0.35]{Two-P-15-Elimination-Diffusion-Space-2}}}
+		\caption{Gráfico espacial do caso da Figura \ref{fig:Two-P-12-Elimination-Diffusion-Time}. No caso (b), acima, é interessante ver que a População 2 chega a um mínimo, ainda mostrando efeitos da difusão, mas se recupera, com efeitos do crescimento da população e não fuga da região da mancha. Entretanto, a população nunca chega ao máximo inicial igual a 1.}
 		\label{fig:Two-P-14-Elimination-Diffusion-Space}
 	\end{figure}	
 	
 	\begin{figure}[h]
 		\centering
-		\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{Two-P-16-Elimination-Area-Time-1}}}
+		\subfloat[\centering Primeira População]{{\includegraphics[scale=0.35]{Two-P-16-Elimination-Area-Time-1}}}
 		\qquad
-		\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{Two-P-17-Elimination-Area-Time-2}}}
-		\caption{...}
+		\subfloat[\centering Segunda População]{{\includegraphics[scale=0.35]{Two-P-17-Elimination-Area-Time-2}}}
+		\caption{Caso de duas populações abaixo do tamanho crítico teórico. Ambas populações são eliminadas. Aqui, $L = 2$, $\gamma_1 = \gamma_2 = 1$.}
 		\label{fig:Two-P-16-Elimination-Area-Time}
 	\end{figure}	
 	
 	\begin{figure}[h]
 		\centering
-		\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{Two-P-18-Elimination-Area-Space-1}}}
+		\subfloat[\centering Primeira População]{{\includegraphics[scale=0.35]{Two-P-18-Elimination-Area-Space-1}}}
 		\qquad
-		\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{Two-P-19-Elimination-Area-Space-2}}}
-		\caption{...}
+		\subfloat[\centering Segunda População]{{\includegraphics[scale=0.35]{Two-P-19-Elimination-Area-Space-2}}}
+		\caption{Gráfico espacial para o caso apresentado na Figura \ref{fig:Two-P-16-Elimination-Area-Time}}
 		\label{fig:Two-P-18-Elimination-Area-Space}
 	\end{figure}	
 	
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.45]{Two-P-20-Population-Competition-Area-Time-Both}
-		\caption{...}
+		\caption{Caso de competição entre as duas populações - para diferentes $L$, que estão no eixo horizontal do gráfico. No eixo vertical temos a População 1, em azul, e População 2 em vermelho. Temos uma diferença mínima entre as tolerâncias de uma população com a outra. $\gamma_1 = 0.99$ e $\gamma_2 = 1.01$. Ainda assim, a População 1, no longo prazo, sempre domina, e apenas quando $L = 5$ temos uma coexistência razoável entre a População 1 e a População 2, sendo a População 1, nesse caso, nove vezes maior do que a População 2. A partir daí, a População 2 colapsa, se tornando marginal. Entretanto, na simulação, não é possível tomar um período $t$ infinito, então essa população marginal pode ser apenas o que sobra quando a simulação termina. Essa simulação possui o custo computacional bastante alto e, portanto, pode ser que haja erros sistemáticos por conta de a simulação ter sido feita em um período curto de tempo.}
 		\label{fig:Two-P-20-Population-Competition-Area-Time-Both}
 	\end{figure}	
 
 	\begin{figure}[h]
 		\centering
-		\subfloat[\centering label 1]{{\includegraphics[scale=0.35]{Two-P-21-Population-Competition-Time-1}}}
+		\subfloat[\centering Primeira População]{{\includegraphics[scale=0.35]{Two-P-21-Population-Competition-Time-1}}}
 		\qquad
-		\subfloat[\centering label 2]{{\includegraphics[scale=0.35]{Two-P-22-Population-Competition-Time-2}}}
-		\caption{...}
+		\subfloat[\centering Segunda População]{{\includegraphics[scale=0.35]{Two-P-22-Population-Competition-Time-2}}}
+		\caption{Gráficos das ~populações no longo prazo. A População 1 pouco percebe a competição com a População 2. A População 2 só tem relevância em manchas de tamanho pouco maior que o tamanho crítico. O custo computacional dessa simulação é alto, então é possível que após o pico da População 2, a queda de seu valor seja ainda mais pronunciado, se o tempo de simulação for mais longo para cada tamanho da manha L. No eixo horizontal de ambos os gráficos, temos o tamanho da mancha. No eixo vertical, temos a quantidade de população.}
 		\label{fig:Two-P-21-Population-Competition-Time}
 	\end{figure}	
+
+	\section{Conclusões}
+	
+	\paragraph{}
+	Foi possível avaliar o impacto do tamanho das manchas florestadas para a sustentação de populações dentro delas, considerando a reprodução, colaboração e competição interna das populações e a fuga dessas regiões, seguindo modelo de Reação e Difusão, da EDP FKPP. Para uma população, foi identificado com sucesso o tamanho crítico e a modelagem das características da população foi bem sucedida. 
+	
+	\paragraph{}
+	Para duas populações os resultados não foram tão bem sucedidos. Dificuldades computacionais para identificar a área crítica e alta instabilidade dos parâmetros do sistema de EDPs tornou a análise difícil. Entretanto, foi perceptível que, dependendo da área da mancha florestada, populações em competição podem subsistir, uma em sombra da outra. Essa área, se for grande o suficiente para estar acima do tamanho crítico, permite uma coexistência mais bem sucedida da espécie desfavorecida, se tal área ainda for pequena o suficiente, para limitar o crescimento das duas populações e a sensitividade da segunda população em relação à primeira.
 \end{document}
