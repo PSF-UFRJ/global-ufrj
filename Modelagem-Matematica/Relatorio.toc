@@ -51,3 +51,5 @@
 \contentsline {section}{\numberline {4}Conclusões}{10}{section.4}%
 \contentsline {paragraph}{}{10}{section*.69}%
 \contentsline {paragraph}{}{10}{section*.70}%
+\contentsline {section}{\numberline {5}Referências Bibliográficas}{10}{section.5}%
+\contentsline {paragraph}{Artiles W, Carvalho PG, Kraenkel RA. Patch-size and isolation effects in the Fisher-Kolmogorov equation.}{10}{section*.71}%
